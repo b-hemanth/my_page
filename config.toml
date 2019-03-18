@@ -33,8 +33,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [params]
     description = "Hemanth Bharatha Chakravarthy: data blog, curriculum vitae, resume, details, webpage, debater, research"
     author = "Hemanth Bharatha Chakravarthy"
-    GitHubUser: b-hemanth
-    Subtitle: Hemanth Bharatha Chakravarthy
     
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.12.0"
