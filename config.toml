@@ -2,26 +2,38 @@ baseurl = "https://b-hemanth.com/"
 languageCode = "en-us"
 title = "Hemanth Bharatha Chakravarthy"
 theme = "hugo-lithium"
-googleAnalytics = ""
+googleAnalytics = "UA-136473985-1"
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
-
+    
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
 [[menu.main]]
     name = "About"
     url = "/about/"
+    weight = 2
 [[menu.main]]
     name = "GitHub"
     url = "https://github.com/b-hemanth"
+    weight = 3
 [[menu.main]]
     name = "LinkedIn"
     url = "https://www.linkedin.com/in/hemanthbc/"
+    weight = 4
+[[menu.main]]
+    name = "CV"
+    url = "/vitae/"
+    weight = 5
 
 [params]
-    description = "Hemanth Bharatha Chakravarthy"
-
+    description = "Hemanth Bharatha Chakravarthy: data blog, curriculum vitae, resume, details, webpage, debater, research"
+    author = "Hemanth Bharatha Chakravarthy"
+    
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.12.0"
     highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
