@@ -8,7 +8,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
-    title: "Hemanth Bharatha Chakravarthy"
+title: "Hemanth Bharatha Chakravarthy"
     
 [[menu.main]]
     name = "Blog"
