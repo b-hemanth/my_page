@@ -27,7 +27,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     weight = 4
 [[menu.main]]
     name = "CV"
-    url = "/vitae/"
+    url = "cv.pdf"
     weight = 5
 
 [params]
