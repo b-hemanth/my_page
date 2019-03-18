@@ -5,7 +5,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/342cdd99-47e8-45e5-9d5f-ce533e95b70a/deploy-status)](https://app.netlify.com/sites/b-hemanth/deploys)
 
 # Purpose
-This will serve both as my academic website and my blog. I'll publishing mostly data related articles on the blog.
+This will serve both as my academic website and my blog. 
 
 # Source Code
 You can find the source code for the posts in this repository in `blog/content/post`.
