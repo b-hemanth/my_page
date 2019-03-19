@@ -1,0 +1,62 @@
+---
+title: 'Modi: What is the Twitter Sentiment?'
+author: Hemanth Bharatha Chakravarthy
+date: '2019-03-18'
+slug: modi-what-is-the-twitter-sentiment
+categories:
+  - R
+tags:
+  - 2019 Elections
+  - Democracy
+  - Indian Elections
+  - Lok Sabha Elections
+  - Modi
+  - plot
+  - R Markdown
+  - Rahul Gandhi
+  - regression
+  - Twitter
+  - India
+---
+
+```{r}
+# Keys and tokens
+# Keys, secret keys and access tokens management.
+# 
+# Consumer API keys
+# waMm1MAErKOkqTBhr3S2VAdyg (API key)
+# 
+# Pk0kANq93wPI5d9ip5rf0SHueFsYTYMWXXbMNIGiBjRi9pICzR (API secret key)
+# 
+# Regenerate
+# Access token & access token secret
+# 335812759-MnhcM7htZmrwcnW8eYCwzh6FxATOr7ksRxDYlgz7 (Access token)
+# 
+# k7q7Wd46Lz45n5sK8fLZkpUnZPFRqgz2VM6lyGr7yzgjU (Access token secret)
+# PIN = 1109430
+
+knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE)
+
+library(tidyverse)
+library("twitteR")
+library("ROAuth")
+library(rtweet)
+
+twitter_tokens <- create_token(app = "Sentiment Analysis by Hemanth",
+    consumer_key = "waMm1MAErKOkqTBhr3S2VAdyg", 
+    consumer_secret = "Pk0kANq93wPI5d9ip5rf0SHueFsYTYMWXXbMNIGiBjRi9pICzR",
+    access_token = '335812759-MnhcM7htZmrwcnW8eYCwzh6FxATOr7ksRxDYlgz7',
+    access_secret = 'k7q7Wd46Lz45n5sK8fLZkpUnZPFRqgz2VM6lyGr7yzgjU')
+
+tweets <- search_tweets(
+  "Modi OR Narendra OR #Modi OR #NaMO OR #NAMO OR #Namo OR #modi OR modi OR narendra", 
+  n = 10000000, 
+  lang = "en", 
+  retryonratelimit = TRUE,
+  type = "popular",
+  include_rts = TRUE,
+  parse = TRUE)
+modi_tweets <- as_tibble(tweets.df)
+View(modi_tweets)
+```
+
