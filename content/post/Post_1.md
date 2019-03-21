@@ -34,7 +34,7 @@ Unsurprisingly, there are more positive tweets than negative. Surprisingly, **th
 As I expected, sentiments have been pretty stable though they seem to have been more positive on the 19th. What's interesting about this plot is the increased negativity and backlash against the campaign starting around 6 am on the 20th in American time. This is interesting because this roughly coincides with when the news about Nirav Modi's arrest in Londong was released. As you can see from the above wordcloud, words like Nirav Modi and arrest immediately become some of the most tweeted words. 
 
 Now, I expected a generally positive reaction to Nirav Modi's arrest. However, the data shows that **Nirav Modi's arrest actually caused an increase in negative tweets** about the _#Chowkidar_ aka _#MainBhiChowkidar_ campaign. A lot of tweeters seemed to believe that this is an election stunt and suspected the convenient timing of the arrest for the BJP. 
-![](3_comp_bar_stack.png)
+<img src="3_comp_bar_stack.png" alt="Tweets Over Time" align="middle" width=100%>
 
 ## A Final Developer's Note 
 Unfortunately, there seem to be no existing machine learning based APIs or CRAN packages to deal with Hindi Tweets, so I'm ignoring them. I considered translating and then analyzing, but this seems to have too broad a confidence interval and Google Translate API is too expensive for me. This obviously makes this analysis biased to some extent. Furthermore, even for English sentiment analysis, there is a non-zero margin of error. However, given my rather large sample size, this margin should be adjusted for.
