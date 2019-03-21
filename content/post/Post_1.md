@@ -1,26 +1,26 @@
 ---
 title: 'Chowkidar Campaign: What is the Twitter Sentiment?'
-author: Hemanth Bharatha Chakravarthy
+author: "Hemanth Bharatha Chakravarthy"
 date: '2019-03-21'
 slug: modi-what-is-the-twitter-sentiment
-categories:
-  - R
 tags:
-  - 2019 Elections
-  - Democracy
-  - Indian Elections
-  - Lok Sabha Elections
-  - Modi
-  - plot
-  - R Markdown
-  - Rahul Gandhi
-  - regression
-  - Twitter
-  - India
+- 2019 Elections
+- Democracy
+- Indian Elections
+- Lok Sabha Elections
+- Modi
+- plot
+- R Markdown
+- Rahul Gandhi
+- regression
+- Twitter
+- India
+categories: R
 ---
 
 ## Analysis of Twitter Reactions to the BJP's #Chowkidar Campaign
 I analyze a mixed sample of the most popular and most recent **one hundred and eight thousand tweets** in English from the last three days (as of 20 March, 2019, 10:07 pm EST) on the Bharatiya Janata Party's #MainBhiChowkidar campaign. 
+
 <img src="1_wordcloud.png" alt="Wordcloud" align="middle" width=60%>
 
 ## Sentiment Analysis: Were the Tweets Positive or Negative?
