@@ -1,7 +1,7 @@
 ---
-title: 'Modi: What is the Twitter Sentiment?'
+title: 'Chowkidar Campaign: What is the Twitter Sentiment?'
 author: Hemanth Bharatha Chakravarthy
-date: '2019-03-18'
+date: '2019-03-21'
 slug: modi-what-is-the-twitter-sentiment
 categories:
   - R
@@ -18,8 +18,9 @@ tags:
   - Twitter
   - India
 ---
-
-```{r}
+# Analysis of Twitter Reactions to the BJP's #Chowkidar Campaign
+I analyze a mixed sample of the most popular and most recent **one hundred and eight thousand tweets** in English from the last three days (as of 20 March, 2019, 10:07 pm EST) on the Bharatiya Janata Party's #MainBhiChowkidar campaign. 
+```{r setup, include=FALSE, cache=TRUE}
 # Keys and tokens
 # Keys, secret keys and access tokens management.
 # 
@@ -35,12 +36,16 @@ tags:
 # k7q7Wd46Lz45n5sK8fLZkpUnZPFRqgz2VM6lyGr7yzgjU (Access token secret)
 # PIN = 1109430
 
-knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE)
+knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE, cache=TRUE)
 
 library(tidyverse)
 library("twitteR")
 library("ROAuth")
 library(rtweet)
+library(lubridate)
+library(janitor)
+library(tidyr)
+library(tidytext)
 
 twitter_tokens <- create_token(app = "Sentiment Analysis by Hemanth",
     consumer_key = "waMm1MAErKOkqTBhr3S2VAdyg", 
@@ -49,14 +54,138 @@ twitter_tokens <- create_token(app = "Sentiment Analysis by Hemanth",
     access_secret = 'k7q7Wd46Lz45n5sK8fLZkpUnZPFRqgz2VM6lyGr7yzgjU')
 
 tweets <- search_tweets(
-  "Modi OR Narendra OR #Modi OR #NaMO OR #NAMO OR #Namo OR #modi OR modi OR narendra", 
-  n = 10000000, 
-  lang = "en", 
-  retryonratelimit = TRUE,
-  type = "popular",
-  include_rts = TRUE,
-  parse = TRUE)
-modi_tweets <- as_tibble(tweets.df)
-View(modi_tweets)
+  "Chowkidar OR #MainBhiChowkidar OR #Chowkidar", n = 100000, type = "mixed", retryonratelimit = TRUE, lang = "en")
+x_tweets <- as_tibble(tweets)
+x <- x_tweets %>% 
+  clean_names() %>% 
+  mutate(date = date(created_at)) 
 ```
 
+
+```{r pre-processing}
+# Tibble and text processing
+temp_1 <- x %>% 
+  # Lose useless columns
+  select(created_at, date, text, favourites_count, retweet_count) %>% 
+  # Convert text to lower text
+  mutate(text = tolower(text))
+# Note: https://hackernoon.com/text-processing-and-sentiment-analysis-of-twitter-data-22ff5e51e14c 
+# is an excellent guide to text processing and sentiment analysis
+# Remove Blank Spaces
+temp_1$text <- gsub("rt", "", temp_1$text)
+# Remove @ from usernames
+temp_1$text <- gsub("@\\w+", "", temp_1$text)
+# Remove punctuations
+temp_1$text <- gsub("[[:punct:]]", "", temp_1$text)
+# Remove links
+temp_1$text <- gsub("http\\w+", "", temp_1$text)
+# Remove tabs
+temp_1$text <- gsub("[ |\t]{2,}", "", temp_1$text)
+# Remove blank spaces from the beginning
+temp_1$text <- gsub("^ ", "", temp_1$text)
+# Remove blank spaces from the end
+temp_1$text <- gsub(" $", "", temp_1$text)
+
+# Remove stopwords
+data("stop_words")
+
+# get a list of words
+words <- temp_1 %>%
+  unnest_tokens(word, text) %>%
+  anti_join(stop_words) %>%
+  filter(!word %in% c("rt", "t.co"))
+## Joining, by = "word"
+```
+
+```{r wordcloud}
+library("wordcloud")
+library(tm)
+
+most_pop_words <- words %>%
+  group_by(word) %>% 
+  count() %>% 
+  arrange(desc(n)) %>% 
+  ungroup(word) %>% 
+  top_n(60)
+
+# Generate wordcloud
+wordcloud(most_pop_words$word, most_pop_words$n, colors=brewer.pal(8, "Dark2"), random.color = TRUE, max.words = 60)
+```
+
+
+## Sentiment Analysis: Were the Tweets Positive or Negative?
+Comparing the number of positive tweets against the number of negative tweets.
+
+```{r senti_analysis_positive_negative}
+library(syuzhet)
+library(gt)
+temp_1$senti <- get_nrc_sentiment(temp_1$text)
+tbl <- temp_1 %>% 
+  summarise(Positive = sum(senti$positive), Negative = sum(senti$negative)) %>% 
+  mutate(Total = Positive + Negative)
+
+tbl <- tbl %>% 
+  gather(key = "Sentiment", value = "Count", Positive:Total) %>% 
+  mutate(Percentage = Count/242540)
+tbl %>% 
+  select(Sentiment, Percentage) %>% 
+  gt() %>%  
+  fmt_percent(
+    columns = vars("Percentage")
+  ) %>% 
+  tab_header(
+    title = "Sentiment Analysis of Tweets About the #Chowkidar Campaign",
+    subtitle = "Analyzing a Mixed Sample of 108,000 of the Most Popular and Most Recent Tweets"
+    ) %>%
+  # Cite the data source
+  tab_source_note(source_note = "Data from Twitter")
+```
+
+Unsurprisingly, there are more positive tweets than negative. Surprisingly, the difference between positive and negative tweets is a small `4.93%`. Now, this could possibly be explained by this analysis only containing English tweets and that Twitter users also tend to be more urban, educated, younger, and relatively elite. But, while I do expect a larger tendency towards positivity, I believe that this small window of difference does confirm our expectations of at least a somewhat closely contested and messy election. 
+
+## How did Sentiments Change with Time in the Last Three Days? 
+As I expected, sentiments have been pretty stable though they seem to have been more positive on the 19th. What's interesting about this plot is the increased negativity and backlash against the campaign starting around 6 am on the 20th in American time. This is interesting because this roughly coincides with when the news about Nirav Modi's arrest in Londong was released. As you can see from the above wordcloud, words like Nirav Modi and arrest immediately become some of the most tweeted words. 
+
+Now, I expected a generally positive reaction to Nirav Modi's arrest. However, the data shows that Nirav Modi's arrest actually caused an increase in negative tweets about the _#Chowkidar_ aka _#MainBhiChowkidar_ campaign. A lot of tweeters seemed to believe that this is an election stunt and suspected the convenient timing of the arrest for the BJP. 
+
+```{r plot_senti_analysis}
+library(ggthemes)
+library(ggplot2)
+
+temp_plot <- temp_1 %>% 
+  mutate(pos = senti$positive, neg = senti$negative) %>% 
+  select(created_at, pos, neg) %>% 
+  gather(key = "Sentiment", value = "Count", pos:neg)
+
+temp_plot$hour <- as.POSIXct(temp_plot$created_at, format="%Y%m%d %H%M%S")
+temp_plot$hour <- format(temp_plot$hour,format='%d.%H')
+temp_plot <- aggregate(temp_plot$Count, by=list(Hour=temp_plot$hour, Sentiment=temp_plot$Sentiment), FUN=sum)
+temp_plot <- as_tibble(temp_plot) %>% 
+  arrange(Hour) %>% 
+  mutate(Hour = as.numeric(Hour))
+
+temp_plot <- temp_plot %>% 
+  spread(Sentiment, x) %>% 
+  mutate(total = pos + neg) %>% 
+  mutate(Positive = (pos*100)/total, Negative = (neg*100)/total) %>% 
+  select(Hour, Positive, Negative) %>% 
+  gather(key = "Sentiment", value = "Percentage", Positive:Negative)
+
+temp_plot <- temp_plot %>% 
+  mutate(Hour = as.character(Hour)) %>% 
+  filter(Hour != "19.14", Hour != "19.16")
+
+temp_plot %>% 
+  ggplot(aes(x = Hour, y = Percentage, fill = Sentiment)) +
+  geom_bar(stat = "identity", alpha = 0.6, color = "black") +
+  labs(
+    title = "Positive and Negative Tweets by Hour",
+    subtitle = "From 6 pm on 19 March to 10 pm on 20 March",
+    x = "Day and Hour of Day in Eastern Standard Time"
+  ) +
+  theme_minimal() +
+  scale_x_discrete(labels = c("19th-6pm", "", "",  "9pm", "", "", "20th-12am", "", "", "3am", "", "", "6am", "", "", "9am", "",  "", "12pm", "", "", "3pm", "", "", "6pm", "", "",  "9pm", ""))
+```
+
+## A Final Developer's Note 
+Unfortunately, there seem to be no existing machine learning based APIs or CRAN packages to deal with Hindi Tweets, so I'm ignoring them. I considered translating and then analyzing, but this seems to have too broad a confidence interval and Google Translate API is too expensive for me. This obviously makes this analysis biased to some extent. Furthermore, even for English sentiment analysis, there is a non-zero margin of error. However, given my rather large sample size, this margin should be adjusted for.
