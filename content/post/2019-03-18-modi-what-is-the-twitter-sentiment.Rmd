@@ -1,22 +1,21 @@
 ---
 title: 'Chowkidar Campaign: What is the Twitter Sentiment?'
-author: Hemanth Bharatha Chakravarthy
+author: "Hemanth Bharatha Chakravarthy"
 date: '2019-03-21'
-slug: modi-what-is-the-twitter-sentiment
-categories:
-  - R
+output: pdf_document
 tags:
-  - 2019 Elections
-  - Democracy
-  - Indian Elections
-  - Lok Sabha Elections
-  - Modi
-  - plot
-  - R Markdown
-  - Rahul Gandhi
-  - regression
-  - Twitter
-  - India
+- 2019 Elections
+- Democracy
+- Indian Elections
+- Lok Sabha Elections
+- Modi
+- plot
+- R Markdown
+- Rahul Gandhi
+- regression
+- Twitter
+- India
+categories: R
 ---
 # Analysis of Twitter Reactions to the BJP's #Chowkidar Campaign
 I analyze a mixed sample of the most popular and most recent **one hundred and eight thousand tweets** in English from the last three days (as of 20 March, 2019, 10:07 pm EST) on the Bharatiya Janata Party's #MainBhiChowkidar campaign. 
@@ -46,19 +45,21 @@ library(lubridate)
 library(janitor)
 library(tidyr)
 library(tidytext)
+library(readr)
 
-twitter_tokens <- create_token(app = "Sentiment Analysis by Hemanth",
-    consumer_key = "waMm1MAErKOkqTBhr3S2VAdyg", 
-    consumer_secret = "Pk0kANq93wPI5d9ip5rf0SHueFsYTYMWXXbMNIGiBjRi9pICzR",
-    access_token = '335812759-MnhcM7htZmrwcnW8eYCwzh6FxATOr7ksRxDYlgz7',
-    access_secret = 'k7q7Wd46Lz45n5sK8fLZkpUnZPFRqgz2VM6lyGr7yzgjU')
-
-tweets <- search_tweets(
-  "Chowkidar OR #MainBhiChowkidar OR #Chowkidar", n = 100000, type = "mixed", retryonratelimit = TRUE, lang = "en")
-x_tweets <- as_tibble(tweets)
-x <- x_tweets %>% 
-  clean_names() %>% 
-  mutate(date = date(created_at)) 
+# twitter_tokens <- create_token(app = "Sentiment Analysis by Hemanth",
+#     consumer_key = "waMm1MAErKOkqTBhr3S2VAdyg", 
+#     consumer_secret = "Pk0kANq93wPI5d9ip5rf0SHueFsYTYMWXXbMNIGiBjRi9pICzR",
+#     access_token = '335812759-MnhcM7htZmrwcnW8eYCwzh6FxATOr7ksRxDYlgz7',
+#     access_secret = 'k7q7Wd46Lz45n5sK8fLZkpUnZPFRqgz2VM6lyGr7yzgjU')
+# 
+# tweets <- search_tweets(
+#   "Chowkidar OR #MainBhiChowkidar OR #Chowkidar", n = 100000, type = "mixed", retryonratelimit = TRUE, lang = "en")
+# x_tweets <- as_tibble(tweets)
+# x <- x_tweets %>%
+#   clean_names()
+# write_as_csv(tweets, "twitter_data.csv")
+x <- read_csv("twitter_data.csv", col_names = TRUE)
 ```
 
 
@@ -66,7 +67,7 @@ x <- x_tweets %>%
 # Tibble and text processing
 temp_1 <- x %>% 
   # Lose useless columns
-  select(created_at, date, text, favourites_count, retweet_count) %>% 
+  select(created_at, text, favourites_count, retweet_count) %>% 
   # Convert text to lower text
   mutate(text = tolower(text))
 # Note: https://hackernoon.com/text-processing-and-sentiment-analysis-of-twitter-data-22ff5e51e14c 
@@ -189,3 +190,5 @@ temp_plot %>%
 
 ## A Final Developer's Note 
 Unfortunately, there seem to be no existing machine learning based APIs or CRAN packages to deal with Hindi Tweets, so I'm ignoring them. I considered translating and then analyzing, but this seems to have too broad a confidence interval and Google Translate API is too expensive for me. This obviously makes this analysis biased to some extent. Furthermore, even for English sentiment analysis, there is a non-zero margin of error. However, given my rather large sample size, this margin should be adjusted for.
+
+You can look at the code (in R) in my GitHub (@b-hemanth) under my repository `my_page`.
