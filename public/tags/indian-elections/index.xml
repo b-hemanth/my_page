@@ -2,22 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Indian Elections on Hemanth Bharatha Chakravarthy</title>
-    <link>/tags/indian-elections/</link>
+    <link>https://b-hemanth.com/tags/indian-elections/</link>
     <description>Recent content in Indian Elections on Hemanth Bharatha Chakravarthy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/indian-elections/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://b-hemanth.com/tags/indian-elections/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Modi: What is the Twitter Sentiment?</title>
-      <link>/2019/03/18/modi-what-is-the-twitter-sentiment/</link>
-      <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
+      <title>Chowkidar Campaign: What is the Twitter Sentiment?</title>
+      <link>https://b-hemanth.com/2019/03/21/chowkidar-campaign-what-is-the-twitter-sentiment/</link>
+      <pubDate>Thu, 21 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/2019/03/18/modi-what-is-the-twitter-sentiment/</guid>
-      <description> # Keys and tokens # Keys, secret keys and access tokens management. # # Consumer API keys # waMm1MAErKOkqTBhr3S2VAdyg (API key) # # Pk0kANq93wPI5d9ip5rf0SHueFsYTYMWXXbMNIGiBjRi9pICzR (API secret key) # # Regenerate # Access token &amp;amp; access token secret # 335812759-MnhcM7htZmrwcnW8eYCwzh6FxATOr7ksRxDYlgz7 (Access token) # # k7q7Wd46Lz45n5sK8fLZkpUnZPFRqgz2VM6lyGr7yzgjU (Access token secret) # # Read and write (Access level) </description>
+      <guid>https://b-hemanth.com/2019/03/21/chowkidar-campaign-what-is-the-twitter-sentiment/</guid>
+      <description>Analysis of Twitter Reactions to the BJP’s #Chowkidar Campaign I analyze a mixed sample of the most popular and most recent one hundred and eight thousand tweets in English from the last three days (as of 20 March, 2019, 10:07 pm EST) on the Bharatiya Janata Party’s #MainBhiChowkidar campaign.
+Sentiment Analysis: Were the Tweets Positive or Negative? Comparing the number of positive tweets against the number of negative tweets.</description>
     </item>
     
   </channel>
