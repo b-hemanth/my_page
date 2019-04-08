@@ -8,7 +8,7 @@
 This will serve both as my academic website and my blog. 
 
 # Source Code
-You can find the source code for the posts in this repository in `blog/content/post`.
+You can find the source code for the posts in this repository in `blog/content/post`, i.e., here: https://github.com/b-hemanth/my_page/tree/master/content/post.
 
 # Contact Me
 [Write to me]("mailto:hemanthbharathachakravarthy@college.harvard.edu") at hemanthbharathachakravarthy@college.harvard.edu. If you find mistakes in my code, do email me!
