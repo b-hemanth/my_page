@@ -29,6 +29,10 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     name = "CV"
     url = "https://drive.google.com/file/d/1P9xrgsmyvGWdoCHg1IzXVa2DImQCp8xh/view?usp=sharing"
     weight = 5
+[[menu.main]]
+    name = "Contact Me"
+    url = "mailto:hemanthbharathachakravarthy@college.harvard.edu"
+    weight = 5
 
 [params]
     description = "Hemanth Bharatha Chakravarthy: data blog, curriculum vitae, resume, details, webpage, debater, research"
