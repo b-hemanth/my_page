@@ -2,7 +2,7 @@
 title: 'Chowkidar Campaign: What is the Twitter Sentiment?'
 author: "Hemanth Bharatha Chakravarthy"
 date: '2019-03-21'
-output: pdf_document
+output: html_document
 tags:
 - 2019 Elections
 - Democracy
@@ -23,286 +23,120 @@ categories: R
 <div id="analysis-of-twitter-reactions-to-the-bjps-chowkidar-campaign" class="section level1">
 <h1>Analysis of Twitter Reactions to the BJP’s #Chowkidar Campaign</h1>
 <p>I analyzed a mixed sample of the most popular and most recent <strong>one hundred and eight thousand tweets</strong> in English from the last three days (as of 20 March, 2019, 10:07 pm EST) on the Bharatiya Janata Party’s #MainBhiChowkidar campaign.</p>
-<p><img src="/post/2019-03-18-modi-what-is-the-twitter-sentiment_files/figure-html/wordcloud-1.png" width="672" /></p>
+<pre class="r"><code># # Tibble and text processing
+# temp_1 &lt;- x %&gt;% 
+#   # Lose useless columns
+#   select(created_at, text, favourites_count, retweet_count) %&gt;% 
+#   # Convert text to lower text
+#   mutate(text = tolower(text))
+# # Note: https://hackernoon.com/text-processing-and-sentiment-analysis-of-twitter-data-22ff5e51e14c 
+# # is an excellent guide to text processing and sentiment analysis
+# # Remove Blank Spaces
+# temp_1$text &lt;- gsub(&quot;rt&quot;, &quot;&quot;, temp_1$text)
+# # Remove @ from usernames
+# temp_1$text &lt;- gsub(&quot;@\\w+&quot;, &quot;&quot;, temp_1$text)
+# # Remove punctuations
+# temp_1$text &lt;- gsub(&quot;[[:punct:]]&quot;, &quot;&quot;, temp_1$text)
+# # Remove links
+# temp_1$text &lt;- gsub(&quot;http\\w+&quot;, &quot;&quot;, temp_1$text)
+# # Remove tabs
+# temp_1$text &lt;- gsub(&quot;[ |\t]{2,}&quot;, &quot;&quot;, temp_1$text)
+# # Remove blank spaces from the beginning
+# temp_1$text &lt;- gsub(&quot;^ &quot;, &quot;&quot;, temp_1$text)
+# # Remove blank spaces from the end
+# temp_1$text &lt;- gsub(&quot; $&quot;, &quot;&quot;, temp_1$text)
+# 
+# # Remove stopwords
+# data(&quot;stop_words&quot;)
+# 
+# # get a list of words
+# words &lt;- temp_1 %&gt;%
+#   unnest_tokens(word, text) %&gt;%
+#   anti_join(stop_words) %&gt;%
+#   filter(!word %in% c(&quot;rt&quot;, &quot;t.co&quot;))
+# ## Joining, by = &quot;word&quot;</code></pre>
+<pre class="r"><code># library(&quot;wordcloud&quot;)
+# library(tm)
+# 
+# most_pop_words &lt;- words %&gt;%
+#   group_by(word) %&gt;% 
+#   count() %&gt;% 
+#   arrange(desc(n)) %&gt;% 
+#   ungroup(word) %&gt;% 
+#   top_n(60)
+# 
+# # Generate wordcloud
+# wordcloud(most_pop_words$word, most_pop_words$n, colors=brewer.pal(8, &quot;Dark2&quot;), random.color = TRUE, max.words = 60)</code></pre>
+<p><img src="wordcloud.png" /></p>
 <div id="sentiment-analysis-were-the-tweets-positive-or-negative" class="section level2">
 <h2>Sentiment Analysis: Were the Tweets Positive or Negative?</h2>
 <p>Comparing the number of positive tweets against the number of negative tweets.</p>
-<style>html {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
-}
-
-#fniuxmzohm .gt_table {
-  display: table;
-  border-collapse: collapse;
-  margin-left: auto;
-  margin-right: auto;
-  color: #000000;
-  font-size: 16px;
-  background-color: #FFFFFF;
-  /* table.background.color */
-  width: auto;
-  /* table.width */
-  border-top-style: solid;
-  /* table.border.top.style */
-  border-top-width: 2px;
-  /* table.border.top.width */
-  border-top-color: #A8A8A8;
-  /* table.border.top.color */
-}
-
-#fniuxmzohm .gt_heading {
-  background-color: #FFFFFF;
-  /* heading.background.color */
-  border-bottom-color: #FFFFFF;
-}
-
-#fniuxmzohm .gt_title {
-  color: #000000;
-  font-size: 125%;
-  /* heading.title.font.size */
-  padding-top: 4px;
-  /* heading.top.padding */
-  padding-bottom: 1px;
-  border-bottom-color: #FFFFFF;
-  border-bottom-width: 0;
-}
-
-#fniuxmzohm .gt_subtitle {
-  color: #000000;
-  font-size: 85%;
-  /* heading.subtitle.font.size */
-  padding-top: 1px;
-  padding-bottom: 4px;
-  /* heading.bottom.padding */
-  border-top-color: #FFFFFF;
-  border-top-width: 0;
-}
-
-#fniuxmzohm .gt_bottom_border {
-  border-bottom-style: solid;
-  /* heading.border.bottom.style */
-  border-bottom-width: 2px;
-  /* heading.border.bottom.width */
-  border-bottom-color: #A8A8A8;
-  /* heading.border.bottom.color */
-}
-
-#fniuxmzohm .gt_column_spanner {
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #A8A8A8;
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-
-#fniuxmzohm .gt_col_heading {
-  color: #000000;
-  background-color: #FFFFFF;
-  /* column_labels.background.color */
-  font-size: 16px;
-  /* column_labels.font.size */
-  font-weight: initial;
-  /* column_labels.font.weight */
-  vertical-align: middle;
-  padding: 10px;
-  margin: 10px;
-}
-
-#fniuxmzohm .gt_sep_right {
-  border-right: 5px solid #FFFFFF;
-}
-
-#fniuxmzohm .gt_group_heading {
-  padding: 8px;
-  color: #000000;
-  background-color: #FFFFFF;
-  /* stub_group.background.color */
-  font-size: 16px;
-  /* stub_group.font.size */
-  font-weight: initial;
-  /* stub_group.font.weight */
-  border-top-style: solid;
-  /* stub_group.border.top.style */
-  border-top-width: 2px;
-  /* stub_group.border.top.width */
-  border-top-color: #A8A8A8;
-  /* stub_group.border.top.color */
-  border-bottom-style: solid;
-  /* stub_group.border.bottom.style */
-  border-bottom-width: 2px;
-  /* stub_group.border.bottom.width */
-  border-bottom-color: #A8A8A8;
-  /* stub_group.border.bottom.color */
-  vertical-align: middle;
-}
-
-#fniuxmzohm .gt_empty_group_heading {
-  padding: 0.5px;
-  color: #000000;
-  background-color: #FFFFFF;
-  /* stub_group.background.color */
-  font-size: 16px;
-  /* stub_group.font.size */
-  font-weight: initial;
-  /* stub_group.font.weight */
-  border-top-style: solid;
-  /* stub_group.border.top.style */
-  border-top-width: 2px;
-  /* stub_group.border.top.width */
-  border-top-color: #A8A8A8;
-  /* stub_group.border.top.color */
-  border-bottom-style: solid;
-  /* stub_group.border.bottom.style */
-  border-bottom-width: 2px;
-  /* stub_group.border.bottom.width */
-  border-bottom-color: #A8A8A8;
-  /* stub_group.border.bottom.color */
-  vertical-align: middle;
-}
-
-#fniuxmzohm .gt_striped {
-  background-color: #f2f2f2;
-}
-
-#fniuxmzohm .gt_row {
-  padding: 10px;
-  /* row.padding */
-  margin: 10px;
-  vertical-align: middle;
-}
-
-#fniuxmzohm .gt_stub {
-  border-right-style: solid;
-  border-right-width: 2px;
-  border-right-color: #A8A8A8;
-  padding-left: 12px;
-}
-
-#fniuxmzohm .gt_stub.gt_row {
-  background-color: #FFFFFF;
-}
-
-#fniuxmzohm .gt_summary_row {
-  background-color: #FFFFFF;
-  /* summary_row.background.color */
-  padding: 6px;
-  /* summary_row.padding */
-  text-transform: inherit;
-  /* summary_row.text_transform */
-}
-
-#fniuxmzohm .gt_first_summary_row {
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #A8A8A8;
-}
-
-#fniuxmzohm .gt_table_body {
-  border-top-style: solid;
-  /* field.border.top.style */
-  border-top-width: 2px;
-  /* field.border.top.width */
-  border-top-color: #A8A8A8;
-  /* field.border.top.color */
-  border-bottom-style: solid;
-  /* field.border.bottom.style */
-  border-bottom-width: 2px;
-  /* field.border.bottom.width */
-  border-bottom-color: #A8A8A8;
-  /* field.border.bottom.color */
-}
-
-#fniuxmzohm .gt_footnote {
-  font-size: 90%;
-  /* footnote.font.size */
-  padding: 4px;
-  /* footnote.padding */
-}
-
-#fniuxmzohm .gt_sourcenote {
-  font-size: 90%;
-  /* sourcenote.font.size */
-  padding: 4px;
-  /* sourcenote.padding */
-}
-
-#fniuxmzohm .gt_center {
-  text-align: center;
-}
-
-#fniuxmzohm .gt_left {
-  text-align: left;
-}
-
-#fniuxmzohm .gt_right {
-  text-align: right;
-  font-variant-numeric: tabular-nums;
-}
-
-#fniuxmzohm .gt_font_normal {
-  font-weight: normal;
-}
-
-#fniuxmzohm .gt_font_bold {
-  font-weight: bold;
-}
-
-#fniuxmzohm .gt_font_italic {
-  font-style: italic;
-}
-
-#fniuxmzohm .gt_super {
-  font-size: 65%;
-}
-
-#fniuxmzohm .gt_footnote_glyph {
-  font-style: italic;
-  font-size: 65%;
-}
-</style>
-<div id="fniuxmzohm" style="overflow-x:auto;"><!--gt table start-->
-<table class='gt_table'>
-<thead>
-<tr>
-<th colspan='2' class='gt_heading gt_title gt_font_normal gt_center' >Sentiment Analysis of Tweets About the #Chowkidar Campaign</th>
-</tr>
-<tr>
-<th colspan='2' class='gt_heading gt_subtitle gt_font_normal gt_center gt_bottom_border' >Analyzing a Mixed Sample of 108,000 of the Most Popular and Most Recent Tweets</th>
-</tr>
-</thead>
-<tr>
-<th class='gt_col_heading gt_left' rowspan='1' colspan='1'>Sentiment</th>
-<th class='gt_col_heading gt_right' rowspan='1' colspan='1'>Percentage</th>
-</tr>
-<tbody class='gt_table_body'>
-<tr>
-<td class='gt_row gt_left'>Positive</td>
-<td class='gt_row gt_right'>54.93%</td>
-</tr>
-<tr>
-<td class='gt_row gt_left gt_striped'>Negative</td>
-<td class='gt_row gt_right gt_striped'>45.07%</td>
-</tr>
-<tr>
-<td class='gt_row gt_left'>Total</td>
-<td class='gt_row gt_right'>100.00%</td>
-</tr>
-</tbody>
-<tfoot>
-<tr>
-<td colspan='3' class='gt_sourcenote'>Data from Twitter</td>
-</tr>
-</tfoot>
-</table>
-<!--gt table end-->
-</div>
+<pre class="r"><code># library(syuzhet)
+# library(gt)
+# temp_1$senti &lt;- get_nrc_sentiment(temp_1$text)
+# tbl &lt;- temp_1 %&gt;% 
+#   summarise(Positive = sum(senti$positive), Negative = sum(senti$negative)) %&gt;% 
+#   mutate(Total = Positive + Negative)
+# 
+# tbl &lt;- tbl %&gt;% 
+#   gather(key = &quot;Sentiment&quot;, value = &quot;Count&quot;, Positive:Total) %&gt;% 
+#   mutate(Percentage = Count/242540)
+# tbl %&gt;% 
+#   select(Sentiment, Percentage) %&gt;% 
+#   gt() %&gt;%  
+#   fmt_percent(
+#     columns = vars(&quot;Percentage&quot;)
+#   ) %&gt;% 
+#   tab_header(
+#     title = &quot;Sentiment Analysis of Tweets About the #Chowkidar Campaign&quot;,
+#     subtitle = &quot;Analyzing a Mixed Sample of 108,000 of the Most Popular and Most Recent Tweets&quot;
+#     ) %&gt;%
+#   # Cite the data source
+#   tab_source_note(source_note = &quot;Data from Twitter&quot;)</code></pre>
+<p><img src="table1.png" /></p>
 <p>Unsurprisingly, there are more positive tweets than negative. Surprisingly, the difference between positive and negative tweets is a small <code>4.93%</code>. Now, this could possibly be explained by this analysis only containing English tweets and that Twitter users also tend to be more urban, educated, younger, and relatively elite. But, while I do expect a larger tendency towards positivity, I believe that this small window of difference does confirm our expectations of at least a somewhat closely contested and messy election.</p>
 </div>
 <div id="how-did-sentiments-change-with-time-in-the-last-three-days" class="section level2">
 <h2>How did Sentiments Change with Time in the Last Three Days?</h2>
 <p>As I expected, sentiments have been pretty stable though they seem to have been more positive on the 19th. What’s interesting about this plot is the increased negativity and backlash against the campaign starting around 6 am on the 20th in American time. This is interesting because this roughly coincides with when the news about Nirav Modi’s arrest in London was released. As you can see from the above wordcloud, words like Nirav Modi and arrest immediately become some of the most tweeted words.</p>
 <p>Now, I expected a generally positive reaction to Nirav Modi’s arrest. However, the data shows that Nirav Modi’s arrest actually caused an increase in negative tweets about the <em>#Chowkidar</em> aka <em>#MainBhiChowkidar</em> campaign. A lot of tweeters seemed to believe that this is an election stunt and suspected the convenient timing of the arrest for the BJP.</p>
-<p><img src="/post/2019-03-18-modi-what-is-the-twitter-sentiment_files/figure-html/plot_senti_analysis-1.png" width="672" /></p>
+<pre class="r"><code># library(ggthemes)
+# library(ggplot2)
+# 
+# temp_plot &lt;- temp_1 %&gt;% 
+#   mutate(pos = senti$positive, neg = senti$negative) %&gt;% 
+#   select(created_at, pos, neg) %&gt;% 
+#   gather(key = &quot;Sentiment&quot;, value = &quot;Count&quot;, pos:neg)
+# 
+# temp_plot$hour &lt;- as.POSIXct(temp_plot$created_at, format=&quot;%Y%m%d %H%M%S&quot;)
+# temp_plot$hour &lt;- format(temp_plot$hour,format=&#39;%d.%H&#39;)
+# temp_plot &lt;- aggregate(temp_plot$Count, by=list(Hour=temp_plot$hour, Sentiment=temp_plot$Sentiment), FUN=sum)
+# temp_plot &lt;- as_tibble(temp_plot) %&gt;% 
+#   arrange(Hour) %&gt;% 
+#   mutate(Hour = as.numeric(Hour))
+# 
+# temp_plot &lt;- temp_plot %&gt;% 
+#   spread(Sentiment, x) %&gt;% 
+#   mutate(total = pos + neg) %&gt;% 
+#   mutate(Positive = (pos*100)/total, Negative = (neg*100)/total) %&gt;% 
+#   select(Hour, Positive, Negative) %&gt;% 
+#   gather(key = &quot;Sentiment&quot;, value = &quot;Percentage&quot;, Positive:Negative)
+# 
+# temp_plot &lt;- temp_plot %&gt;% 
+#   mutate(Hour = as.character(Hour)) %&gt;% 
+#   filter(Hour != &quot;19.14&quot;, Hour != &quot;19.16&quot;)
+# 
+# temp_plot %&gt;% 
+#   ggplot(aes(x = Hour, y = Percentage, fill = Sentiment)) +
+#   geom_bar(stat = &quot;identity&quot;, alpha = 0.6, color = &quot;black&quot;) +
+#   labs(
+#     title = &quot;Positive and Negative Tweets by Hour&quot;,
+#     subtitle = &quot;From 6 pm on 19 March to 10 pm on 20 March&quot;,
+#     x = &quot;Day and Hour of Day in Eastern Standard Time&quot;
+#   ) +
+#   theme_minimal() +
+#   scale_x_discrete(labels = c(&quot;19th-6pm&quot;, &quot;&quot;, &quot;&quot;,  &quot;9pm&quot;, &quot;&quot;, &quot;&quot;, &quot;20th-12am&quot;, &quot;&quot;, &quot;&quot;, &quot;3am&quot;, &quot;&quot;, &quot;&quot;, &quot;6am&quot;, &quot;&quot;, &quot;&quot;, &quot;9am&quot;, &quot;&quot;,  &quot;&quot;, &quot;12pm&quot;, &quot;&quot;, &quot;&quot;, &quot;3pm&quot;, &quot;&quot;, &quot;&quot;, &quot;6pm&quot;, &quot;&quot;, &quot;&quot;,  &quot;9pm&quot;, &quot;&quot;))</code></pre>
+<p><img src="graph1.png" /></p>
 </div>
 <div id="a-final-developers-note" class="section level2">
 <h2>A Final Developer’s Note</h2>

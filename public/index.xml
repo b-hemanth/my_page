@@ -18,7 +18,7 @@
       
       <guid>https://b-hemanth.com/2019/03/21/chowkidar-campaign-what-is-the-twitter-sentiment/</guid>
       <description>Analysis of Twitter Reactions to the BJP’s #Chowkidar Campaign I analyzed a mixed sample of the most popular and most recent one hundred and eight thousand tweets in English from the last three days (as of 20 March, 2019, 10:07 pm EST) on the Bharatiya Janata Party’s #MainBhiChowkidar campaign.
-Sentiment Analysis: Were the Tweets Positive or Negative? Comparing the number of positive tweets against the number of negative tweets.</description>
+# # Tibble and text processing # temp_1 &amp;lt;- x %&amp;gt;% # # Lose useless columns # select(created_at, text, favourites_count, retweet_count) %&amp;gt;% # # Convert text to lower text # mutate(text = tolower(text)) # # Note: https://hackernoon.</description>
     </item>
     
     <item>
@@ -27,7 +27,9 @@ Sentiment Analysis: Were the Tweets Positive or Negative? Comparing the number o
       <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
       
       <guid>https://b-hemanth.com/about/</guid>
-      <description>Hello! I am Hemanth Bharatha Chakravarthy, a first-year undergraduate student at Harvard University. I aspire to a career in research and academia. I plan to pursue a Concentration in Applied Mathematics and Economics with a Secondary in Computer Science. I am deeply interested in economics, data science, public policy, computer science, and feminist theory. I am also a parliamentary debater (I debated for Team India in school, and now do so for the Harvard College Debating Union).</description>
+      <description>Hello!
+I am Hemanth Bharatha Chakravarthy, an undergraduate student at Harvard interested in development and behavioral economics. I concentrate in Applied Math &amp;amp; Economics with a secondary in Computer Science. I spend my free time telling stories with data, reading about education policy, and arguing feminist theory. I talk a lot about politics and my beautiful hometown of Chennai, India.
+I work as a research assistant at the Harvard Kennedy School for Professors Michela Carlana, David Deming, and Mahzarin Banaji, and Dr.</description>
     </item>
     
     <item>
