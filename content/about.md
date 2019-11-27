@@ -3,10 +3,6 @@ title: "About"
 date: '2016-05-05T21:48:51-07:00'
 ---
 
-![](/Users/hbharathachakravarthy/my_page/static/hemanth.jpg)
-![](hemanth.jpg)
-![](hemanth.JPG)
-
 Hello!
 
 I am **Hemanth Bharatha Chakravarthy,** an undergraduate student at Harvard interested in development and behavioral economics. I concentrate in Applied Math & Economics with a secondary in Computer Science. I spend my free time telling stories with data, reading about education policy, and arguing feminist theory. I talk a lot about politics and my beautiful hometown of Chennai, India. 
