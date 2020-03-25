@@ -1,3 +1,6 @@
 .httr-oauth
 *.Rproj
 *.csv
+*.Rdata
+.DS_Store
+*.html
