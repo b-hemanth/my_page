@@ -9,6 +9,7 @@ categories: R
 ---
 # Analysis of Twitter Reactions to the BJP's #Chowkidar Campaign
 I analyzed a mixed sample of the most popular and most recent **one hundred and eight thousand tweets** in English from the last three days (as of 20 March, 2019, 10:07 pm EST) on the Bharatiya Janata Party's #MainBhiChowkidar campaign. 
+
 ![](/post/2019-03-18-modi-what-is-the-twitter-sentiment_files/1_wordcloud.png)
 
 
