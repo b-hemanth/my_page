@@ -8,14 +8,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
-    
-[[menu.main]]
-    name = "Blog"
-    url = "/"
-    weight = 1
+
 [[menu.main]]
     name = "About"
     url = "/about/"
+    weight = 1   
+[[menu.main]]
+    name = "Blog"
+    url = "/"
     weight = 2
 [[menu.main]]
     name = "GitHub"
@@ -30,17 +30,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     url = "https://drive.google.com/file/d/1_UuWgzdNr5MgsiTlNODNiwY8m3i-QH6H/view?usp=sharing"
     weight = 5
 [[menu.main]]
-    name = "RPubs"
-    url = "https://rpubs.com/hemanthb/"
-    weight = 5
-[[menu.main]]
     name = "Twitter"
     url = "https://twitter.com/hemanth2510"
-    weight = 5
+    weight = 6
 [[menu.main]]
     name = "Contact Me"
     url = "mailto:hemanthbharathachakravarthy@college.harvard.edu"
-    weight = 5
+    weight = 7
 
 [params]
     description = "Hemanth Bharatha Chakravarthy: data blog, curriculum vitae, resume, details, webpage, debater, research"
