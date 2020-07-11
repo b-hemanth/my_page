@@ -27,7 +27,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     weight = 4
 [[menu.main]]
     name = "CV"
-    url = "https://drive.google.com/file/d/1_UuWgzdNr5MgsiTlNODNiwY8m3i-QH6H/view?usp=sharing"
+    url = "https://drive.google.com/file/d/1f8sosaP8bCpKn9VlserOvrNBwwTPuZ7X/view?usp=sharing"
     weight = 5
 [[menu.main]]
     name = "Twitter"
