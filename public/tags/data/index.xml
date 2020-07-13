@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Hemanth Bharatha Chakravarthy</title>
-    <link>/post/</link>
-    <description>Recent content in Posts on Hemanth Bharatha Chakravarthy</description>
+    <title>Data on Hemanth Bharatha Chakravarthy</title>
+    <link>/tags/data/</link>
+    <description>Recent content in Data on Hemanth Bharatha Chakravarthy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 22 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/data/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,16 +18,6 @@
       
       <guid>/2019/03/22/introduction-to-github-and-r-markdown/</guid>
       <description>1 GitHub 1.1 What is GitHub?  Cloud-based version control system But what is version control? - Simple analogy: Google Drive for developers - Track and manage changes to your code - Version control lets developers safely work through branching and merging - Work with online Git repository - Make changes in your own branch - Merge with online cloud branch - Changes are tracked and can be reverted if needed   1.</description>
-    </item>
-    
-    <item>
-      <title>Chowkidar Campaign: What is the Twitter Sentiment?</title>
-      <link>/2019/03/21/chowkidar-campaign-what-is-the-twitter-sentiment/</link>
-      <pubDate>Thu, 21 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/2019/03/21/chowkidar-campaign-what-is-the-twitter-sentiment/</guid>
-      <description>Analysis of Twitter Reactions to the BJP’s #Chowkidar Campaign I analyzed a mixed sample of the most popular and most recent one hundred and eight thousand tweets in English from the last three days (as of 20 March, 2019, 10:07 pm EST) on the Bharatiya Janata Party’s #MainBhiChowkidar campaign.
-Sentiment Analysis: Were the Tweets Positive or Negative? Comparing the number of positive tweets against the number of negative tweets.</description>
     </item>
     
   </channel>
