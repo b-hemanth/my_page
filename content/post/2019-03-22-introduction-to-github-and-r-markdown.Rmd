@@ -142,7 +142,7 @@ You can also initialize a setup chunk with global chunk options like below.
 
 `knitr::opts_chunk$set(include = TRUE, warning = FALSE) # Random chunk options`
 
-Here's a cheat sheet: https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf
+Here's a [cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)!
 
 ### 2.5 Knitting to Different File Formats
 
