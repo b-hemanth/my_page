@@ -1,6 +1,5 @@
 ---
-title: 'Twitter Botocracy: Evidence from the use of Twitter Bots by Modi’s BJP in
-  India'
+title: 'Twitter Botocracy: Evidence from India (WORK IN PROGRESS)'
 author: Hemanth Bharatha Chakravarthy
 date: '2020-07-13'
 slug: twitter-botocracy-evidence-from-the-use-of-twitter-bots-by-modi-s-bjp-in-india
@@ -16,6 +15,7 @@ tags:
   - Twitter
 ---
 
-<iframe src="https://drive.google.com/file/d/1ub-B6JAlOCQs38I3ZZD6kYFS8Gx0Tu33/view?usp=sharing" style="width:718px; height:700px;" frameborder="0"></iframe>
+# Twitter Botocracy: Evidence from the use of Twitter Bots by Modi’s BJP in India
+### Work in progress
 
-# <embed src="https://drive.google.com/file/d/1ub-B6JAlOCQs38I3ZZD6kYFS8Gx0Tu33/view?usp=sharing" width="500" height="375">
+![Twitter Botocracy: Evidence from India](/post/botocracy_hbc_workInProgress.pdf){width=65%}
