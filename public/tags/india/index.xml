@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>India on Hemanth Bharatha Chakravarthy</title>
-    <link>https://b-hemanth.com/tags/india/</link>
+    <link>/tags/india/</link>
     <description>Recent content in India on Hemanth Bharatha Chakravarthy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 27 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://b-hemanth.com/tags/india/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/india/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Twitter in the Biggest Election - Web App</title>
-      <link>https://b-hemanth.com/2019/03/27/follow-up-on-the-chowkidar/</link>
+      <link>/2019/03/27/follow-up-on-the-chowkidar/</link>
       <pubDate>Wed, 27 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://b-hemanth.com/2019/03/27/follow-up-on-the-chowkidar/</guid>
+      <guid>/2019/03/27/follow-up-on-the-chowkidar/</guid>
       <description>Studying Twitter&amp;rsquo;s response to the Main Bhi Chowkidar (I too am a guard) electoral campaign of the Bharatiya Janata Party (Background, Wiki), analyzing it using machine learning to study sentiments, representing views geospatially on a map, studying tweet frequency lumping and potential bot activity, and more!
 Shiny App Link!
 Github for code and ReadMe.</description>
@@ -24,10 +24,10 @@ Github for code and ReadMe.</description>
     
     <item>
       <title>Chowkidar Campaign: What is the Twitter Sentiment?</title>
-      <link>https://b-hemanth.com/2019/03/21/chowkidar-campaign-what-is-the-twitter-sentiment/</link>
+      <link>/2019/03/21/chowkidar-campaign-what-is-the-twitter-sentiment/</link>
       <pubDate>Thu, 21 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://b-hemanth.com/2019/03/21/chowkidar-campaign-what-is-the-twitter-sentiment/</guid>
+      <guid>/2019/03/21/chowkidar-campaign-what-is-the-twitter-sentiment/</guid>
       <description>Analysis of Twitter Reactions to the BJP’s #Chowkidar Campaign I analyzed a mixed sample of the most popular and most recent one hundred and eight thousand tweets in English from the last three days (as of 20 March, 2019, 10:07 pm EST) on the Bharatiya Janata Party’s #MainBhiChowkidar campaign.
 # # Tibble and text processing # temp_1 &amp;lt;- x %&amp;gt;% # # Lose useless columns # select(created_at, text, favourites_count, retweet_count) %&amp;gt;% # # Convert text to lower text # mutate(text = tolower(text)) # # Note: https://hackernoon.</description>
     </item>
