@@ -1,0 +1,165 @@
+---
+title: Introduction to GitHub and R Markdown
+author: Hemanth Bharatha Chakravarthy
+date: '2019-03-22'
+slug: introduction-to-github-and-r-markdown
+categories:
+  - R
+tags:
+  - R Markdown
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(include = TRUE)
+```
+
+# 1 GitHub
+
+### 1.1 What is GitHub?
+
+- Cloud-based version control system
+- But what is version control? 
+      - Simple analogy: Google Drive for developers
+      - Track and manage changes to your code
+      - Version control lets developers safely work through branching and merging
+      - Work with online Git repository
+      - Make changes in your own branch
+      - Merge with online cloud branch
+      - Changes are tracked and can be reverted if needed
+
+### 1.2 Why GitHub?
+
+- Don't really have a choice---industry standard!
+- Cloud backup
+- Collaboration, version control
+- Don't have to reinvent the wheel: use existing Git repos
+- Community review of your code
+- Other uses: GitHub forum, hosting websites, GitHub Classroom, etc.
+
+### 1.3 Setup for RStudio
+
+**Make your account and install into RStudio**
+
+- Sign up at www.github.com 
+- In console: `install.packages("devtools")`
+      - If this doesn't work, you might need to update your R
+      - Update at https://www.r-project.org/
+      
+**Start your first project**
+
+- Create a new GitHub Repository 
+- (If collaborative) Open options in your repo -> Share with collaborators
+- In the GitHub repo: Clone or Download -> Copy the repo link
+- In RStudio: File -> New Project -> Version Control -> Git -> Paste the link
+- Check out Git tab in top right corner alongside Environment, History, and Connections
+
+**Quick note**
+
+- Gitignore: what local files or filetypes should Git ignore in prompting you to Commit in the Git tab? (e.g., `*.Rproj` in your `.gitignore`)
+- Readme: let people know what cool thing you're building in your `readme.md`
+
+More information: https://www.datacamp.com/community/tutorials/git-setup
+
+### 1.4 Three Main Git Functions
+
+1. Commit: create a new commit containing the current contents of the index and the given log message describing the changes (https://git-scm.com/docs/git-commit)
+2. Push: push the local version of directory into your Git directory, i.e, your repo (https://git-scm.com/docs/git-push)
+3. Pull: pull the current online version of the project into your local directory. Used when the online version has been edited since you last clones/pulled. Maintains both the changes in the online version and your local version
+
+Very simple guide on the workflow: http://rogerdudler.github.io/git-guide/
+
+A more detailed guide: https://happygitwithr.com/rstudio-git-github.html
+
+### 1.5 Working with Git from the Shell
+
+Use `man git` in Shell for help
+
+- Commit: `git commit -m "Commit message"`
+- Push: `git push origin master`
+- Pull: `git pull`
+
+### 1.6 More Resources
+
+- GitHub Cheat Sheet: https://education.github.com/git-cheat-sheet-education.pdf
+- A solid introduction: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668
+
+# 2 R Markdown (aka Rmd)
+
+### 2.1 What is Rmd?
+
+"R Markdown is a file format for making dynamic documents with R. An R Markdown document is written in markdown (an easy-to-write plain text format) and contains chunks of embedded R code, like the document below." - https://rmarkdown.rstudio.com/articles_intro.html
+
+### 2.2 Why Rmd?
+
+- This is written in Rmd! So cool!
+- Using Rscripts is cumbersome: Rmd lets you analyze and present data in one go
+- Can publish as html, pdf, and word doc
+- Automatically LaTeXs if you publish to pdf
+- Can handle complex scientific and mathematic notation
+
+### 2.3 Setup
+
+Very simple. Next time you make a new file, make it a R Markdown file instead of a R script and save it as `x.Rmd`
+
+### 2.4 Chunks and Chunk Options
+
+**Chunks**
+
+A mini-R-script in the middle of your text, headings, etc. in Markdown
+
+E.g.:
+
+```{r demo_markdown, include=TRUE, message=FALSE}
+library(tidyverse)
+# Making a random dummy dataframe
+x <- data.frame(replicate(5,sample(0:1,1000,rep=TRUE)))
+# Print three rows of our dummy df
+x[1:3,]
+```
+
+**Chunk Options**
+
+You might not want to show your code, the warnings, and messages but show the output--Rmd let's you control that.
+
+E.g.: There's a hidden chunk below but you'll only see the table it outputs
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+options(tinytex.verbose = TRUE)
+library(gt)
+library(dplyr)
+
+x %>% 
+  group_by(X1) %>% 
+  summarise() %>% 
+  gt() %>% 
+  tab_header("Cool table")
+```
+
+
+**Global Options**
+
+You can also initialize a setup chunk with global chunk options like below.
+
+`knitr::opts_chunk$set(include = TRUE, warning = FALSE) # Random chunk options`
+
+Here's a [cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)!
+
+### 2.5 Knitting to Different File Formats
+
+- `Cmd or Ctrl + Shift + K` to knit to chosen format
+- Use the Knit button in the RStudio toolbar to knit to some other format
+- Alternately, edit the YAML header at the top of the file. Options include:
+
+    `output:`
+
+        pdf_document: default
+  
+        word_document: default
+  
+        html_document: default
+
+### 2.6 More Resources
+
+- Xie, Yihue. [R Markdown: The Definite Guide](https://bookdown.org/yihui/rmarkdown/yihui-xie.html) (written in [Bookdown](https://bookdown.org/yihui/bookdown/)!)
+- R for Data Science (R4DS) [Chapter](https://r4ds.had.co.nz/r-markdown.html) on Rmds
