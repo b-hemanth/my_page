@@ -1,7 +1,7 @@
 ---
 title: Twitter in the Biggest Election - Web App
 author: Hemanth Bharatha Chakravarthy
-date: '2019-11-27'
+date: '2019-03-27'
 slug: follow-up-on-the-chowkidar
 categories:
   - R

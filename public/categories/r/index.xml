@@ -2,32 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Hemanth Bharatha Chakravarthy</title>
-    <link>/categories/r/</link>
+    <link>https://b-hemanth.com/categories/r/</link>
     <description>Recent content in R on Hemanth Bharatha Chakravarthy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Apr 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://b-hemanth.com/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Twitter in the Biggest Election - Web App</title>
-      <link>/2019/11/27/follow-up-on-the-chowkidar/</link>
-      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/2019/11/27/follow-up-on-the-chowkidar/</guid>
-      <description>Studying Twitter&amp;rsquo;s response to the Main Bhi Chowkidar (I too am a guard) electoral campaign of the Bharatiya Janata Party (Background, Wiki), analyzing it using machine learning to study sentiments, representing views geospatially on a map, studying tweet frequency lumping and potential bot activity, and more!
-Shiny App Link!
-Github for code and ReadMe.</description>
-    </item>
     
     <item>
       <title>Gunshots in DC - Web App</title>
-      <link>/2019/04/22/gunshots-in-dc-web-app/</link>
+      <link>https://b-hemanth.com/2019/04/22/gunshots-in-dc-web-app/</link>
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/2019/04/22/gunshots-in-dc-web-app/</guid>
+      <guid>https://b-hemanth.com/2019/04/22/gunshots-in-dc-web-app/</guid>
       <description>I built a web app with Ilkin Bayramli studying gunshots in Washington D.C. We do interactive geospatial animated analysis of gunshot data: i.e., select your inputs to view animated maps of gunshots in DC in different time periods.
 Shiny App link!
 GitHub for code and ReadMe.
@@ -35,11 +24,22 @@ Thanks to Jillian Carr and Jennifer Doleac for building the shotspotter dataset 
     </item>
     
     <item>
+      <title>Twitter in the Biggest Election - Web App</title>
+      <link>https://b-hemanth.com/2019/03/27/follow-up-on-the-chowkidar/</link>
+      <pubDate>Wed, 27 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-hemanth.com/2019/03/27/follow-up-on-the-chowkidar/</guid>
+      <description>Studying Twitter&amp;rsquo;s response to the Main Bhi Chowkidar (I too am a guard) electoral campaign of the Bharatiya Janata Party (Background, Wiki), analyzing it using machine learning to study sentiments, representing views geospatially on a map, studying tweet frequency lumping and potential bot activity, and more!
+Shiny App Link!
+Github for code and ReadMe.</description>
+    </item>
+    
+    <item>
       <title>An Introduction to GitHub and R Markdown (Guest Lecture at Stella Maris College, Chennai)</title>
-      <link>/2019/03/22/introduction-to-github-and-r-markdown/</link>
+      <link>https://b-hemanth.com/2019/03/22/introduction-to-github-and-r-markdown/</link>
       <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/2019/03/22/introduction-to-github-and-r-markdown/</guid>
+      <guid>https://b-hemanth.com/2019/03/22/introduction-to-github-and-r-markdown/</guid>
       <description>Notes from a guest lecture I delivered in March 2019 at the Department of Computer Science at Stella Maris College, Chennai, offering a simple introduction to GitHub with R and R Markdown.
 1 GitHub 1.1 What is GitHub?  Cloud-based version control system But what is version control?
  - Simple analogy: Google Drive for developers - Track and manage changes to your code - Version control lets developers safely work through branching and merging - Work with online Git repository - Make changes in your own branch - Merge with online cloud branch - Changes are tracked and can be reverted if needed   1.</description>
@@ -47,10 +47,10 @@ Thanks to Jillian Carr and Jennifer Doleac for building the shotspotter dataset 
     
     <item>
       <title>Chowkidar Campaign: What is the Twitter Sentiment?</title>
-      <link>/2019/03/21/chowkidar-campaign-what-is-the-twitter-sentiment/</link>
+      <link>https://b-hemanth.com/2019/03/21/chowkidar-campaign-what-is-the-twitter-sentiment/</link>
       <pubDate>Thu, 21 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/2019/03/21/chowkidar-campaign-what-is-the-twitter-sentiment/</guid>
+      <guid>https://b-hemanth.com/2019/03/21/chowkidar-campaign-what-is-the-twitter-sentiment/</guid>
       <description>Analysis of Twitter Reactions to the BJP’s #Chowkidar Campaign I analyzed a mixed sample of the most popular and most recent one hundred and eight thousand tweets in English from the last three days (as of 20 March, 2019, 10:07 pm EST) on the Bharatiya Janata Party’s #MainBhiChowkidar campaign.
 # # Tibble and text processing # temp_1 &amp;lt;- x %&amp;gt;% # # Lose useless columns # select(created_at, text, favourites_count, retweet_count) %&amp;gt;% # # Convert text to lower text # mutate(text = tolower(text)) # # Note: https://hackernoon.</description>
     </item>
