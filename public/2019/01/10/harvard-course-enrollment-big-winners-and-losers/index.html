@@ -65,7 +65,7 @@
 
   <article class="article">
     
-    <span class="article-duration">1 min read</span>
+    <span class="article-duration">6 min read</span>
     
 
     <h1 class="article-title">Harvard Course Enrollment: Big Winners and Losers</h1>
@@ -82,6 +82,878 @@
 <h2>Biggest Departmental Changes in Enrolments at Harvard</h2>
 <p><a href="https://github.com/b-hemanth/harvard_courses_enrolment_analysis">Code and ReadMe</a>.</p>
 <p><img src="/post/course_enrol.png" alt="courses" width="800"/></p>
+<script>
+<div id="biggest-drops-in-enrollment" class="section level1">
+<h1>
+Biggest Drops in Enrollment
+</h1>
+<style>html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+#lasoucwnnn .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000000;
+  font-size: 16px;
+  background-color: #FFFFFF;
+  /* table.background.color */
+  width: auto;
+  /* table.width */
+  border-top-style: solid;
+  /* table.border.top.style */
+  border-top-width: 2px;
+  /* table.border.top.width */
+  border-top-color: #A8A8A8;
+  /* table.border.top.color */
+}
+
+#lasoucwnnn .gt_heading {
+  background-color: #FFFFFF;
+  /* heading.background.color */
+  border-bottom-color: #FFFFFF;
+}
+
+#lasoucwnnn .gt_title {
+  color: #000000;
+  font-size: 125%;
+  /* heading.title.font.size */
+  padding-top: 4px;
+  /* heading.top.padding */
+  padding-bottom: 1px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#lasoucwnnn .gt_subtitle {
+  color: #000000;
+  font-size: 85%;
+  /* heading.subtitle.font.size */
+  padding-top: 1px;
+  padding-bottom: 4px;
+  /* heading.bottom.padding */
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#lasoucwnnn .gt_bottom_border {
+  border-bottom-style: solid;
+  /* heading.border.bottom.style */
+  border-bottom-width: 2px;
+  /* heading.border.bottom.width */
+  border-bottom-color: #A8A8A8;
+  /* heading.border.bottom.color */
+}
+
+#lasoucwnnn .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#lasoucwnnn .gt_col_heading {
+  color: #000000;
+  background-color: #FFFFFF;
+  /* column_labels.background.color */
+  font-size: 16px;
+  /* column_labels.font.size */
+  font-weight: initial;
+  /* column_labels.font.weight */
+  vertical-align: middle;
+  padding: 10px;
+  margin: 10px;
+}
+
+#lasoucwnnn .gt_sep_right {
+  border-right: 5px solid #FFFFFF;
+}
+
+#lasoucwnnn .gt_group_heading {
+  padding: 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  /* stub_group.background.color */
+  font-size: 16px;
+  /* stub_group.font.size */
+  font-weight: initial;
+  /* stub_group.font.weight */
+  border-top-style: solid;
+  /* stub_group.border.top.style */
+  border-top-width: 2px;
+  /* stub_group.border.top.width */
+  border-top-color: #A8A8A8;
+  /* stub_group.border.top.color */
+  border-bottom-style: solid;
+  /* stub_group.border.bottom.style */
+  border-bottom-width: 2px;
+  /* stub_group.border.bottom.width */
+  border-bottom-color: #A8A8A8;
+  /* stub_group.border.bottom.color */
+  vertical-align: middle;
+}
+
+#lasoucwnnn .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #000000;
+  background-color: #FFFFFF;
+  /* stub_group.background.color */
+  font-size: 16px;
+  /* stub_group.font.size */
+  font-weight: initial;
+  /* stub_group.font.weight */
+  border-top-style: solid;
+  /* stub_group.border.top.style */
+  border-top-width: 2px;
+  /* stub_group.border.top.width */
+  border-top-color: #A8A8A8;
+  /* stub_group.border.top.color */
+  border-bottom-style: solid;
+  /* stub_group.border.bottom.style */
+  border-bottom-width: 2px;
+  /* stub_group.border.bottom.width */
+  border-bottom-color: #A8A8A8;
+  /* stub_group.border.bottom.color */
+  vertical-align: middle;
+}
+
+#lasoucwnnn .gt_striped {
+  background-color: #f2f2f2;
+}
+
+#lasoucwnnn .gt_row {
+  padding: 10px;
+  /* row.padding */
+  margin: 10px;
+  vertical-align: middle;
+}
+
+#lasoucwnnn .gt_stub {
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #A8A8A8;
+  padding-left: 12px;
+}
+
+#lasoucwnnn .gt_stub.gt_row {
+  background-color: #FFFFFF;
+}
+
+#lasoucwnnn .gt_summary_row {
+  background-color: #FFFFFF;
+  /* summary_row.background.color */
+  padding: 6px;
+  /* summary_row.padding */
+  text-transform: inherit;
+  /* summary_row.text_transform */
+}
+
+#lasoucwnnn .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+}
+
+#lasoucwnnn .gt_table_body {
+  border-top-style: solid;
+  /* field.border.top.style */
+  border-top-width: 2px;
+  /* field.border.top.width */
+  border-top-color: #A8A8A8;
+  /* field.border.top.color */
+  border-bottom-style: solid;
+  /* field.border.bottom.style */
+  border-bottom-width: 2px;
+  /* field.border.bottom.width */
+  border-bottom-color: #A8A8A8;
+  /* field.border.bottom.color */
+}
+
+#lasoucwnnn .gt_footnote {
+  font-size: 90%;
+  /* footnote.font.size */
+  padding: 4px;
+  /* footnote.padding */
+}
+
+#lasoucwnnn .gt_sourcenote {
+  font-size: 90%;
+  /* sourcenote.font.size */
+  padding: 4px;
+  /* sourcenote.padding */
+}
+
+#lasoucwnnn .gt_center {
+  text-align: center;
+}
+
+#lasoucwnnn .gt_left {
+  text-align: left;
+}
+
+#lasoucwnnn .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#lasoucwnnn .gt_font_normal {
+  font-weight: normal;
+}
+
+#lasoucwnnn .gt_font_bold {
+  font-weight: bold;
+}
+
+#lasoucwnnn .gt_font_italic {
+  font-style: italic;
+}
+
+#lasoucwnnn .gt_super {
+  font-size: 65%;
+}
+
+#lasoucwnnn .gt_footnote_glyph {
+  font-style: italic;
+  font-size: 65%;
+}
+</style>
+<div id="lasoucwnnn" style="overflow-x:auto;">
+<!--gt table start-->
+<table class="gt_table">
+<thead>
+<tr>
+<th colspan="5" class="gt_heading gt_title gt_font_normal gt_center">
+Biggest Enrollment Decreases in Spring 2019
+</th>
+</tr>
+<tr>
+<th colspan="5" class="gt_heading gt_subtitle gt_font_normal gt_center gt_bottom_border">
+</th>
+</tr>
+</thead>
+<tr>
+<th class="gt_col_heading gt_left" rowspan="1" colspan="1">
+Number
+</th>
+<th class="gt_col_heading gt_left" rowspan="1" colspan="1">
+Name
+</th>
+<th class="gt_col_heading gt_right" rowspan="1" colspan="1">
+2018
+</th>
+<th class="gt_col_heading gt_right" rowspan="1" colspan="1">
+2019
+</th>
+<th class="gt_col_heading gt_right" rowspan="1" colspan="1">
+Change
+</th>
+</tr>
+<tbody class="gt_table_body">
+<tr>
+<td class="gt_row gt_left">
+SOCWORLD 38
+</td>
+<td class="gt_row gt_left">
+Arch Hist of Ancient Egypt
+</td>
+<td class="gt_row gt_right">
+322
+</td>
+<td class="gt_row gt_right">
+63
+</td>
+<td class="gt_row gt_right">
+-259
+</td>
+</tr>
+<tr>
+<td class="gt_row gt_left gt_striped">
+ECON 10B
+</td>
+<td class="gt_row gt_left gt_striped">
+Principles of Economics
+</td>
+<td class="gt_row gt_right gt_striped">
+579
+</td>
+<td class="gt_row gt_right gt_striped">
+460
+</td>
+<td class="gt_row gt_right gt_striped">
+-119
+</td>
+</tr>
+<tr>
+<td class="gt_row gt_left">
+SOCWORLD 44
+</td>
+<td class="gt_row gt_left">
+Human Traffking,Slavery&amp;Abolit
+</td>
+<td class="gt_row gt_right">
+105
+</td>
+<td class="gt_row gt_right">
+8
+</td>
+<td class="gt_row gt_right">
+-97
+</td>
+</tr>
+<tr>
+<td class="gt_row gt_left gt_striped">
+MATH 21B
+</td>
+<td class="gt_row gt_left gt_striped">
+Linear Algebra &amp; Differntl Equ
+</td>
+<td class="gt_row gt_right gt_striped">
+317
+</td>
+<td class="gt_row gt_right gt_striped">
+223
+</td>
+<td class="gt_row gt_right gt_striped">
+-94
+</td>
+</tr>
+<tr>
+<td class="gt_row gt_left">
+PHYSCI 1
+</td>
+<td class="gt_row gt_left">
+Physical Sciences 1
+</td>
+<td class="gt_row gt_right">
+129
+</td>
+<td class="gt_row gt_right">
+53
+</td>
+<td class="gt_row gt_right">
+-76
+</td>
+</tr>
+<tr>
+<td class="gt_row gt_left gt_striped">
+HEB 1420
+</td>
+<td class="gt_row gt_left gt_striped">
+Human Evolutionary Anatomy
+</td>
+<td class="gt_row gt_right gt_striped">
+80
+</td>
+<td class="gt_row gt_right gt_striped">
+10
+</td>
+<td class="gt_row gt_right gt_striped">
+-70
+</td>
+</tr>
+<tr>
+<td class="gt_row gt_left">
+ENGLISH 178X
+</td>
+<td class="gt_row gt_left">
+The American Novel
+</td>
+<td class="gt_row gt_right">
+121
+</td>
+<td class="gt_row gt_right">
+53
+</td>
+<td class="gt_row gt_right">
+-68
+</td>
+</tr>
+<tr>
+<td class="gt_row gt_left gt_striped">
+ECON 1818
+</td>
+<td class="gt_row gt_left gt_striped">
+Econ of Discontinuous Change
+</td>
+<td class="gt_row gt_right gt_striped">
+74
+</td>
+<td class="gt_row gt_right gt_striped">
+13
+</td>
+<td class="gt_row gt_right gt_striped">
+-61
+</td>
+</tr>
+<tr>
+<td class="gt_row gt_left">
+CULTBLF 33
+</td>
+<td class="gt_row gt_left">
+Study of East Asian Religions
+</td>
+<td class="gt_row gt_right">
+105
+</td>
+<td class="gt_row gt_right">
+45
+</td>
+<td class="gt_row gt_right">
+-60
+</td>
+</tr>
+<tr>
+<td class="gt_row gt_left gt_striped">
+MUSIC 2
+</td>
+<td class="gt_row gt_left gt_striped">
+Foundations of Tonal Music I
+</td>
+<td class="gt_row gt_right gt_striped">
+105
+</td>
+<td class="gt_row gt_right gt_striped">
+48
+</td>
+<td class="gt_row gt_right gt_striped">
+-57
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td colspan="6" class="gt_sourcenote">
+Data from the Harvard Registrar
+</td>
+</tr>
+</tfoot>
+</table>
+<!--gt table end-->
+</div>
+</div>
+<div id="biggest-new-classes" class="section level1">
+<h1>
+Biggest New Classes
+</h1>
+<style>html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+#ecwsklysrn .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000000;
+  font-size: 16px;
+  background-color: #FFFFFF;
+  /* table.background.color */
+  width: auto;
+  /* table.width */
+  border-top-style: solid;
+  /* table.border.top.style */
+  border-top-width: 2px;
+  /* table.border.top.width */
+  border-top-color: #A8A8A8;
+  /* table.border.top.color */
+}
+
+#ecwsklysrn .gt_heading {
+  background-color: #FFFFFF;
+  /* heading.background.color */
+  border-bottom-color: #FFFFFF;
+}
+
+#ecwsklysrn .gt_title {
+  color: #000000;
+  font-size: 125%;
+  /* heading.title.font.size */
+  padding-top: 4px;
+  /* heading.top.padding */
+  padding-bottom: 1px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#ecwsklysrn .gt_subtitle {
+  color: #000000;
+  font-size: 85%;
+  /* heading.subtitle.font.size */
+  padding-top: 1px;
+  padding-bottom: 4px;
+  /* heading.bottom.padding */
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#ecwsklysrn .gt_bottom_border {
+  border-bottom-style: solid;
+  /* heading.border.bottom.style */
+  border-bottom-width: 2px;
+  /* heading.border.bottom.width */
+  border-bottom-color: #A8A8A8;
+  /* heading.border.bottom.color */
+}
+
+#ecwsklysrn .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#ecwsklysrn .gt_col_heading {
+  color: #000000;
+  background-color: #FFFFFF;
+  /* column_labels.background.color */
+  font-size: 16px;
+  /* column_labels.font.size */
+  font-weight: initial;
+  /* column_labels.font.weight */
+  vertical-align: middle;
+  padding: 10px;
+  margin: 10px;
+}
+
+#ecwsklysrn .gt_sep_right {
+  border-right: 5px solid #FFFFFF;
+}
+
+#ecwsklysrn .gt_group_heading {
+  padding: 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  /* stub_group.background.color */
+  font-size: 16px;
+  /* stub_group.font.size */
+  font-weight: initial;
+  /* stub_group.font.weight */
+  border-top-style: solid;
+  /* stub_group.border.top.style */
+  border-top-width: 2px;
+  /* stub_group.border.top.width */
+  border-top-color: #A8A8A8;
+  /* stub_group.border.top.color */
+  border-bottom-style: solid;
+  /* stub_group.border.bottom.style */
+  border-bottom-width: 2px;
+  /* stub_group.border.bottom.width */
+  border-bottom-color: #A8A8A8;
+  /* stub_group.border.bottom.color */
+  vertical-align: middle;
+}
+
+#ecwsklysrn .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #000000;
+  background-color: #FFFFFF;
+  /* stub_group.background.color */
+  font-size: 16px;
+  /* stub_group.font.size */
+  font-weight: initial;
+  /* stub_group.font.weight */
+  border-top-style: solid;
+  /* stub_group.border.top.style */
+  border-top-width: 2px;
+  /* stub_group.border.top.width */
+  border-top-color: #A8A8A8;
+  /* stub_group.border.top.color */
+  border-bottom-style: solid;
+  /* stub_group.border.bottom.style */
+  border-bottom-width: 2px;
+  /* stub_group.border.bottom.width */
+  border-bottom-color: #A8A8A8;
+  /* stub_group.border.bottom.color */
+  vertical-align: middle;
+}
+
+#ecwsklysrn .gt_striped {
+  background-color: #f2f2f2;
+}
+
+#ecwsklysrn .gt_row {
+  padding: 10px;
+  /* row.padding */
+  margin: 10px;
+  vertical-align: middle;
+}
+
+#ecwsklysrn .gt_stub {
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #A8A8A8;
+  padding-left: 12px;
+}
+
+#ecwsklysrn .gt_stub.gt_row {
+  background-color: #FFFFFF;
+}
+
+#ecwsklysrn .gt_summary_row {
+  background-color: #FFFFFF;
+  /* summary_row.background.color */
+  padding: 6px;
+  /* summary_row.padding */
+  text-transform: inherit;
+  /* summary_row.text_transform */
+}
+
+#ecwsklysrn .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+}
+
+#ecwsklysrn .gt_table_body {
+  border-top-style: solid;
+  /* field.border.top.style */
+  border-top-width: 2px;
+  /* field.border.top.width */
+  border-top-color: #A8A8A8;
+  /* field.border.top.color */
+  border-bottom-style: solid;
+  /* field.border.bottom.style */
+  border-bottom-width: 2px;
+  /* field.border.bottom.width */
+  border-bottom-color: #A8A8A8;
+  /* field.border.bottom.color */
+}
+
+#ecwsklysrn .gt_footnote {
+  font-size: 90%;
+  /* footnote.font.size */
+  padding: 4px;
+  /* footnote.padding */
+}
+
+#ecwsklysrn .gt_sourcenote {
+  font-size: 90%;
+  /* sourcenote.font.size */
+  padding: 4px;
+  /* sourcenote.padding */
+}
+
+#ecwsklysrn .gt_center {
+  text-align: center;
+}
+
+#ecwsklysrn .gt_left {
+  text-align: left;
+}
+
+#ecwsklysrn .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#ecwsklysrn .gt_font_normal {
+  font-weight: normal;
+}
+
+#ecwsklysrn .gt_font_bold {
+  font-weight: bold;
+}
+
+#ecwsklysrn .gt_font_italic {
+  font-style: italic;
+}
+
+#ecwsklysrn .gt_super {
+  font-size: 65%;
+}
+
+#ecwsklysrn .gt_footnote_glyph {
+  font-style: italic;
+  font-size: 65%;
+}
+</style>
+<div id="ecwsklysrn" style="overflow-x:auto;">
+<!--gt table start-->
+<table class="gt_table">
+<thead>
+<tr>
+<th colspan="4" class="gt_heading gt_title gt_font_normal gt_center">
+Biggest New Classes in Spring 2019
+</th>
+</tr>
+<tr>
+<th colspan="4" class="gt_heading gt_subtitle gt_font_normal gt_center gt_bottom_border">
+</th>
+</tr>
+</thead>
+<tr>
+<th class="gt_col_heading gt_left" rowspan="1" colspan="1">
+Department
+</th>
+<th class="gt_col_heading gt_left" rowspan="1" colspan="1">
+Number
+</th>
+<th class="gt_col_heading gt_left" rowspan="1" colspan="1">
+Name
+</th>
+<th class="gt_col_heading gt_right" rowspan="1" colspan="1">
+Enrollment
+</th>
+</tr>
+<tbody class="gt_table_body">
+<tr>
+<td class="gt_row gt_left">
+Psychology
+</td>
+<td class="gt_row gt_left">
+PSY 18
+</td>
+<td class="gt_row gt_left">
+Abnormal Psychology
+</td>
+<td class="gt_row gt_right">
+416
+</td>
+</tr>
+<tr>
+<td class="gt_row gt_left gt_striped">
+Economics
+</td>
+<td class="gt_row gt_left gt_striped">
+ECON 1152
+</td>
+<td class="gt_row gt_left gt_striped">
+Big Data
+</td>
+<td class="gt_row gt_right gt_striped">
+360
+</td>
+</tr>
+<tr>
+<td class="gt_row gt_left">
+History of Science
+</td>
+<td class="gt_row gt_left">
+HISTSCI 189
+</td>
+<td class="gt_row gt_left">
+Technology and Society
+</td>
+<td class="gt_row gt_right">
+259
+</td>
+</tr>
+<tr>
+<td class="gt_row gt_left gt_striped">
+General Education
+</td>
+<td class="gt_row gt_left gt_striped">
+US-WORLD 43
+</td>
+<td class="gt_row gt_left gt_striped">
+Ancestry
+</td>
+<td class="gt_row gt_right gt_striped">
+256
+</td>
+</tr>
+<tr>
+<td class="gt_row gt_left">
+Computer Science
+</td>
+<td class="gt_row gt_left">
+COMPSCI 51
+</td>
+<td class="gt_row gt_left">
+Computation Abstraction&amp;Design
+</td>
+<td class="gt_row gt_right">
+242
+</td>
+</tr>
+<tr>
+<td class="gt_row gt_left gt_striped">
+General Education
+</td>
+<td class="gt_row gt_left gt_striped">
+ETHRSON 46
+</td>
+<td class="gt_row gt_left gt_striped">
+Evolving Morality
+</td>
+<td class="gt_row gt_right gt_striped">
+217
+</td>
+</tr>
+<tr>
+<td class="gt_row gt_left">
+General Education
+</td>
+<td class="gt_row gt_left">
+SOCWORLD 24
+</td>
+<td class="gt_row gt_left">
+World Health
+</td>
+<td class="gt_row gt_right">
+167
+</td>
+</tr>
+<tr>
+<td class="gt_row gt_left gt_striped">
+Folklore &amp; Mythology
+</td>
+<td class="gt_row gt_left gt_striped">
+FOLKMYTH 106
+</td>
+<td class="gt_row gt_left gt_striped">
+Hist of Witchcraft and Charm
+</td>
+<td class="gt_row gt_right gt_striped">
+152
+</td>
+</tr>
+<tr>
+<td class="gt_row gt_left">
+General Education
+</td>
+<td class="gt_row gt_left">
+US-WORLD 11
+</td>
+<td class="gt_row gt_left">
+Am Health Care Policy
+</td>
+<td class="gt_row gt_right">
+152
+</td>
+</tr>
+<tr>
+<td class="gt_row gt_left gt_striped">
+General Education
+</td>
+<td class="gt_row gt_left gt_striped">
+ETHRSON 42
+</td>
+<td class="gt_row gt_left gt_striped">
+Sex and Ethical Reasoning
+</td>
+<td class="gt_row gt_right gt_striped">
+148
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td colspan="5" class="gt_sourcenote">
+Data from the Harvard Registrar
+</td>
+</tr>
+</tfoot>
+</table>
+<!--gt table end-->
+</div>
+</div>
+</div>
+<script>
 </div>
 
     </div>
