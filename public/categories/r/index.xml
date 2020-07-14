@@ -27,9 +27,9 @@
       
       <guid>https://b-hemanth.com/2019/04/22/gunshots-in-dc-web-app/</guid>
       <description>I built a web app with Ilkin Bayramli studying gunshots in Washington D.C. We do interactive geospatial animated analysis of gunshot data: i.e., select your inputs to view animated maps of gunshots in DC in different time periods.
-Shiny App link!
+Shiny App link! A disclaimer: Shiny, while convenient, interactive, and open source (maybe because of this) is terribly slow at loading interactive GIFs.
 GitHub for code and ReadMe.
-Thanks to Jillian Carr and Jennifer Doleac for building the shotspotter dataset with the Justice Tech Lab in DC. The way the shotspotter dataset is made is quite interesting: &amp;ldquo;acoustic sensors detect the sound of gunfire and record the precise timestamp as well as the triangulated location of all gunfire incidents in a covered area.</description>
+Thanks to Jillian Carr and Jennifer Doleac for building the shotspotter dataset with the Justice Tech Lab in DC.</description>
     </item>
     
     <item>

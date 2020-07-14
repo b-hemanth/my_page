@@ -10,7 +10,7 @@ tags: []
 
 I built a web app with [Ilkin Bayramli](https://github.com/ibayramli2001) studying gunshots in Washington D.C. We do interactive geospatial animated analysis of gunshot data: i.e., select your inputs to view animated maps of gunshots in DC in different time periods. 
 
-[**Shiny App link**](https://ibayramli2001.shinyapps.io/shotspotter/)!
+[**Shiny App link**](https://ibayramli2001.shinyapps.io/shotspotter/)! A disclaimer: [Shiny](https://shiny.rstudio.com/), while convenient, interactive, and open source (maybe because of this) is terribly slow at loading interactive GIFs.
 
 [**GitHub for code and ReadMe**](https://github.com/b-hemanth/shotspotter).
 
