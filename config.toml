@@ -11,11 +11,11 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [[menu.main]]
     name = "About"
-    url = "/about/"
+    url = "/"
     weight = 1   
 [[menu.main]]
     name = "Blog"
-    url = "/"
+    url = "/blog/"
     weight = 2
 [[menu.main]]
     name = "GitHub"
@@ -52,7 +52,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     MathJaxVersion = "2.7.5"
 
     # path to the favicon, under "static"
-    favicon = "favicon.ico"
+    favicon = "hemanth.ico"
 
     [params.logo]
     url = "hbc_logo.png"
