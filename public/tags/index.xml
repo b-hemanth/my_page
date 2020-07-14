@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Hemanth Bharatha Chakravarthy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://b-hemanth.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>regression</title>
+      <link>https://b-hemanth.com/tags/regression/</link>
+      <pubDate>Thu, 04 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-hemanth.com/tags/regression/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Democracy</title>
@@ -53,15 +62,6 @@
       <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://b-hemanth.com/tags/modi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>regression</title>
-      <link>https://b-hemanth.com/tags/regression/</link>
-      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://b-hemanth.com/tags/regression/</guid>
       <description></description>
     </item>
     
