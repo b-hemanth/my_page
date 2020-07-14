@@ -1,5 +1,5 @@
 ---
-title: App on India's BJP's Chowkidar Campaign and Twitter Response
+title: Web App Studying Twitter in the Biggest Election in the World
 author: Hemanth Bharatha Chakravarthy
 date: '2019-11-27'
 slug: follow-up-on-the-chowkidar
