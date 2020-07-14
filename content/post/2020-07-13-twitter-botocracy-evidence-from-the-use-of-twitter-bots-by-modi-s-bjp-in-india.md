@@ -16,4 +16,6 @@ tags:
   - Twitter
 ---
 
-<embed src="https://drive.google.com/file/d/1ub-B6JAlOCQs38I3ZZD6kYFS8Gx0Tu33/view?usp=sharing" width="500" height="375">
+<iframe src="https://drive.google.com/file/d/1ub-B6JAlOCQs38I3ZZD6kYFS8Gx0Tu33/view?usp=sharing" style="width:718px; height:700px;" frameborder="0"></iframe>
+
+# <embed src="https://drive.google.com/file/d/1ub-B6JAlOCQs38I3ZZD6kYFS8Gx0Tu33/view?usp=sharing" width="500" height="375">
