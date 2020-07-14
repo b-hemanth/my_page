@@ -1,31 +1,112 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Hemanth Bharatha Chakravarthy</title>
-    <link>/tags/</link>
+    <link>https://b-hemanth.com/tags/</link>
     <description>Recent content in Tags on Hemanth Bharatha Chakravarthy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://b-hemanth.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Data</title>
-      <link>/tags/data/</link>
-      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
+      <title>2019 Elections</title>
+      <link>https://b-hemanth.com/tags/2019-elections/</link>
+      <pubDate>Thu, 21 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/data/</guid>
+      <guid>https://b-hemanth.com/tags/2019-elections/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Democracy</title>
+      <link>https://b-hemanth.com/tags/democracy/</link>
+      <pubDate>Thu, 21 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-hemanth.com/tags/democracy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>India</title>
-      <link>/tags/india/</link>
+      <link>https://b-hemanth.com/tags/india/</link>
       <pubDate>Thu, 21 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/india/</guid>
+      <guid>https://b-hemanth.com/tags/india/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Indian Elections</title>
+      <link>https://b-hemanth.com/tags/indian-elections/</link>
+      <pubDate>Thu, 21 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-hemanth.com/tags/indian-elections/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lok Sabha Elections</title>
+      <link>https://b-hemanth.com/tags/lok-sabha-elections/</link>
+      <pubDate>Thu, 21 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-hemanth.com/tags/lok-sabha-elections/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modi</title>
+      <link>https://b-hemanth.com/tags/modi/</link>
+      <pubDate>Thu, 21 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-hemanth.com/tags/modi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plot</title>
+      <link>https://b-hemanth.com/tags/plot/</link>
+      <pubDate>Thu, 21 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-hemanth.com/tags/plot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Markdown</title>
+      <link>https://b-hemanth.com/tags/r-markdown/</link>
+      <pubDate>Thu, 21 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-hemanth.com/tags/r-markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rahul Gandhi</title>
+      <link>https://b-hemanth.com/tags/rahul-gandhi/</link>
+      <pubDate>Thu, 21 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-hemanth.com/tags/rahul-gandhi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regression</title>
+      <link>https://b-hemanth.com/tags/regression/</link>
+      <pubDate>Thu, 21 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-hemanth.com/tags/regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Twitter</title>
+      <link>https://b-hemanth.com/tags/twitter/</link>
+      <pubDate>Thu, 21 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-hemanth.com/tags/twitter/</guid>
       <description></description>
     </item>
     

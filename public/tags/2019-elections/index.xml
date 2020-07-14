@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2019 Elections on Hemanth Bharatha Chakravarthy</title>
+    <link>https://b-hemanth.com/tags/2019-elections/</link>
+    <description>Recent content in 2019 Elections on Hemanth Bharatha Chakravarthy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://b-hemanth.com/tags/2019-elections/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Chowkidar Campaign: What is the Twitter Sentiment?</title>
+      <link>https://b-hemanth.com/2019/03/21/chowkidar-campaign-what-is-the-twitter-sentiment/</link>
+      <pubDate>Thu, 21 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-hemanth.com/2019/03/21/chowkidar-campaign-what-is-the-twitter-sentiment/</guid>
+      <description>Analysis of Twitter Reactions to the BJP’s #Chowkidar Campaign I analyzed a mixed sample of the most popular and most recent one hundred and eight thousand tweets in English from the last three days (as of 20 March, 2019, 10:07 pm EST) on the Bharatiya Janata Party’s #MainBhiChowkidar campaign.
+# # Tibble and text processing # temp_1 &amp;lt;- x %&amp;gt;% # # Lose useless columns # select(created_at, text, favourites_count, retweet_count) %&amp;gt;% # # Convert text to lower text # mutate(text = tolower(text)) # # Note: https://hackernoon.</description>
+    </item>
+    
+  </channel>
+</rss>
