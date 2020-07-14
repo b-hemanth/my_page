@@ -1,5 +1,5 @@
 ---
-title: Introduction to GitHub and R Markdown
+title: An Introduction to GitHub and R Markdown
 author: Hemanth Bharatha Chakravarthy
 date: '2019-03-22'
 slug: introduction-to-github-and-r-markdown

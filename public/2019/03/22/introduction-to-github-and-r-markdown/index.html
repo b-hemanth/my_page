@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.73.0" />
+
+
+<title>An Introduction to GitHub and R Markdown - Hemanth Bharatha Chakravarthy</title>
+<meta property="og:title" content="An Introduction to GitHub and R Markdown - Hemanth Bharatha Chakravarthy">
+
+
+  <link href='https://b-hemanth.com/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/hbc_logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="/">Blog</a></li>
+    
+    <li><a href="https://github.com/b-hemanth">GitHub</a></li>
+    
+    <li><a href="https://www.linkedin.com/in/b-hemanth/">LinkedIn</a></li>
+    
+    <li><a href="https://www.dropbox.com/s/j9y4md59lo4m5rv/BharathaChakravarthy_Hemanth_resume_jun20.pdf?dl=0">CV</a></li>
+    
+    <li><a href="https://twitter.com/hemanth2510">Twitter</a></li>
+    
+    <li><a href="mailto:hemanthbharathachakravarthy@college.harvard.edu">Contact Me</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">7 min read</span>
+    
+
+    <h1 class="article-title">An Introduction to GitHub and R Markdown</h1>
+
+    
+    <span class="article-date">2019-03-22</span>
+    
+
+    <div class="article-content">
+      
+
+
+<div id="github" class="section level1">
+<h1>1 GitHub</h1>
+<div id="what-is-github" class="section level3">
+<h3>1.1 What is GitHub?</h3>
+<ul>
+<li>Cloud-based version control system</li>
+<li>But what is version control?
+- Simple analogy: Google Drive for developers
+- Track and manage changes to your code
+- Version control lets developers safely work through branching and merging
+- Work with online Git repository
+- Make changes in your own branch
+- Merge with online cloud branch
+- Changes are tracked and can be reverted if needed</li>
+</ul>
+</div>
+<div id="why-github" class="section level3">
+<h3>1.2 Why GitHub?</h3>
+<ul>
+<li>Don’t really have a choice—industry standard!</li>
+<li>Cloud backup</li>
+<li>Collaboration, version control</li>
+<li>Don’t have to reinvent the wheel: use existing Git repos</li>
+<li>Community review of your code</li>
+<li>Other uses: GitHub forum, hosting websites, GitHub Classroom, etc.</li>
+</ul>
+</div>
+<div id="setup-for-rstudio" class="section level3">
+<h3>1.3 Setup for RStudio</h3>
+<p><strong>Make your account and install into RStudio</strong></p>
+<ul>
+<li>Sign up at www.github.com</li>
+<li>In console: <code>install.packages(&quot;devtools&quot;)</code>
+- If this doesn’t work, you might need to update your R
+- Update at <a href="https://www.r-project.org/" class="uri">https://www.r-project.org/</a></li>
+</ul>
+<p><strong>Start your first project</strong></p>
+<ul>
+<li>Create a new GitHub Repository</li>
+<li>(If collaborative) Open options in your repo -&gt; Share with collaborators</li>
+<li>In the GitHub repo: Clone or Download -&gt; Copy the repo link</li>
+<li>In RStudio: File -&gt; New Project -&gt; Version Control -&gt; Git -&gt; Paste the link</li>
+<li>Check out Git tab in top right corner alongside Environment, History, and Connections</li>
+</ul>
+<p><strong>Quick note</strong></p>
+<ul>
+<li>Gitignore: what local files or filetypes should Git ignore in prompting you to Commit in the Git tab? (e.g., <code>*.Rproj</code> in your <code>.gitignore</code>)</li>
+<li>Readme: let people know what cool thing you’re building in your <code>readme.md</code></li>
+</ul>
+<p>More information: <a href="https://www.datacamp.com/community/tutorials/git-setup" class="uri">https://www.datacamp.com/community/tutorials/git-setup</a></p>
+</div>
+<div id="three-main-git-functions" class="section level3">
+<h3>1.4 Three Main Git Functions</h3>
+<ol style="list-style-type: decimal">
+<li>Commit: create a new commit containing the current contents of the index and the given log message describing the changes (<a href="https://git-scm.com/docs/git-commit" class="uri">https://git-scm.com/docs/git-commit</a>)</li>
+<li>Push: push the local version of directory into your Git directory, i.e, your repo (<a href="https://git-scm.com/docs/git-push" class="uri">https://git-scm.com/docs/git-push</a>)</li>
+<li>Pull: pull the current online version of the project into your local directory. Used when the online version has been edited since you last clones/pulled. Maintains both the changes in the online version and your local version</li>
+</ol>
+<p>Very simple guide on the workflow: <a href="http://rogerdudler.github.io/git-guide/" class="uri">http://rogerdudler.github.io/git-guide/</a></p>
+<p>A more detailed guide: <a href="https://happygitwithr.com/rstudio-git-github.html" class="uri">https://happygitwithr.com/rstudio-git-github.html</a></p>
+</div>
+<div id="working-with-git-from-the-shell" class="section level3">
+<h3>1.5 Working with Git from the Shell</h3>
+<p>Use <code>man git</code> in Shell for help</p>
+<ul>
+<li>Commit: <code>git commit -m &quot;Commit message&quot;</code></li>
+<li>Push: <code>git push origin master</code></li>
+<li>Pull: <code>git pull</code></li>
+</ul>
+</div>
+<div id="more-resources" class="section level3">
+<h3>1.6 More Resources</h3>
+<ul>
+<li>GitHub Cheat Sheet: <a href="https://education.github.com/git-cheat-sheet-education.pdf" class="uri">https://education.github.com/git-cheat-sheet-education.pdf</a></li>
+<li>A solid introduction: <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668" class="uri">https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668</a></li>
+</ul>
+</div>
+</div>
+<div id="r-markdown-aka-rmd" class="section level1">
+<h1>2 R Markdown (aka Rmd)</h1>
+<div id="what-is-rmd" class="section level3">
+<h3>2.1 What is Rmd?</h3>
+<p>“R Markdown is a file format for making dynamic documents with R. An R Markdown document is written in markdown (an easy-to-write plain text format) and contains chunks of embedded R code, like the document below.” - <a href="https://rmarkdown.rstudio.com/articles_intro.html" class="uri">https://rmarkdown.rstudio.com/articles_intro.html</a></p>
+</div>
+<div id="why-rmd" class="section level3">
+<h3>2.2 Why Rmd?</h3>
+<ul>
+<li>This is written in Rmd! So cool!</li>
+<li>Using Rscripts is cumbersome: Rmd lets you analyze and present data in one go</li>
+<li>Can publish as html, pdf, and word doc</li>
+<li>Automatically LaTeXs if you publish to pdf</li>
+<li>Can handle complex scientific and mathematic notation</li>
+</ul>
+</div>
+<div id="setup" class="section level3">
+<h3>2.3 Setup</h3>
+<p>Very simple. Next time you make a new file, make it a R Markdown file instead of a R script and save it as <code>x.Rmd</code></p>
+</div>
+<div id="chunks-and-chunk-options" class="section level3">
+<h3>2.4 Chunks and Chunk Options</h3>
+<p><strong>Chunks</strong></p>
+<p>A mini-R-script in the middle of your text, headings, etc. in Markdown</p>
+<p>E.g.:</p>
+<pre class="r"><code>library(tidyverse)
+# Making a random dummy dataframe
+x &lt;- data.frame(replicate(5,sample(0:1,1000,rep=TRUE)))
+# Print three rows of our dummy df
+x[1:3,]</code></pre>
+<pre><code>##   X1 X2 X3 X4 X5
+## 1  0  1  0  1  0
+## 2  1  0  1  1  1
+## 3  1  0  1  0  1</code></pre>
+<p><strong>Chunk Options</strong></p>
+<p>You might not want to show your code, the warnings, and messages but show the output–Rmd let’s you control that.</p>
+<p>E.g.: There’s a hidden chunk below but you’ll only see the table it outputs</p>
+<style>html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+#nagxdxfckm .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#nagxdxfckm .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#nagxdxfckm .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#nagxdxfckm .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 4px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#nagxdxfckm .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#nagxdxfckm .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#nagxdxfckm .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#nagxdxfckm .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#nagxdxfckm .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#nagxdxfckm .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#nagxdxfckm .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#nagxdxfckm .gt_group_heading {
+  padding: 8px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#nagxdxfckm .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#nagxdxfckm .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#nagxdxfckm .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#nagxdxfckm .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#nagxdxfckm .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#nagxdxfckm .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 12px;
+}
+
+#nagxdxfckm .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#nagxdxfckm .gt_first_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+}
+
+#nagxdxfckm .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#nagxdxfckm .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#nagxdxfckm .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#nagxdxfckm .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#nagxdxfckm .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding: 4px;
+}
+
+#nagxdxfckm .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#nagxdxfckm .gt_sourcenote {
+  font-size: 90%;
+  padding: 4px;
+}
+
+#nagxdxfckm .gt_left {
+  text-align: left;
+}
+
+#nagxdxfckm .gt_center {
+  text-align: center;
+}
+
+#nagxdxfckm .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#nagxdxfckm .gt_font_normal {
+  font-weight: normal;
+}
+
+#nagxdxfckm .gt_font_bold {
+  font-weight: bold;
+}
+
+#nagxdxfckm .gt_font_italic {
+  font-style: italic;
+}
+
+#nagxdxfckm .gt_super {
+  font-size: 65%;
+}
+
+#nagxdxfckm .gt_footnote_marks {
+  font-style: italic;
+  font-size: 65%;
+}
+</style>
+<div id="nagxdxfckm" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
+  <thead class="gt_header">
+    <tr>
+      <th colspan="1" class="gt_heading gt_title gt_font_normal" style>Cool table</th>
+    </tr>
+    <tr>
+      <th colspan="1" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style></th>
+    </tr>
+  </thead>
+  <thead class="gt_col_headings">
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1">X1</th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr>
+      <td class="gt_row gt_center">0</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_center">1</td>
+    </tr>
+  </tbody>
+  
+  
+</table></div>
+<p><strong>Global Options</strong></p>
+<p>You can also initialize a setup chunk with global chunk options like below.</p>
+<p><code>knitr::opts_chunk$set(include = TRUE, warning = FALSE) # Random chunk options</code></p>
+<p>Here’s a <a href="https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf">cheat sheet</a>!</p>
+</div>
+<div id="knitting-to-different-file-formats" class="section level3">
+<h3>2.5 Knitting to Different File Formats</h3>
+<ul>
+<li><code>Cmd or Ctrl + Shift + K</code> to knit to chosen format</li>
+<li>Use the Knit button in the RStudio toolbar to knit to some other format</li>
+<li><p>Alternately, edit the YAML header at the top of the file. Options include:</p>
+<p><code>output:</code></p>
+<pre><code>  pdf_document: default
+
+  word_document: default
+
+  html_document: default</code></pre></li>
+</ul>
+</div>
+<div id="more-resources-1" class="section level3">
+<h3>2.6 More Resources</h3>
+<ul>
+<li>Xie, Yihue. <a href="https://bookdown.org/yihui/rmarkdown/yihui-xie.html">R Markdown: The Definite Guide</a> (written in <a href="https://bookdown.org/yihui/bookdown/">Bookdown</a>!)</li>
+<li>R for Data Science (R4DS) <a href="https://r4ds.had.co.nz/r-markdown.html">Chapter</a> on Rmds</li>
+</ul>
+</div>
+</div>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-136473985-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+  </body>
+</html>
+

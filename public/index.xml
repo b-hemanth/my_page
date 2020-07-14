@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hemanth Bharatha Chakravarthy</title>
@@ -6,10 +6,29 @@
     <description>Recent content on Hemanth Bharatha Chakravarthy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://b-hemanth.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Follow Up on the Chowkidar</title>
+      <link>https://b-hemanth.com/2019/11/27/follow-up-on-the-chowkidar/</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-hemanth.com/2019/11/27/follow-up-on-the-chowkidar/</guid>
+      <description>The Follow Up I built a Shiny Dashboard to view some more, more complex, and interactive analysis as a follow up on my previous post about twitter sentiments.
+Shiny App Link https://hemanth-bharatha-chakravarthy.shinyapps.io/lok_sabha/</description>
+    </item>
+    
+    <item>
+      <title>An Introduction to GitHub and R Markdown</title>
+      <link>https://b-hemanth.com/2019/03/22/introduction-to-github-and-r-markdown/</link>
+      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-hemanth.com/2019/03/22/introduction-to-github-and-r-markdown/</guid>
+      <description>1 GitHub 1.1 What is GitHub?  Cloud-based version control system But what is version control? - Simple analogy: Google Drive for developers - Track and manage changes to your code - Version control lets developers safely work through branching and merging - Work with online Git repository - Make changes in your own branch - Merge with online cloud branch - Changes are tracked and can be reverted if needed   1.</description>
+    </item>
     
     <item>
       <title>Chowkidar Campaign: What is the Twitter Sentiment?</title>
@@ -28,17 +47,7 @@
       
       <guid>https://b-hemanth.com/about/</guid>
       <description>Hello!
-I am Hemanth Bharatha Chakravarthy, an undergraduate student at Harvard interested in development and behavioral economics. I concentrate in Applied Math &amp;amp; Economics with a secondary in Computer Science. I spend my free time telling stories with data, reading about education policy, and arguing feminist theory. I talk a lot about politics and my beautiful hometown of Chennai, India.
-I work as a research assistant at the Harvard Kennedy School for Professors Michela Carlana, David Deming, and Mahzarin Banaji, and Dr.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://b-hemanth.com/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://b-hemanth.com/about/</guid>
-      <description>About    About GitHub LinkedIn    1 min read About 2019-03-18 Hello! I am Hemanth Bharatha Chakravarthy, a first-year undergraduate student at Harvard University. I aspire to a career in research and academia. I plan to pursue a Concentration in Applied Mathematics and Economics with a Secondary in Computer Science. I am deeply interested in economics, data science, public policy, computer science, and feminist theory. I am also a parliamentary debater (I debated for Team India in school, and now do so for the Harvard College Debating Union).</description>
+I am Hemanth Bharatha Chakravarthy (ஹேமந்த்), a rising junior at Harvard interested in the science and practice of public policy. I concentrate in Applied Math and Economics with a secondary in Computer Science. I care about economic growth, development, human behavior, and the relationship between them. I am currently working on improving companies to mutually benefit business and workers in the developing world and public policy vis a vis COVID-19 and tracking the impact of COVID on daily wagers and migrant workers in India.</description>
     </item>
     
   </channel>

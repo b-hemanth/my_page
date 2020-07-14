@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2019 Elections on Hemanth Bharatha Chakravarthy</title>
@@ -6,10 +6,20 @@
     <description>Recent content in 2019 Elections on Hemanth Bharatha Chakravarthy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://b-hemanth.com/tags/2019-elections/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Follow Up on the Chowkidar</title>
+      <link>https://b-hemanth.com/2019/11/27/follow-up-on-the-chowkidar/</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-hemanth.com/2019/11/27/follow-up-on-the-chowkidar/</guid>
+      <description>The Follow Up I built a Shiny Dashboard to view some more, more complex, and interactive analysis as a follow up on my previous post about twitter sentiments.
+Shiny App Link https://hemanth-bharatha-chakravarthy.shinyapps.io/lok_sabha/</description>
+    </item>
     
     <item>
       <title>Chowkidar Campaign: What is the Twitter Sentiment?</title>
