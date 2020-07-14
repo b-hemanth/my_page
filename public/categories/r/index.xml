@@ -54,15 +54,5 @@ Github for code and ReadMe.</description>
  - Simple analogy: Google Drive for developers - Track and manage changes to your code - Version control lets developers safely work through branching and merging - Work with online Git repository - Make changes in your own branch - Merge with online cloud branch - Changes are tracked and can be reverted if needed   1.</description>
     </item>
     
-    <item>
-      <title>Chowkidar Campaign: What is the Twitter Sentiment?</title>
-      <link>https://b-hemanth.com/2019/03/21/chowkidar-campaign-what-is-the-twitter-sentiment/</link>
-      <pubDate>Thu, 21 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://b-hemanth.com/2019/03/21/chowkidar-campaign-what-is-the-twitter-sentiment/</guid>
-      <description>Analysis of Twitter Reactions to the BJP’s #Chowkidar Campaign I analyzed a mixed sample of the most popular and most recent one hundred and eight thousand tweets in English from the last three days (as of 20 March, 2019, 10:07 pm EST) on the Bharatiya Janata Party’s #MainBhiChowkidar campaign.
-# # Tibble and text processing # temp_1 &amp;lt;- x %&amp;gt;% # # Lose useless columns # select(created_at, text, favourites_count, retweet_count) %&amp;gt;% # # Convert text to lower text # mutate(text = tolower(text)) # # Note: https://hackernoon.</description>
-    </item>
-    
   </channel>
 </rss>
