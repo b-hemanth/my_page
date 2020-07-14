@@ -55,7 +55,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     favicon = "hemanth.ico"
 
     [params.logo]
-    url = "hbc_logo.png"
+    url = "hemanth.jpg"
     width = 50
     height = 50
     alt = "Logo"
