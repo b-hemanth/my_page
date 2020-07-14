@@ -8,7 +8,7 @@ tags:
   - regression
 ---
 
-#### Work in Progress
+### Work in Progress
 
 View as .pdf on [Dropbox](https://www.dropbox.com/s/tkpxdx8mirs1rwa/draft_bharathaChakravarthy_hemanth_teacher_pay_performance_wip.pdf?dl=0).
 
