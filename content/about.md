@@ -9,7 +9,7 @@ Hello!
 
 I am Hemanth Bharatha Chakravarthy (ஹேமந்த்), a rising junior at Harvard interested in the science and practice of public policy. I concentrate in Applied Math and Economics with a secondary in Computer Science. I care about economic growth, development, human behavior, and the relationship between them. I am currently working on improving companies to mutually benefit business and workers in the developing world and public policy vis a vis COVID-19 and tracking the impact of COVID on daily wagers and migrant workers in India. I talk a lot about politics and my beautiful hometown of Chennai, India.
 
-I have compiled some work and some pet data projects on my [blog](https://www.b-hemanth.com/). Do read!
+I have compiled some serious work as well as several pet data projects on my [blog](https://www.b-hemanth.com/). Check it out!
 
 I am always interested in talking with those with similar interests. Connect with me:
 
