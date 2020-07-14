@@ -8,5 +8,7 @@ categories:
 tags:
   - R Markdown
 ---
+
 ## Biggest Departmental Changes in Enrolments at Harvard
-![Change in course enrolment](/post/course_enrol.png)
+
+![](/post/course_enrol.png){width = 500}
