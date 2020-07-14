@@ -13,6 +13,6 @@ tags:
 
 [Code and ReadMe](https://github.com/b-hemanth/harvard_courses_enrolment_analysis).
 
-<img src="/post/course_enrol.png.jpg" alt="courses" width="800"/>
+<img src="/post/course_enrol.jpg" alt="courses" width="800"/>
 
 
