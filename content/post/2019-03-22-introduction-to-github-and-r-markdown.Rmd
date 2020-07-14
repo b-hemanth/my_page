@@ -1,5 +1,5 @@
 ---
-title: An Introduction to GitHub and R Markdown
+title: An Introduction to GitHub and R Markdown: Guest Lecture at Stella Maris College, Chennai
 author: Hemanth Bharatha Chakravarthy
 date: '2019-03-22'
 slug: introduction-to-github-and-r-markdown
@@ -13,6 +13,8 @@ tags:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(include = TRUE)
 ```
+
+Notes from a guest lecture I delivered in March 2019 at the Department of Computer Science at Stella Maris College, Chennai, offering a simple introduction to GitHub with R and R Markdown.
 
 # 1 GitHub
 
