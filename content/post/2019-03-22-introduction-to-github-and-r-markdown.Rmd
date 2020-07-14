@@ -20,6 +20,7 @@ knitr::opts_chunk$set(include = TRUE)
 
 - Cloud-based version control system
 - But what is version control? 
+
         - Simple analogy: Google Drive for developers
         - Track and manage changes to your code
         - Version control lets developers safely work through branching and merging
