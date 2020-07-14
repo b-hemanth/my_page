@@ -17,10 +17,10 @@ tags:
 
 ## Biggest Drops in Enrolment
 
-<img src="/post/courses 1.png" alt="courses" width="800"/>
+<img src="/post/courses 1.png" alt="courses" width="700"/>
 
 ## Biggest New Classes
 
-<img src="/post/c2.png" alt="courses" width="800"/>
+<img src="/post/c2.png" alt="courses" width="700"/>
 
 
