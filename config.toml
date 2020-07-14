@@ -52,10 +52,10 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     MathJaxVersion = "2.7.5"
 
     # path to the favicon, under "static"
-    favicon = "hemanth.ico"
+    favicon = "favicon.ico"
 
     [params.logo]
-    url = "hemanth.jpg"
+    url = "hbc_logo.png"
     width = 50
     height = 50
     alt = "Logo"
