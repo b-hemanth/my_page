@@ -1,5 +1,5 @@
 ---
-title: 'Lessons on Teacher Pay: Policy Brief on Performance Based Pay for Teachers'
+title: 'Lessons on Teacher Pay: Policy Brief on Performance Based Pay for Teachers (WIP)'
 author: Hemanth Bharatha Chakravarthy
 date: '2020-06-04'
 slug: lessons-on-teacher-pay-policy-brief-on-performance-based-pay-for-teachers
@@ -7,6 +7,8 @@ categories: []
 tags:
   - regression
 ---
+
+#### Work in Progress
 
 View as .pdf on [Dropbox](https://www.dropbox.com/s/tkpxdx8mirs1rwa/draft_bharathaChakravarthy_hemanth_teacher_pay_performance_wip.pdf?dl=0).
 
