@@ -1,5 +1,5 @@
 ---
-title: Follow Up on the Chowkidar
+title: App on India's BJP's Chowkidar Campaign and Twitter Response
 author: Hemanth Bharatha Chakravarthy
 date: '2019-11-27'
 slug: follow-up-on-the-chowkidar
@@ -18,8 +18,6 @@ tags:
   - regression
   - Twitter
 ---
-# The Follow Up
-I built a Shiny Dashboard to view some more, more complex, and interactive analysis as a follow up on my previous post about twitter sentiments. 
+Studying Twitter's response to the _Main Bhi Chowkidar_ (I too am a guard) electoral campaign of the Bharatiya Janata Party ([Background](https://www.thehindubusinessline.com/news/bjp-steps-up-its-main-bhi-chowkidar-campaign/article26568670.ece), [Wiki](https://en.wikipedia.org/wiki/Main_Bhi_Chowkidar)), analyzing it using machine learning to study sentiments, representing views geospatially on a map, studying tweet frequency lumping and potential bot activity, and more!
 
-# Shiny App Link
-https://hemanth-bharatha-chakravarthy.shinyapps.io/lok_sabha/
+[**Shiny App Link**](https://hemanth-bharatha-chakravarthy.shinyapps.io/lok_sabha/)!
