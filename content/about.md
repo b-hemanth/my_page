@@ -17,3 +17,5 @@ I am always interested in talking with those who share interests. Connect with m
 - Read my [Twitter](https://twitter.com/hemanth2510) ramblings
 - View [coding samples](https://twitter.com/hemanth2510) on GitHub
 - Add me on [LinkedIn](https://www.linkedin.com/in/b-hemanth/)
+
+I wrote this site on `Blogdown` for `R`. Help yourself to my design/back-end [here](https://github.com/b-hemanth/my_page).
