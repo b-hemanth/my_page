@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Hemanth Bharatha Chakravarthy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://b-hemanth.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>R Markdown</title>
+      <link>https://b-hemanth.com/tags/r-markdown/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-hemanth.com/tags/r-markdown/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>regression</title>
@@ -89,15 +98,6 @@
       <pubDate>Wed, 27 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://b-hemanth.com/tags/plot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R Markdown</title>
-      <link>https://b-hemanth.com/tags/r-markdown/</link>
-      <pubDate>Wed, 27 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://b-hemanth.com/tags/r-markdown/</guid>
       <description></description>
     </item>
     

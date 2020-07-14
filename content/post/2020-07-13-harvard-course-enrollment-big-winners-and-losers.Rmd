@@ -1,0 +1,12 @@
+---
+title: 'Harvard Course Enrollment: Big Winners and Losers'
+author: Hemanth Bharatha Chakravarthy
+date: '2020-07-13'
+slug: harvard-course-enrollment-big-winners-and-losers
+categories:
+  - R
+tags:
+  - R Markdown
+---
+## Biggest Departmental Changes in Enrolments at Harvard
+![Change in course enrolment](/post/course_enrol.png)
