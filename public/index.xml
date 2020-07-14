@@ -6,19 +6,10 @@
     <description>Recent content on Hemanth Bharatha Chakravarthy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://b-hemanth.com/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Police Stop Bunching: A Curious Case of Rounding Off</title>
-      <link>https://b-hemanth.com/2020/07/13/police-stop-bunching-a-curious-case-of-rounding-off/</link>
-      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://b-hemanth.com/2020/07/13/police-stop-bunching-a-curious-case-of-rounding-off/</guid>
-      <description>Code and ReadMe.</description>
-    </item>
     
     <item>
       <title>Lessons on Teacher Pay: Policy Brief on Performance Based Pay for Teachers (WIP)</title>
@@ -51,16 +42,6 @@ Thanks to Jillian Carr and Jennifer Doleac for building the shotspotter dataset 
     </item>
     
     <item>
-      <title>Harvard Course Enrollment: Big Winners and Losers</title>
-      <link>https://b-hemanth.com/2019/04/10/harvard-course-enrollment-big-winners-and-losers/</link>
-      <pubDate>Wed, 10 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://b-hemanth.com/2019/04/10/harvard-course-enrollment-big-winners-and-losers/</guid>
-      <description> Biggest Departmental Changes in Enrolments at Harvard Code and ReadMe.
- </description>
-    </item>
-    
-    <item>
       <title>Twitter in the Biggest Election - Web App</title>
       <link>https://b-hemanth.com/2019/03/27/follow-up-on-the-chowkidar/</link>
       <pubDate>Wed, 27 Mar 2019 00:00:00 +0000</pubDate>
@@ -80,6 +61,25 @@ Github for code and ReadMe.</description>
       <description>Notes from a guest lecture I delivered in March 2019 at the Department of Computer Science at Stella Maris College, Chennai, offering a simple introduction to GitHub with R and R Markdown.
 1 GitHub 1.1 What is GitHub?  Cloud-based version control system But what is version control?
  - Simple analogy: Google Drive for developers - Track and manage changes to your code - Version control lets developers safely work through branching and merging - Work with online Git repository - Make changes in your own branch - Merge with online cloud branch - Changes are tracked and can be reverted if needed   1.</description>
+    </item>
+    
+    <item>
+      <title>Police Stop Bunching: A Curious Case of Rounding Off</title>
+      <link>https://b-hemanth.com/2019/02/04/police-stop-bunching-a-curious-case-of-rounding-off/</link>
+      <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-hemanth.com/2019/02/04/police-stop-bunching-a-curious-case-of-rounding-off/</guid>
+      <description>Code and ReadMe.</description>
+    </item>
+    
+    <item>
+      <title>Harvard Course Enrollment: Big Winners and Losers</title>
+      <link>https://b-hemanth.com/2019/01/10/harvard-course-enrollment-big-winners-and-losers/</link>
+      <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-hemanth.com/2019/01/10/harvard-course-enrollment-big-winners-and-losers/</guid>
+      <description> Biggest Departmental Changes in Enrolments at Harvard Code and ReadMe.
+ </description>
     </item>
     
     <item>
