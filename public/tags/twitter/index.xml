@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Twitter on Hemanth Bharatha Chakravarthy</title>
-    <link>https://b-hemanth.com/tags/twitter/</link>
+    <link>/tags/twitter/</link>
     <description>Recent content in Twitter on Hemanth Bharatha Chakravarthy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 17 May 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://b-hemanth.com/tags/twitter/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/twitter/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Twitter Botocracy: Evidence from India (WIP)</title>
-      <link>https://b-hemanth.com/2020/05/17/twitter-botocracy-evidence-from-the-use-of-twitter-bots-by-modi-s-bjp-in-india/</link>
+      <link>/2020/05/17/twitter-botocracy-evidence-from-the-use-of-twitter-bots-by-modi-s-bjp-in-india/</link>
       <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://b-hemanth.com/2020/05/17/twitter-botocracy-evidence-from-the-use-of-twitter-bots-by-modi-s-bjp-in-india/</guid>
+      <guid>/2020/05/17/twitter-botocracy-evidence-from-the-use-of-twitter-bots-by-modi-s-bjp-in-india/</guid>
       <description>Work in progress View as .pdf in Dropbox.</description>
     </item>
     
     <item>
       <title>Twitter in the Biggest Election - Web App</title>
-      <link>https://b-hemanth.com/2019/03/27/follow-up-on-the-chowkidar/</link>
+      <link>/2019/03/27/follow-up-on-the-chowkidar/</link>
       <pubDate>Wed, 27 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://b-hemanth.com/2019/03/27/follow-up-on-the-chowkidar/</guid>
+      <guid>/2019/03/27/follow-up-on-the-chowkidar/</guid>
       <description>Studying Twitter&amp;rsquo;s response to the Main Bhi Chowkidar (I too am a guard) electoral campaign of the Bharatiya Janata Party (Background, Wiki), analyzing it using machine learning to study sentiments, representing views geospatially on a map, studying tweet frequency lumping and potential bot activity, and more!
 Shiny App Link!
 Github for code and ReadMe.</description>

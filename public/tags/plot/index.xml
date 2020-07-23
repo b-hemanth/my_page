@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>plot on Hemanth Bharatha Chakravarthy</title>
-    <link>https://b-hemanth.com/tags/plot/</link>
+    <link>/tags/plot/</link>
     <description>Recent content in plot on Hemanth Bharatha Chakravarthy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 27 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://b-hemanth.com/tags/plot/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/plot/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Twitter in the Biggest Election - Web App</title>
-      <link>https://b-hemanth.com/2019/03/27/follow-up-on-the-chowkidar/</link>
+      <link>/2019/03/27/follow-up-on-the-chowkidar/</link>
       <pubDate>Wed, 27 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://b-hemanth.com/2019/03/27/follow-up-on-the-chowkidar/</guid>
+      <guid>/2019/03/27/follow-up-on-the-chowkidar/</guid>
       <description>Studying Twitter&amp;rsquo;s response to the Main Bhi Chowkidar (I too am a guard) electoral campaign of the Bharatiya Janata Party (Background, Wiki), analyzing it using machine learning to study sentiments, representing views geospatially on a map, studying tweet frequency lumping and potential bot activity, and more!
 Shiny App Link!
 Github for code and ReadMe.</description>
