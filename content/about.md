@@ -7,7 +7,13 @@ date: '2016-05-05T21:48:51-07:00'
 
 <img alt = '(A picture of me, I am wearing a blue shirt and seated in front of a tree)' width='200' src='/post/hemanth.jpg'/>
 
-I am a _student, a retired [debater](https://www.edexlive.com/news/2018/aug/02/meet-indias-youngest-debate-guns-who-matched-wits-with-the-best-in-the-world-3562.html), and an impatient optimist_ interested in the science and practice of development. I care about informing public policy with evidence and data, deriving insights from psychology to understand economic problems, and disruptive innovation and enterprise that improves the lives of the poor. I am a rising junior at Harvard where I study Applied Math and Economics with a secondary in Computer Science. I talk a lot about politics and my beautiful hometown of Chennai, India.
+I am a _student, a retired [debater](https://www.edexlive.com/news/2018/aug/02/meet-indias-youngest-debate-guns-who-matched-wits-with-the-best-in-the-world-3562.html), and an impatient optimist_. 
+
+I'm interested in the science and practice of development; I care about informing policy and decision-making with evidence, deriving insights from psychology to understand economic problems, and disruptive innovation and enterprise that improves the lives of the poor. I am a rising junior at Harvard where I study Applied Math and Economics with a secondary in Computer Science. 
+
+I talk a lot about politics and my beautiful hometown of Chennai, India.
+
+![Picture of my favorite spot in Chennai: a modern secret, the Broken Bridge. Pictured: backwaters at sunset, a catamaran with three men, the silhoutte of a bird.](/./about_files/56764725_2145881622145000_3600959293169336320_o.jpg)
 
 ## Work
 
