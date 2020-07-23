@@ -121,9 +121,9 @@ x &lt;- data.frame(replicate(5,sample(0:1,1000,rep=TRUE)))
 # Print three rows of our dummy df
 x[1:3,]</code></pre>
 <pre><code>##   X1 X2 X3 X4 X5
-## 1  0  0  0  0  1
-## 2  1  0  0  0  0
-## 3  0  0  1  0  1</code></pre>
+## 1  0  0  1  1  0
+## 2  1  0  0  1  0
+## 3  1  0  1  1  0</code></pre>
 <p><strong>Chunk Options</strong></p>
 <p>You might not want to show your code, the warnings, and messages but show the output–Rmd let’s you control that.</p>
 <p>E.g.: There’s a hidden chunk below but you’ll only see the table it outputs</p>
@@ -131,7 +131,7 @@ x[1:3,]</code></pre>
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#jvximpztwe .gt_table {
+#pyauhlydqe .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -154,7 +154,7 @@ x[1:3,]</code></pre>
   border-left-color: #D3D3D3;
 }
 
-#jvximpztwe .gt_heading {
+#pyauhlydqe .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -166,7 +166,7 @@ x[1:3,]</code></pre>
   border-right-color: #D3D3D3;
 }
 
-#jvximpztwe .gt_title {
+#pyauhlydqe .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -176,7 +176,7 @@ x[1:3,]</code></pre>
   border-bottom-width: 0;
 }
 
-#jvximpztwe .gt_subtitle {
+#pyauhlydqe .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -186,13 +186,13 @@ x[1:3,]</code></pre>
   border-top-width: 0;
 }
 
-#jvximpztwe .gt_bottom_border {
+#pyauhlydqe .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#jvximpztwe .gt_col_headings {
+#pyauhlydqe .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -207,7 +207,7 @@ x[1:3,]</code></pre>
   border-right-color: #D3D3D3;
 }
 
-#jvximpztwe .gt_col_heading {
+#pyauhlydqe .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -227,7 +227,7 @@ x[1:3,]</code></pre>
   overflow-x: hidden;
 }
 
-#jvximpztwe .gt_column_spanner_outer {
+#pyauhlydqe .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -239,15 +239,15 @@ x[1:3,]</code></pre>
   padding-right: 4px;
 }
 
-#jvximpztwe .gt_column_spanner_outer:first-child {
+#pyauhlydqe .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#jvximpztwe .gt_column_spanner_outer:last-child {
+#pyauhlydqe .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#jvximpztwe .gt_column_spanner {
+#pyauhlydqe .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -259,7 +259,7 @@ x[1:3,]</code></pre>
   width: 100%;
 }
 
-#jvximpztwe .gt_group_heading {
+#pyauhlydqe .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -281,7 +281,7 @@ x[1:3,]</code></pre>
   vertical-align: middle;
 }
 
-#jvximpztwe .gt_empty_group_heading {
+#pyauhlydqe .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -296,19 +296,19 @@ x[1:3,]</code></pre>
   vertical-align: middle;
 }
 
-#jvximpztwe .gt_striped {
+#pyauhlydqe .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#jvximpztwe .gt_from_md > :first-child {
+#pyauhlydqe .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#jvximpztwe .gt_from_md > :last-child {
+#pyauhlydqe .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#jvximpztwe .gt_row {
+#pyauhlydqe .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -327,7 +327,7 @@ x[1:3,]</code></pre>
   overflow-x: hidden;
 }
 
-#jvximpztwe .gt_stub {
+#pyauhlydqe .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -339,7 +339,7 @@ x[1:3,]</code></pre>
   padding-left: 12px;
 }
 
-#jvximpztwe .gt_summary_row {
+#pyauhlydqe .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -349,7 +349,7 @@ x[1:3,]</code></pre>
   padding-right: 5px;
 }
 
-#jvximpztwe .gt_first_summary_row {
+#pyauhlydqe .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -359,7 +359,7 @@ x[1:3,]</code></pre>
   border-top-color: #D3D3D3;
 }
 
-#jvximpztwe .gt_grand_summary_row {
+#pyauhlydqe .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -369,7 +369,7 @@ x[1:3,]</code></pre>
   padding-right: 5px;
 }
 
-#jvximpztwe .gt_first_grand_summary_row {
+#pyauhlydqe .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -379,7 +379,7 @@ x[1:3,]</code></pre>
   border-top-color: #D3D3D3;
 }
 
-#jvximpztwe .gt_table_body {
+#pyauhlydqe .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -388,7 +388,7 @@ x[1:3,]</code></pre>
   border-bottom-color: #D3D3D3;
 }
 
-#jvximpztwe .gt_footnotes {
+#pyauhlydqe .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -402,13 +402,13 @@ x[1:3,]</code></pre>
   border-right-color: #D3D3D3;
 }
 
-#jvximpztwe .gt_footnote {
+#pyauhlydqe .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#jvximpztwe .gt_sourcenotes {
+#pyauhlydqe .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -422,46 +422,46 @@ x[1:3,]</code></pre>
   border-right-color: #D3D3D3;
 }
 
-#jvximpztwe .gt_sourcenote {
+#pyauhlydqe .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#jvximpztwe .gt_left {
+#pyauhlydqe .gt_left {
   text-align: left;
 }
 
-#jvximpztwe .gt_center {
+#pyauhlydqe .gt_center {
   text-align: center;
 }
 
-#jvximpztwe .gt_right {
+#pyauhlydqe .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#jvximpztwe .gt_font_normal {
+#pyauhlydqe .gt_font_normal {
   font-weight: normal;
 }
 
-#jvximpztwe .gt_font_bold {
+#pyauhlydqe .gt_font_bold {
   font-weight: bold;
 }
 
-#jvximpztwe .gt_font_italic {
+#pyauhlydqe .gt_font_italic {
   font-style: italic;
 }
 
-#jvximpztwe .gt_super {
+#pyauhlydqe .gt_super {
   font-size: 65%;
 }
 
-#jvximpztwe .gt_footnote_marks {
+#pyauhlydqe .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
-<div id="jvximpztwe" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
+<div id="pyauhlydqe" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
   <thead class="gt_header">
     <tr>
       <th colspan="1" class="gt_heading gt_title gt_font_normal" style>Cool table</th>
