@@ -5,7 +5,7 @@ date: '2016-05-05T21:48:51-07:00'
 
 ## Bio
 
-<figure><img alt = '(A picture of me, I am wearing a blue shirt and seated in front of a tree)' width='200' src='/post/hemanth.jpg'/></figure>
+<figure><center><img alt = '(A picture of me, I am wearing a blue shirt and seated in front of a tree)' width='200' src='/post/hemanth.jpg'/></center></figure>
 
 I am a _student_, a _retired [debater](https://www.edexlive.com/news/2018/aug/02/meet-indias-youngest-debate-guns-who-matched-wits-with-the-best-in-the-world-3562.html)_, and an _impatient optimist_. 
 
