@@ -5,7 +5,7 @@ date: '2016-05-05T21:48:51-07:00'
 
 ## Bio
 
-<img alt = '(A picture of me, I am wearing a blue shirt and seated in front of a tree)' width='200' src='/post/hemanth.jpg'/>
+<figure><img alt = '(A picture of me, I am wearing a blue shirt and seated in front of a tree)' width='200' src='/post/hemanth.jpg'/></figure>
 
 I am a _student, a retired [debater](https://www.edexlive.com/news/2018/aug/02/meet-indias-youngest-debate-guns-who-matched-wits-with-the-best-in-the-world-3562.html), and an impatient optimist_. 
 
@@ -13,7 +13,10 @@ I'm interested in the science and practice of development; I care about informin
 
 I talk a lot about politics and my beautiful hometown of Chennai, India.
 
-<img alt = 'Picture of my favorite spot in Chennai: a modern secret, the Broken Bridge. Pictured: backwaters at sunset, a catamaran with three men, the silhoutte of a bird.' width='200' src='/./about_files/56764725_2145881622145000_3600959293169336320_o.jpg'/>
+<figure>
+<img alt = 'Picture of my favorite spot in Chennai: a modern secret, the Broken Bridge. Pictured: backwaters at sunset, a catamaran with three men, the silhoutte of a bird.' width='600' src='/./about_files/56764725_2145881622145000_3600959293169336320_o.jpg'/>
+<figcaption>Picture of my favorite spot in Chennai: a modern-day secret, the Broken Bridge. Pictured: backwaters at sunset, a catamaran with three men, the silhoutte of a bird.</figcaption>
+</figure>
 
 ## Work
 
