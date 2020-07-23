@@ -27,7 +27,7 @@ Access my resumé [here](https://www.dropbox.com/s/j9y4md59lo4m5rv/BharathaChakr
 ## Connect
 
 - [Write to me](mailto:hemanthbharathachakravarthy@college.harvard.edu) 
-- Read my [Twitter](https://twitter.com/hemanth2510) ramblings
+- Read my [Twitter ramblings](https://twitter.com/hemanth2510)
 - Add me on [LinkedIn](https://www.linkedin.com/in/b-hemanth/)
 
 ## Site
