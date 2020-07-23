@@ -13,7 +13,7 @@ I'm interested in the science and practice of development; I care about informin
 
 I talk a lot about politics and my beautiful hometown of Chennai, India.
 
-![Picture of my favorite spot in Chennai: a modern secret, the Broken Bridge. Pictured: backwaters at sunset, a catamaran with three men, the silhoutte of a bird.](/./about_files/56764725_2145881622145000_3600959293169336320_o.jpg)
+![Picture of my favorite spot in Chennai: a modern secret, the Broken Bridge. Pictured: backwaters at sunset, a catamaran with three men, the silhoutte of a bird.](/./about_files/56764725_2145881622145000_3600959293169336320_o.jpg=200x400)
 
 ## Work
 
