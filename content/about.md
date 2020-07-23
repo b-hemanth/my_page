@@ -7,7 +7,7 @@ date: '2016-05-05T21:48:51-07:00'
 
 <figure><img alt = '(A picture of me, I am wearing a blue shirt and seated in front of a tree)' width='200' src='/post/hemanth.jpg'/></figure>
 
-I am a _student, a retired [debater](https://www.edexlive.com/news/2018/aug/02/meet-indias-youngest-debate-guns-who-matched-wits-with-the-best-in-the-world-3562.html), and an impatient optimist_. 
+I am a _student_, a _retired [debater](https://www.edexlive.com/news/2018/aug/02/meet-indias-youngest-debate-guns-who-matched-wits-with-the-best-in-the-world-3562.html)_, and an _impatient optimist_. 
 
 I'm interested in the science and practice of development; I care about informing policy and decision-making with evidence, deriving insights from psychology to understand economic problems, and disruptive innovation and enterprise that improves the lives of the poor. I am a rising junior at Harvard where I study Applied Math and Economics with a secondary in Computer Science. 
 
