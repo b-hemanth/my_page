@@ -9,7 +9,7 @@ date: '2016-05-05T21:48:51-07:00'
 
 I am a _student_, a _retired [debater](https://www.edexlive.com/news/2018/aug/02/meet-indias-youngest-debate-guns-who-matched-wits-with-the-best-in-the-world-3562.html)_, and an _impatient optimist_. 
 
-I'm interested in the science and practice of development; I care about informing policy and decision-making with evidence, deriving insights from psychology to understand economic problems, and disruptive innovation and enterprise that improves the lives of the poor. I am a rising junior at Harvard where I study Applied Math and Economics with a secondary in Computer Science. 
+I'm interested in the science and practice of development; I care about informing policy and decision-making with data and evidence, deriving insights from psychology to understand economic problems, and disruptive innovation and enterprise that improves the lives of the poor. I am a rising junior at Harvard where I study Applied Math and Economics with a secondary in Computer Science. 
 
 I talk a lot about politics and my beautiful hometown of Chennai, India.
 
