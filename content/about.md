@@ -1,5 +1,5 @@
 ---
-title: "Hemanth Bharatha Chakravarthy"
+title: "About - Hemanth Bharatha Chakravarthy"
 date: '2016-05-05T21:48:51-07:00'
 ---
 
@@ -9,9 +9,11 @@ date: '2016-05-05T21:48:51-07:00'
 
 I am a _student_, a _retired [debater](https://www.edexlive.com/news/2018/aug/02/meet-indias-youngest-debate-guns-who-matched-wits-with-the-best-in-the-world-3562.html)_, and an _impatient optimist_. 
 
-I'm interested in the science and practice of development; I care about informing policy and decision-making with data and evidence, deriving insights from psychology to understand economic problems, and disruptive innovation and enterprise that improves the lives of the poor. I am a rising junior at Harvard where I study Applied Math and Economics with a secondary in Computer Science. 
+I'm interested in the science and practice of development; I care about informing policy and decision-making with data and evidence, deriving insights from psychology to understand economic problems, and disruptive innovation and enterprise that improves the lives of the poor. 
 
-I talk a lot about politics and my beautiful hometown of Chennai, India.
+I am from and of the lazy but enchanting metropolis of Chennai, India. Chennai, formerly and fondly *Madras*, is known as *வந்தாரை வாழவைக்கும் சென்னை* or *the city that breathes life into all that seek it*. As a child of rural-urban migrants, I grew up a part of the Madras hustle, its enterprise, and pursuit of better futures, and that in part explains my fascination with cities, migration, and culture. 
+
+When not working, you can find me dazedly listening to *Qawwalis* or offering unsolicited expositions on Indian and global politics.
 
 <figure>
 <img alt = 'Picture of my favorite spot in Chennai: a modern secret, the Broken Bridge. Pictured: backwaters at sunset, a catamaran with three men, the silhoutte of a bird.' width='600' src='/./about_files/56764725_2145881622145000_3600959293169336320_o.jpg'/>
@@ -19,6 +21,8 @@ I talk a lot about politics and my beautiful hometown of Chennai, India.
 </figure>
 
 ## Work
+
+I am a rising junior at Harvard where I study Applied Mathematics and Economics with a secondary in Computer Science. At Harvard, I am the (founding) Director of Publicity for the Harvard Undergraduate Inclusion in Economics association, a chairperson of the debate union, and an active participant in events and discourse concerning South Asia. 
 
 I am currently working on (1) research tracking the COVID-19 pandemic's effects on Indian migrants, (2) randomized trials on migrant loneliness, networks, and productivity and on regularizing labor supply amongst casual construction workers, and (3) on writing communication-related policy briefs for Indian ministries. I have experience liaising between experts, bureaucrats, and politicians at J-PAL South Asia to evaluate and build policy, working on research in education policy at the Harvard Kennedy School, and in aiding building India's international debate presence.
 
