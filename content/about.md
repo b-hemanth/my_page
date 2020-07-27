@@ -3,7 +3,9 @@ title: "About - Hemanth Bharatha Chakravarthy"
 date: '2016-05-05T21:48:51-07:00'
 ---
 
-## Bio
+[Personal](##bio). [Work](##work). [Connect](##connect). [Site Back-End](##site)
+
+## Personal
 
 <center><img alt = '(A picture of me, I am wearing a blue shirt and seated in front of a tree)' width='200' src='/post/hemanth.jpg'/></center>
 
