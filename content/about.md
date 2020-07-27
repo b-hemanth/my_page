@@ -9,7 +9,7 @@ date: '2016-05-05T21:48:51-07:00'
 
 I am a student, a prospective economist, a retiring [debater](https://www.edexlive.com/news/2018/aug/02/meet-indias-youngest-debate-guns-who-matched-wits-with-the-best-in-the-world-3562.html), and an impatient optimist. 
 
-## Work <a name="work"></a>
+## Work 
 
 I am a rising junior at Harvard where I study Applied Mathematics and Economics with a secondary in Computer Science. At Harvard, I am the (founding) Director of Publicity for the Harvard Undergraduate Inclusion in Economics association, a chairperson of the debate union, and an active participant in events and discourse concerning South Asia. 
 
@@ -17,7 +17,7 @@ I am currently working on (1) research tracking the COVID-19 pandemic's effects 
 
 Access my resumé [here](https://www.dropbox.com/s/j9y4md59lo4m5rv/BharathaChakravarthy_Hemanth_resume_jun20.pdf?dl=0). I have compiled some serious work as well as several pet data projects on my [blog](https://www.b-hemanth.com/). For **writing samples**, consider this [draft](https://www.b-hemanth.com/2020/05/17/twitter-botocracy-evidence-from-the-use-of-twitter-bots-by-modi-s-bjp-in-india/) offering evidence on Twitter bot use in Indian politics and this [draft](https://www.b-hemanth.com/2020/06/04/lessons-on-teacher-pay-policy-brief-on-performance-based-pay-for-teachers/) of a review of literature and policy brief on performance-based pay for public school teachers. View [coding samples](https://github.com/b-hemanth) on GitHub.
 
-## Personal <a name="personal"></a>
+## Personal
 
 I'm interested in the science and practice of development; I care about informing policy and decision-making with data and evidence, deriving insights from psychology to understand economic problems, and disruptive innovation and enterprise that improves the lives of the poor. 
 
