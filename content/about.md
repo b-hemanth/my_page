@@ -3,9 +3,9 @@ title: "About - Hemanth Bharatha Chakravarthy"
 date: '2016-05-05T21:48:51-07:00'
 ---
 
-[Personal](##personal). [Work](##work). [Connect](##connect). [Site Back-End](##site)
+[Personal](#personal). [Work](#work). [Connect](#connect). [Site Back-End](#site).
 
-## Personal
+## Personal <a name="personal"></a>
 
 <center><img alt = '(A picture of me, I am wearing a blue shirt and seated in front of a tree)' width='200' src='/post/hemanth.jpg'/></center>
 
@@ -22,7 +22,7 @@ When not working, you can find me dazedly listening to *Qawwalis* or offering un
 <figcaption>Picture of my favorite spot in Chennai: a modern-day secret, the Broken Bridge. Pictured: backwaters at sunset, a catamaran with three men, the silhouette of a bird.</figcaption>
 </figure>
 
-## Work
+## Work <a name="work"></a>
 
 I am a rising junior at Harvard where I study Applied Mathematics and Economics with a secondary in Computer Science. At Harvard, I am the (founding) Director of Publicity for the Harvard Undergraduate Inclusion in Economics association, a chairperson of the debate union, and an active participant in events and discourse concerning South Asia. 
 
