@@ -5,9 +5,7 @@ date: '2016-05-05T21:48:51-07:00'
 
 <style type="text/css">
 figure {
-    display: inline-block;
-    border: 1px dotted gray;
-    margin: 20px; /* adjust as needed */
+    text-align: center;
 }
 figure img {
     vertical-align: top;
