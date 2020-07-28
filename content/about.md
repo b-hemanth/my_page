@@ -1,15 +1,15 @@
 ---
-title: "About - Hemanth Bharatha Chakravarthy"
+title: "About"
 date: '2016-05-05T21:48:51-07:00'
 ---
 
 <center><img alt = '(A picture of me, I am wearing a blue shirt and seated in front of a tree)' width='200' src='/post/hemanth.jpg'/></center>
 
-I am a student, a prospective economist, a retiring [debater](https://www.edexlive.com/news/2018/aug/02/meet-indias-youngest-debate-guns-who-matched-wits-with-the-best-in-the-world-3562.html), and an impatient optimist. 
+I am a **student**, **prospective economist**, **retiring [debater**](https://www.edexlive.com/news/2018/aug/02/meet-indias-youngest-debate-guns-who-matched-wits-with-the-best-in-the-world-3562.html), and **impatient optimist**. 
 
 I'm interested in the science and practice of development; I care about informing policy and decision-making with data and evidence, deriving insights from psychology to understand economic problems, and disruptive innovation and enterprise that improves the lives of the poor. 
 
-[Work](#work).  [Personal](#personal). [Connect](#connect). [Site Back-End](#site).
+[Work](#work). [Personal](#personal). [Connect](#connect). [Site Back-End](#site).
 
 ## Work 
 
