@@ -3,9 +3,24 @@ title: "About"
 date: '2016-05-05T21:48:51-07:00'
 ---
 
+<style type="text/css">
+figure {
+    display: inline-block;
+    border: 1px dotted gray;
+    margin: 20px; /* adjust as needed */
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    border: 1px dotted blue;
+    text-align: center;
+}
+</style>
+
 <figure>
-<p style="text-align:center;"><img alt = 'A picture of me, I am wearing a checked blue shirt and a p-value greater than 0.05 sign at a Halloween Party.' width='300' src='/post/spooky.jpg'/>
-<figcaption>Me, Halloween 2019: a spooky costume</figcaption></p>
+  <img alt = 'A picture of me, I am wearing a checked blue shirt and a p-value greater than 0.05 sign at a Halloween Party.' width='300' src='/post/spooky.jpg'/>
+  <figcaption>Me, Halloween 2019: a spooky costume</figcaption>
 </figure>
 
 I am a *student*, *prospective economist*, *retiring* [*debater*](https://www.edexlive.com/news/2018/aug/02/meet-indias-youngest-debate-guns-who-matched-wits-with-the-best-in-the-world-3562.html), and *impatient optimist*. 
