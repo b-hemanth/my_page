@@ -12,6 +12,8 @@ figure img {
 }
 figure figcaption {
     text-align: center;
+    font-style: italic;
+    font-size: smaller;
 }
 </style>
 
