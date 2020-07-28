@@ -4,7 +4,7 @@ date: '2016-05-05T21:48:51-07:00'
 ---
 
 <figure>
-<img alt = 'A picture of me, I am wearing a blue, checked shirt and a p-value > 0.05 sign at a Halloween Party' width='300' src='/post/spooky.jpg'/>
+<p style="text-align:center;"><img alt = 'A picture of me, I am wearing a checked blue shirt and a p-value greater than 0.05 sign at a Halloween Party.' width='300' src='/post/spooky.jpg'/></p>
 <figcaption>Me, Halloween 2019: a spooky costume</figcaption>
 </figure>
 
