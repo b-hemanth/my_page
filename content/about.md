@@ -5,7 +5,7 @@ date: '2016-05-05T21:48:51-07:00'
 
 I am a *student*, *prospective economist*, *retiring* [*debater*](https://www.edexlive.com/news/2018/aug/02/meet-indias-youngest-debate-guns-who-matched-wits-with-the-best-in-the-world-3562.html), and *impatient optimist*. Currently, I am the Research Assistant to the Chief Economic Advisor (CEA) to the Government of India and a Trainee Analyst at the Reserve Bank of India. 
 
-I am interested in issues of development, public finance, behavioral science, and India. My work so far has focused on economic research, evidence-based public policy---consulting, implementation, and evaluation, building reliable administrative data, and monetary policy.
+I am interested in issues of development, public finance, behavioral science, and India. My work so far has focused on economic research, evidence-based public policy (consulting, implementation, and evaluation), building reliable administrative data, and monetary policy.
 
 <style type="text/css">
 figure {
