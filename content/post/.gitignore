@@ -1,7 +1,0 @@
-.httr-oauth
-*.Rproj
-*.csv
-ignore.R
-.DS_Store
-*.DS_Store
-*.zip
