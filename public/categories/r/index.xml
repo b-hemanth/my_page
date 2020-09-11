@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Hemanth Bharatha Chakravarthy</title>
-    <link>https://b-hemanth.com/categories/r/</link>
+    <link>/categories/r/</link>
     <description>Recent content in R on Hemanth Bharatha Chakravarthy</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Hemanth Bharatha Chakravarthy {year}. [Written](https://github.com/b-hemanth/my_page) in [Blogdown](https://github.com/rstudio/blogdown).</copyright>
     <lastBuildDate>Fri, 04 Sep 2020 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://b-hemanth.com/categories/r/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Indian Migrants During COVID-19</title>
-      <link>https://b-hemanth.com/post/covid19-indian-migrants/</link>
+      <link>/post/covid19-indian-migrants/</link>
       <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://b-hemanth.com/post/covid19-indian-migrants/</guid>
+      <guid>/post/covid19-indian-migrants/</guid>
       <description>&lt;p&gt;A report I led for Cefala, Schofield, and Kaur at the Behavioral Development Lab, Chennai, studying the household economy, food security, access to state services, location, health and health information, and beliefs of migrant workers during COVID-19: &lt;a href=&#34;https://behavioraldevlab.org/policy_insights/ld_covid/ld_covid_report1.pdf&#34;&gt;here&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;Downloadable data and documentation: &lt;a href=&#34;https://behavioraldevlab.org/resources/data_ld_covid1.html?resourceId=4&amp;amp;status=all&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -25,10 +25,10 @@
     
     <item>
       <title>Twitter Botocracy: Evidence from India (WIP)</title>
-      <link>https://b-hemanth.com/post/twitter-botocracy-evidence-from-the-use-of-twitter-bots-by-modi-s-bjp-in-india/</link>
+      <link>/post/twitter-botocracy-evidence-from-the-use-of-twitter-bots-by-modi-s-bjp-in-india/</link>
       <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://b-hemanth.com/post/twitter-botocracy-evidence-from-the-use-of-twitter-bots-by-modi-s-bjp-in-india/</guid>
+      <guid>/post/twitter-botocracy-evidence-from-the-use-of-twitter-bots-by-modi-s-bjp-in-india/</guid>
       <description>&lt;h3 id=&#34;work-in-progress&#34;&gt;Work in progress&lt;/h3&gt;
 &lt;p&gt;View as .pdf in &lt;a href=&#34;https://www.dropbox.com/s/3ye3dqvkdxv4zyw/bharathaChakravarthy_hemanth_botocracy_draft_wip.pdf?dl=0&#34;&gt;Dropbox&lt;/a&gt;.&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
@@ -37,10 +37,10 @@
     
     <item>
       <title>Gunshots in DC - Web App</title>
-      <link>https://b-hemanth.com/post/gunshots-in-dc-web-app/</link>
+      <link>/post/gunshots-in-dc-web-app/</link>
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://b-hemanth.com/post/gunshots-in-dc-web-app/</guid>
+      <guid>/post/gunshots-in-dc-web-app/</guid>
       <description>&lt;p&gt;I built a web app with &lt;a href=&#34;https://github.com/ibayramli2001&#34;&gt;Ilkin Bayramli&lt;/a&gt; studying gunshots in Washington D.C. We do interactive geospatial animated analysis of gunshot data: i.e., select your inputs to view animated maps of gunshots in DC in different time periods.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://ibayramli2001.shinyapps.io/shotspotter/&#34;&gt;&lt;strong&gt;Shiny App link&lt;/strong&gt;&lt;/a&gt;! A disclaimer: &lt;a href=&#34;https://shiny.rstudio.com/&#34;&gt;Shiny&lt;/a&gt;, while convenient, interactive, and open source (maybe because of this) is terribly slow at loading interactive GIFs.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/b-hemanth/shotspotter&#34;&gt;&lt;strong&gt;GitHub for code and ReadMe&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
@@ -50,10 +50,10 @@
     
     <item>
       <title>Twitter in the Biggest Election - Web App</title>
-      <link>https://b-hemanth.com/post/follow-up-on-the-chowkidar/</link>
+      <link>/post/follow-up-on-the-chowkidar/</link>
       <pubDate>Wed, 27 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://b-hemanth.com/post/follow-up-on-the-chowkidar/</guid>
+      <guid>/post/follow-up-on-the-chowkidar/</guid>
       <description>&lt;p&gt;Studying Twitter&amp;rsquo;s response to the &lt;em&gt;Main Bhi Chowkidar&lt;/em&gt; (I too am a guard) electoral campaign of the Bharatiya Janata Party (&lt;a href=&#34;https://www.thehindubusinessline.com/news/bjp-steps-up-its-main-bhi-chowkidar-campaign/article26568670.ece&#34;&gt;Background&lt;/a&gt;, &lt;a href=&#34;https://en.wikipedia.org/wiki/Main_Bhi_Chowkidar&#34;&gt;Wiki&lt;/a&gt;), analyzing it using machine learning to study sentiments, representing views geospatially on a map, studying tweet frequency lumping and potential bot activity, and more!&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://hemanth-bharatha-chakravarthy.shinyapps.io/lok_sabha/&#34;&gt;&lt;strong&gt;Shiny App Link&lt;/strong&gt;&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/b-hemanth/lok_sabha_public&#34;&gt;&lt;strong&gt;Github for code and ReadMe&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
@@ -62,10 +62,10 @@
     
     <item>
       <title>An Introduction to GitHub and R Markdown (Guest Lecture at Stella Maris College, Chennai)</title>
-      <link>https://b-hemanth.com/post/introduction-to-github-and-r-markdown/</link>
+      <link>/post/introduction-to-github-and-r-markdown/</link>
       <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://b-hemanth.com/post/introduction-to-github-and-r-markdown/</guid>
+      <guid>/post/introduction-to-github-and-r-markdown/</guid>
       <description>
 
 
@@ -576,10 +576,10 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Police Stop Bunching: A Curious Case of Rounding Off</title>
-      <link>https://b-hemanth.com/post/police-stop-bunching-a-curious-case-of-rounding-off/</link>
+      <link>/post/police-stop-bunching-a-curious-case-of-rounding-off/</link>
       <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://b-hemanth.com/post/police-stop-bunching-a-curious-case-of-rounding-off/</guid>
+      <guid>/post/police-stop-bunching-a-curious-case-of-rounding-off/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/b-hemanth/policing_analysis&#34;&gt;Code and ReadMe&lt;/a&gt;.&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
 </description>
@@ -587,25 +587,25 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Harvard Course Enrollment: Big Winners and Losers</title>
-      <link>https://b-hemanth.com/post/harvard-course-enrollment-big-winners-and-losers/</link>
+      <link>/post/harvard-course-enrollment-big-winners-and-losers/</link>
       <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://b-hemanth.com/post/harvard-course-enrollment-big-winners-and-losers/</guid>
+      <guid>/post/harvard-course-enrollment-big-winners-and-losers/</guid>
       <description>
 
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/b-hemanth/harvard_courses_enrolment_analysis&#34;&gt;Code and ReadMe&lt;/a&gt;.&lt;/p&gt;
 &lt;div id=&#34;biggest-departmental-changes-in-enrolments-at-harvard&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Biggest Departmental Changes in Enrolments at Harvard&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://b-hemanth.com/post/course_enrol.png&#34; alt=&#34;courses&#34; width=&#34;800&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/course_enrol.png&#34; alt=&#34;courses&#34; width=&#34;800&#34;/&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;biggest-drops-in-enrolment&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Biggest Drops in Enrolment&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://b-hemanth.com/post/courses 1.png&#34; alt=&#34;courses&#34; width=&#34;700&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/courses 1.png&#34; alt=&#34;courses&#34; width=&#34;700&#34;/&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;biggest-new-classes&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Biggest New Classes&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://b-hemanth.com/post/c2.png&#34; alt=&#34;courses&#34; width=&#34;700&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/c2.png&#34; alt=&#34;courses&#34; width=&#34;700&#34;/&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
