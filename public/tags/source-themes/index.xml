@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Source Themes on Hemanth Bharatha Chakravarthy</title>
-    <link>/tags/source-themes/</link>
+    <link>https://b-hemanth.com/tags/source-themes/</link>
     <description>Recent content in Source Themes on Hemanth Bharatha Chakravarthy</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <copyright>Written by (&amp;copy; {year}) Hemanth Bharatha Chakravarthy in [Blogdown](https://github.com/rstudio/blogdown)</copyright>
+    <copyright>&amp;copy; Hemanth Bharatha Chakravarthy {year}. [Written](https://github.com/b-hemanth/my_page) in [Blogdown](https://github.com/rstudio/blogdown).</copyright>
     <lastBuildDate>Sun, 17 May 2020 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/tags/source-themes/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://b-hemanth.com/tags/source-themes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Twitter Botocracy</title>
-      <link>/publication/lessons-on-teacher-pay/</link>
+      <link>https://b-hemanth.com/publication/lessons-on-teacher-pay/</link>
       <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/publication/lessons-on-teacher-pay/</guid>
+      <guid>https://b-hemanth.com/publication/lessons-on-teacher-pay/</guid>
       <description>&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
 &lt;p&gt;Control over the media has been a consistent ingredient of the autocratic modus operandi. However, as dissent and opposition move online on to social media, how do strongmen leaders still control and set narratives? I explore the use of Twitter Bots in India by the ruling Bharatiya Janata Party and make multiple novel contributions to the study of bot use by the BJP. First, I offer rigorous evidence of bots reacting to key events with disaggregation of events and study of time lags showing that bot creation is highest when there is a dominating political event occurring and progressively falls with time or with lower national relevance of the event. Here I find a regression coefficient of 80.742***, between the bot creation in a day and key political events—evidence that more than twice the median number of bots created in a day are created on days with key events. This establishes the deliberate attempt to dominate political discourse around political issues perceived as important in public eye—more critical events result in more bot creation and as topics grow irrelevant with time, bot creation wears off to usual norms. Second, I present evidence around their strategy, clustering, and amplification: dual prongs of mass retweeting and mentioning “seed” bots and prominent pro-BJP sources. I describe seed bots, describe the bot network, its interlinkedness, and the existence of large clusters very quickly in the beginning of the tree diagram. Finally, I offer evidence of propagandic sentiments in use by Tweets and account descriptions and present quasi evidence of coordination between bot content. I also make contributions of public interest in understanding the prevalence of political bots in India and ways to identify them.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1ub-B6JAlOCQs38I3ZZD6kYFS8Gx0Tu33/view?usp=sharing&#34;&gt;Read full text as PDF.&lt;/a&gt;&lt;/p&gt;
@@ -27,10 +27,10 @@
     
     <item>
       <title>Lessons on Teacher Pay</title>
-      <link>/publication/botocracy/</link>
+      <link>https://b-hemanth.com/publication/botocracy/</link>
       <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/publication/botocracy/</guid>
+      <guid>https://b-hemanth.com/publication/botocracy/</guid>
       <description>&lt;h1 id=&#34;policy-brief-on-performance-based-pay-for-teachers&#34;&gt;Policy Brief on Performance-Based Pay for Teachers&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1GwUz-1J84PS0eZ2XhZ4OLyYcfeZYGqDL/view?usp=sharing&#34;&gt;Read full text as PDF.&lt;/a&gt;&lt;/p&gt;
 </description>

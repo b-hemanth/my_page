@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R Markdown on Hemanth Bharatha Chakravarthy</title>
-    <link>/tags/r-markdown/</link>
+    <link>https://b-hemanth.com/tags/r-markdown/</link>
     <description>Recent content in R Markdown on Hemanth Bharatha Chakravarthy</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <copyright>Written by (&amp;copy; {year}) Hemanth Bharatha Chakravarthy in [Blogdown](https://github.com/rstudio/blogdown)</copyright>
+    <copyright>&amp;copy; Hemanth Bharatha Chakravarthy {year}. [Written](https://github.com/b-hemanth/my_page) in [Blogdown](https://github.com/rstudio/blogdown).</copyright>
     <lastBuildDate>Wed, 27 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/tags/r-markdown/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://b-hemanth.com/tags/r-markdown/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Twitter in the Biggest Election - Web App</title>
-      <link>/post/follow-up-on-the-chowkidar/</link>
+      <link>https://b-hemanth.com/post/follow-up-on-the-chowkidar/</link>
       <pubDate>Wed, 27 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/follow-up-on-the-chowkidar/</guid>
+      <guid>https://b-hemanth.com/post/follow-up-on-the-chowkidar/</guid>
       <description>&lt;p&gt;Studying Twitter&amp;rsquo;s response to the &lt;em&gt;Main Bhi Chowkidar&lt;/em&gt; (I too am a guard) electoral campaign of the Bharatiya Janata Party (&lt;a href=&#34;https://www.thehindubusinessline.com/news/bjp-steps-up-its-main-bhi-chowkidar-campaign/article26568670.ece&#34;&gt;Background&lt;/a&gt;, &lt;a href=&#34;https://en.wikipedia.org/wiki/Main_Bhi_Chowkidar&#34;&gt;Wiki&lt;/a&gt;), analyzing it using machine learning to study sentiments, representing views geospatially on a map, studying tweet frequency lumping and potential bot activity, and more!&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://hemanth-bharatha-chakravarthy.shinyapps.io/lok_sabha/&#34;&gt;&lt;strong&gt;Shiny App Link&lt;/strong&gt;&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/b-hemanth/lok_sabha_public&#34;&gt;&lt;strong&gt;Github for code and ReadMe&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
@@ -26,10 +26,10 @@
     
     <item>
       <title>An Introduction to GitHub and R Markdown (Guest Lecture at Stella Maris College, Chennai)</title>
-      <link>/post/introduction-to-github-and-r-markdown/</link>
+      <link>https://b-hemanth.com/post/introduction-to-github-and-r-markdown/</link>
       <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/introduction-to-github-and-r-markdown/</guid>
+      <guid>https://b-hemanth.com/post/introduction-to-github-and-r-markdown/</guid>
       <description>
 
 
@@ -143,9 +143,9 @@ x &amp;lt;- data.frame(replicate(5,sample(0:1,1000,rep=TRUE)))
 # Print three rows of our dummy df
 x[1:3,]&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##   X1 X2 X3 X4 X5
-## 1  0  1  1  1  0
-## 2  1  1  1  0  1
-## 3  0  0  1  0  1&lt;/code&gt;&lt;/pre&gt;
+## 1  1  0  0  0  1
+## 2  0  1  0  1  0
+## 3  0  0  1  1  0&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;strong&gt;Chunk Options&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;You might not want to show your code, the warnings, and messages but show the output–Rmd let’s you control that.&lt;/p&gt;
 &lt;p&gt;E.g.: There’s a hidden chunk below but you’ll only see the table it outputs&lt;/p&gt;
@@ -153,7 +153,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   font-family: -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, Oxygen, Ubuntu, Cantarell, &#39;Helvetica Neue&#39;, &#39;Fira Sans&#39;, &#39;Droid Sans&#39;, Arial, sans-serif;
 }
 
-#krjiebqguk .gt_table {
+#blwjimpqtu .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -176,7 +176,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-left-color: #D3D3D3;
 }
 
-#krjiebqguk .gt_heading {
+#blwjimpqtu .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -188,7 +188,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-right-color: #D3D3D3;
 }
 
-#krjiebqguk .gt_title {
+#blwjimpqtu .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -198,7 +198,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-bottom-width: 0;
 }
 
-#krjiebqguk .gt_subtitle {
+#blwjimpqtu .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -208,13 +208,13 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-top-width: 0;
 }
 
-#krjiebqguk .gt_bottom_border {
+#blwjimpqtu .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#krjiebqguk .gt_col_headings {
+#blwjimpqtu .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -229,7 +229,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-right-color: #D3D3D3;
 }
 
-#krjiebqguk .gt_col_heading {
+#blwjimpqtu .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -249,7 +249,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   overflow-x: hidden;
 }
 
-#krjiebqguk .gt_column_spanner_outer {
+#blwjimpqtu .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -261,15 +261,15 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   padding-right: 4px;
 }
 
-#krjiebqguk .gt_column_spanner_outer:first-child {
+#blwjimpqtu .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#krjiebqguk .gt_column_spanner_outer:last-child {
+#blwjimpqtu .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#krjiebqguk .gt_column_spanner {
+#blwjimpqtu .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -281,7 +281,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   width: 100%;
 }
 
-#krjiebqguk .gt_group_heading {
+#blwjimpqtu .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -303,7 +303,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   vertical-align: middle;
 }
 
-#krjiebqguk .gt_empty_group_heading {
+#blwjimpqtu .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -318,19 +318,19 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   vertical-align: middle;
 }
 
-#krjiebqguk .gt_striped {
+#blwjimpqtu .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#krjiebqguk .gt_from_md &gt; :first-child {
+#blwjimpqtu .gt_from_md &gt; :first-child {
   margin-top: 0;
 }
 
-#krjiebqguk .gt_from_md &gt; :last-child {
+#blwjimpqtu .gt_from_md &gt; :last-child {
   margin-bottom: 0;
 }
 
-#krjiebqguk .gt_row {
+#blwjimpqtu .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -349,7 +349,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   overflow-x: hidden;
 }
 
-#krjiebqguk .gt_stub {
+#blwjimpqtu .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -361,7 +361,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   padding-left: 12px;
 }
 
-#krjiebqguk .gt_summary_row {
+#blwjimpqtu .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -371,7 +371,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   padding-right: 5px;
 }
 
-#krjiebqguk .gt_first_summary_row {
+#blwjimpqtu .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -381,7 +381,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-top-color: #D3D3D3;
 }
 
-#krjiebqguk .gt_grand_summary_row {
+#blwjimpqtu .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -391,7 +391,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   padding-right: 5px;
 }
 
-#krjiebqguk .gt_first_grand_summary_row {
+#blwjimpqtu .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -401,7 +401,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-top-color: #D3D3D3;
 }
 
-#krjiebqguk .gt_table_body {
+#blwjimpqtu .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -410,7 +410,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-bottom-color: #D3D3D3;
 }
 
-#krjiebqguk .gt_footnotes {
+#blwjimpqtu .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -424,13 +424,13 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-right-color: #D3D3D3;
 }
 
-#krjiebqguk .gt_footnote {
+#blwjimpqtu .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#krjiebqguk .gt_sourcenotes {
+#blwjimpqtu .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -444,46 +444,46 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-right-color: #D3D3D3;
 }
 
-#krjiebqguk .gt_sourcenote {
+#blwjimpqtu .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#krjiebqguk .gt_left {
+#blwjimpqtu .gt_left {
   text-align: left;
 }
 
-#krjiebqguk .gt_center {
+#blwjimpqtu .gt_center {
   text-align: center;
 }
 
-#krjiebqguk .gt_right {
+#blwjimpqtu .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#krjiebqguk .gt_font_normal {
+#blwjimpqtu .gt_font_normal {
   font-weight: normal;
 }
 
-#krjiebqguk .gt_font_bold {
+#blwjimpqtu .gt_font_bold {
   font-weight: bold;
 }
 
-#krjiebqguk .gt_font_italic {
+#blwjimpqtu .gt_font_italic {
   font-style: italic;
 }
 
-#krjiebqguk .gt_super {
+#blwjimpqtu .gt_super {
   font-size: 65%;
 }
 
-#krjiebqguk .gt_footnote_marks {
+#blwjimpqtu .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 &lt;/style&gt;
-&lt;div id=&#34;krjiebqguk&#34; style=&#34;overflow-x:auto;overflow-y:auto;width:auto;height:auto;&#34;&gt;&lt;table class=&#34;gt_table&#34;&gt;
+&lt;div id=&#34;blwjimpqtu&#34; style=&#34;overflow-x:auto;overflow-y:auto;width:auto;height:auto;&#34;&gt;&lt;table class=&#34;gt_table&#34;&gt;
   &lt;thead class=&#34;gt_header&#34;&gt;
     &lt;tr&gt;
       &lt;th colspan=&#34;1&#34; class=&#34;gt_heading gt_title gt_font_normal&#34; style&gt;Cool table&lt;/th&gt;
@@ -540,25 +540,25 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Harvard Course Enrollment: Big Winners and Losers</title>
-      <link>/post/harvard-course-enrollment-big-winners-and-losers/</link>
+      <link>https://b-hemanth.com/post/harvard-course-enrollment-big-winners-and-losers/</link>
       <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/harvard-course-enrollment-big-winners-and-losers/</guid>
+      <guid>https://b-hemanth.com/post/harvard-course-enrollment-big-winners-and-losers/</guid>
       <description>
 
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/b-hemanth/harvard_courses_enrolment_analysis&#34;&gt;Code and ReadMe&lt;/a&gt;.&lt;/p&gt;
 &lt;div id=&#34;biggest-departmental-changes-in-enrolments-at-harvard&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Biggest Departmental Changes in Enrolments at Harvard&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/post/course_enrol.png&#34; alt=&#34;courses&#34; width=&#34;800&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://b-hemanth.com/post/course_enrol.png&#34; alt=&#34;courses&#34; width=&#34;800&#34;/&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;biggest-drops-in-enrolment&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Biggest Drops in Enrolment&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/post/courses 1.png&#34; alt=&#34;courses&#34; width=&#34;700&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://b-hemanth.com/post/courses 1.png&#34; alt=&#34;courses&#34; width=&#34;700&#34;/&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;biggest-new-classes&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Biggest New Classes&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/post/c2.png&#34; alt=&#34;courses&#34; width=&#34;700&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://b-hemanth.com/post/c2.png&#34; alt=&#34;courses&#34; width=&#34;700&#34;/&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
