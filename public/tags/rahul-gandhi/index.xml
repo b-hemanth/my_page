@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rahul Gandhi on Hemanth Bharatha Chakravarthy</title>
-    <link>https://b-hemanth.com/tags/rahul-gandhi/</link>
+    <link>/tags/rahul-gandhi/</link>
     <description>Recent content in Rahul Gandhi on Hemanth Bharatha Chakravarthy</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Written by (&amp;copy; {year}) Hemanth Bharatha Chakravarthy in [Blogdown](https://github.com/rstudio/blogdown)</copyright>
     <lastBuildDate>Wed, 27 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://b-hemanth.com/tags/rahul-gandhi/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="/tags/rahul-gandhi/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Twitter in the Biggest Election - Web App</title>
-      <link>https://b-hemanth.com/post/follow-up-on-the-chowkidar/</link>
+      <link>/post/follow-up-on-the-chowkidar/</link>
       <pubDate>Wed, 27 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://b-hemanth.com/post/follow-up-on-the-chowkidar/</guid>
+      <guid>/post/follow-up-on-the-chowkidar/</guid>
       <description>&lt;p&gt;Studying Twitter&amp;rsquo;s response to the &lt;em&gt;Main Bhi Chowkidar&lt;/em&gt; (I too am a guard) electoral campaign of the Bharatiya Janata Party (&lt;a href=&#34;https://www.thehindubusinessline.com/news/bjp-steps-up-its-main-bhi-chowkidar-campaign/article26568670.ece&#34;&gt;Background&lt;/a&gt;, &lt;a href=&#34;https://en.wikipedia.org/wiki/Main_Bhi_Chowkidar&#34;&gt;Wiki&lt;/a&gt;), analyzing it using machine learning to study sentiments, representing views geospatially on a map, studying tweet frequency lumping and potential bot activity, and more!&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://hemanth-bharatha-chakravarthy.shinyapps.io/lok_sabha/&#34;&gt;&lt;strong&gt;Shiny App Link&lt;/strong&gt;&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/b-hemanth/lok_sabha_public&#34;&gt;&lt;strong&gt;Github for code and ReadMe&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
