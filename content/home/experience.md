@@ -24,7 +24,7 @@ date_format = "Jan 2006"
   location = "Delhi"
   date_start = "2020-09-07"
   date_end = "2020-08-30"
-  description = """Work on the [Economic Survey of India](https://www.indiabudget.gov.in/economicsurvey/)."""
+  description = """Work on the [Economic Survey of India](https://www.indiabudget.gov.in/economicsurvey/). Research Assistant to Dr. KV Subramanian, CEA @ Indian School of Business."""
 
 [[experience]]
   title = "Trainee"
