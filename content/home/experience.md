@@ -33,7 +33,7 @@ date_format = "Jan 2006"
   location = "Mumbai"
   date_start = "2020-09-01"
   date_end = "2020-10-15"
-  description = """Spend 15 days meeting all 18 Directors at DEPR, 1 month placed in a division of my choice; co-author research with top bank economists; only undergraduate at the RBI."""
+  description = """Spend 15 days meeting all 18 Directors at DEPR, 1 month placed in a division of my choice; co-author research with bank economists; only undergraduate at the RBI."""
 
 [[experience]]
   title = "Research Assistant to Professor Heather Schofield"
@@ -42,7 +42,7 @@ date_format = "Jan 2006"
   location = "Philadelphia"
   date_start = "2020-05-01"
   date_end = "2020-08-30"
-  description = """Tracked the COVID-19 pandemic and wrote economic policy reports; worked on randomized controlled trials in labor economics."""
+  description = """Tracked the COVID-19 pandemic and wrote economic policy reports; worked on randomized controlled trials in labor and behavioral economics."""
 
 [[experience]]
   title = "Policy Brief Author"
@@ -69,7 +69,7 @@ date_format = "Jan 2006"
   location = "Chennai"
   date_start = "2019-05-01"
   date_end = "2019-08-30"
-  description = """Liaised between experts, bureaucrats, and politicians at J-PAL South Asia to evaluate and build policy, served as a consultant to the Tamil Nadu Welfare Ministry and worked with their top brass, and built and evaluated the state 24-hour Women's Helpline. """
+  description = """Liaised between experts, bureaucrats, and politicians at J-PAL South Asia to evaluate and build policy, served as a consultant to the Tamil Nadu Welfare Ministry and worked with their top brass, and helped build and evaluated the state 24-hour Women's Helpline. """
 
   
 +++

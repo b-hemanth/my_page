@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks on Hemanth Bharatha Chakravarthy</title>
-    <link>/talk/</link>
+    <link>https://b-hemanth.com/talk/</link>
     <description>Recent content in Recent &amp; Upcoming Talks on Hemanth Bharatha Chakravarthy</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Hemanth Bharatha Chakravarthy, {year}</copyright>
     <lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://b-hemanth.com/talk/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Coding and Analyzing Qualitative Data</title>
-      <link>/talk/coding/</link>
+      <link>https://b-hemanth.com/talk/coding/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
       
-      <guid>/talk/coding/</guid>
+      <guid>https://b-hemanth.com/talk/coding/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
 &lt;ul&gt;
@@ -31,10 +31,10 @@
     
     <item>
       <title>Qualitative Research Summer Intensive</title>
-      <link>/talk/qualitative/</link>
+      <link>https://b-hemanth.com/talk/qualitative/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
       
-      <guid>/talk/qualitative/</guid>
+      <guid>https://b-hemanth.com/talk/qualitative/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
 &lt;ul&gt;
@@ -48,10 +48,10 @@
     
     <item>
       <title>Synthesizing Qualitative Data</title>
-      <link>/talk/synthesizing/</link>
+      <link>https://b-hemanth.com/talk/synthesizing/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
       
-      <guid>/talk/synthesizing/</guid>
+      <guid>https://b-hemanth.com/talk/synthesizing/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
 &lt;ul&gt;

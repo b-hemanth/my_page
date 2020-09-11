@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Hemanth Bharatha Chakravarthy</title>
-    <link>/post/</link>
+    <link>https://b-hemanth.com/post/</link>
     <description>Recent content in Posts on Hemanth Bharatha Chakravarthy</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Hemanth Bharatha Chakravarthy, {year}</copyright>
     <lastBuildDate>Fri, 04 Sep 2020 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://b-hemanth.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Indian Migrants During COVID-19</title>
-      <link>/post/covid19-indian-migrants/</link>
+      <link>https://b-hemanth.com/post/covid19-indian-migrants/</link>
       <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/covid19-indian-migrants/</guid>
+      <guid>https://b-hemanth.com/post/covid19-indian-migrants/</guid>
       <description>&lt;p&gt;A report I led for Cefala, Schofield, and Kaur at the Behavioral Development Lab, Chennai, studying the household economy, food security, access to state services, location, health and health information, and beliefs of migrant workers during COVID-19: &lt;a href=&#34;https://behavioraldevlab.org/policy_insights/ld_covid/ld_covid_report1.pdf&#34;&gt;here&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;Downloadable data and documentation: &lt;a href=&#34;https://behavioraldevlab.org/resources/data_ld_covid1.html?resourceId=4&amp;amp;status=all&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -25,10 +25,10 @@
     
     <item>
       <title>Lessons on Teacher Pay: Policy Brief on Performance Based Pay for Teachers (WIP)</title>
-      <link>/post/lessons-on-teacher-pay-policy-brief-on-performance-based-pay-for-teachers/</link>
+      <link>https://b-hemanth.com/post/lessons-on-teacher-pay-policy-brief-on-performance-based-pay-for-teachers/</link>
       <pubDate>Thu, 04 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/lessons-on-teacher-pay-policy-brief-on-performance-based-pay-for-teachers/</guid>
+      <guid>https://b-hemanth.com/post/lessons-on-teacher-pay-policy-brief-on-performance-based-pay-for-teachers/</guid>
       <description>&lt;h3 id=&#34;work-in-progress&#34;&gt;Work in Progress&lt;/h3&gt;
 &lt;p&gt;View as .pdf on &lt;a href=&#34;https://www.dropbox.com/s/tkpxdx8mirs1rwa/draft_bharathaChakravarthy_hemanth_teacher_pay_performance_wip.pdf?dl=0&#34;&gt;Dropbox&lt;/a&gt;.&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
@@ -37,10 +37,10 @@
     
     <item>
       <title>Twitter Botocracy: Evidence from India (WIP)</title>
-      <link>/post/twitter-botocracy-evidence-from-the-use-of-twitter-bots-by-modi-s-bjp-in-india/</link>
+      <link>https://b-hemanth.com/post/twitter-botocracy-evidence-from-the-use-of-twitter-bots-by-modi-s-bjp-in-india/</link>
       <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/twitter-botocracy-evidence-from-the-use-of-twitter-bots-by-modi-s-bjp-in-india/</guid>
+      <guid>https://b-hemanth.com/post/twitter-botocracy-evidence-from-the-use-of-twitter-bots-by-modi-s-bjp-in-india/</guid>
       <description>&lt;h3 id=&#34;work-in-progress&#34;&gt;Work in progress&lt;/h3&gt;
 &lt;p&gt;View as .pdf in &lt;a href=&#34;https://www.dropbox.com/s/3ye3dqvkdxv4zyw/bharathaChakravarthy_hemanth_botocracy_draft_wip.pdf?dl=0&#34;&gt;Dropbox&lt;/a&gt;.&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
@@ -49,10 +49,10 @@
     
     <item>
       <title>Gunshots in DC - Web App</title>
-      <link>/post/gunshots-in-dc-web-app/</link>
+      <link>https://b-hemanth.com/post/gunshots-in-dc-web-app/</link>
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/gunshots-in-dc-web-app/</guid>
+      <guid>https://b-hemanth.com/post/gunshots-in-dc-web-app/</guid>
       <description>&lt;p&gt;I built a web app with &lt;a href=&#34;https://github.com/ibayramli2001&#34;&gt;Ilkin Bayramli&lt;/a&gt; studying gunshots in Washington D.C. We do interactive geospatial animated analysis of gunshot data: i.e., select your inputs to view animated maps of gunshots in DC in different time periods.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://ibayramli2001.shinyapps.io/shotspotter/&#34;&gt;&lt;strong&gt;Shiny App link&lt;/strong&gt;&lt;/a&gt;! A disclaimer: &lt;a href=&#34;https://shiny.rstudio.com/&#34;&gt;Shiny&lt;/a&gt;, while convenient, interactive, and open source (maybe because of this) is terribly slow at loading interactive GIFs.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/b-hemanth/shotspotter&#34;&gt;&lt;strong&gt;GitHub for code and ReadMe&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
@@ -62,10 +62,10 @@
     
     <item>
       <title>Twitter in the Biggest Election - Web App</title>
-      <link>/post/follow-up-on-the-chowkidar/</link>
+      <link>https://b-hemanth.com/post/follow-up-on-the-chowkidar/</link>
       <pubDate>Wed, 27 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/follow-up-on-the-chowkidar/</guid>
+      <guid>https://b-hemanth.com/post/follow-up-on-the-chowkidar/</guid>
       <description>&lt;p&gt;Studying Twitter&amp;rsquo;s response to the &lt;em&gt;Main Bhi Chowkidar&lt;/em&gt; (I too am a guard) electoral campaign of the Bharatiya Janata Party (&lt;a href=&#34;https://www.thehindubusinessline.com/news/bjp-steps-up-its-main-bhi-chowkidar-campaign/article26568670.ece&#34;&gt;Background&lt;/a&gt;, &lt;a href=&#34;https://en.wikipedia.org/wiki/Main_Bhi_Chowkidar&#34;&gt;Wiki&lt;/a&gt;), analyzing it using machine learning to study sentiments, representing views geospatially on a map, studying tweet frequency lumping and potential bot activity, and more!&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://hemanth-bharatha-chakravarthy.shinyapps.io/lok_sabha/&#34;&gt;&lt;strong&gt;Shiny App Link&lt;/strong&gt;&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/b-hemanth/lok_sabha_public&#34;&gt;&lt;strong&gt;Github for code and ReadMe&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
@@ -74,10 +74,10 @@
     
     <item>
       <title>An Introduction to GitHub and R Markdown (Guest Lecture at Stella Maris College, Chennai)</title>
-      <link>/post/introduction-to-github-and-r-markdown/</link>
+      <link>https://b-hemanth.com/post/introduction-to-github-and-r-markdown/</link>
       <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/introduction-to-github-and-r-markdown/</guid>
+      <guid>https://b-hemanth.com/post/introduction-to-github-and-r-markdown/</guid>
       <description>
 
 
@@ -191,9 +191,9 @@ x &amp;lt;- data.frame(replicate(5,sample(0:1,1000,rep=TRUE)))
 # Print three rows of our dummy df
 x[1:3,]&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##   X1 X2 X3 X4 X5
-## 1  0  1  0  1  0
-## 2  0  0  0  0  1
-## 3  0  0  0  1  0&lt;/code&gt;&lt;/pre&gt;
+## 1  1  1  1  1  0
+## 2  1  1  0  1  0
+## 3  0  0  1  0  1&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;strong&gt;Chunk Options&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;You might not want to show your code, the warnings, and messages but show the output–Rmd let’s you control that.&lt;/p&gt;
 &lt;p&gt;E.g.: There’s a hidden chunk below but you’ll only see the table it outputs&lt;/p&gt;
@@ -201,7 +201,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   font-family: -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, Oxygen, Ubuntu, Cantarell, &#39;Helvetica Neue&#39;, &#39;Fira Sans&#39;, &#39;Droid Sans&#39;, Arial, sans-serif;
 }
 
-#wrlnegwoir .gt_table {
+#bsnrkldokp .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -224,7 +224,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-left-color: #D3D3D3;
 }
 
-#wrlnegwoir .gt_heading {
+#bsnrkldokp .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -236,7 +236,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-right-color: #D3D3D3;
 }
 
-#wrlnegwoir .gt_title {
+#bsnrkldokp .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -246,7 +246,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-bottom-width: 0;
 }
 
-#wrlnegwoir .gt_subtitle {
+#bsnrkldokp .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -256,13 +256,13 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-top-width: 0;
 }
 
-#wrlnegwoir .gt_bottom_border {
+#bsnrkldokp .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#wrlnegwoir .gt_col_headings {
+#bsnrkldokp .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -277,7 +277,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-right-color: #D3D3D3;
 }
 
-#wrlnegwoir .gt_col_heading {
+#bsnrkldokp .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -297,7 +297,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   overflow-x: hidden;
 }
 
-#wrlnegwoir .gt_column_spanner_outer {
+#bsnrkldokp .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -309,15 +309,15 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   padding-right: 4px;
 }
 
-#wrlnegwoir .gt_column_spanner_outer:first-child {
+#bsnrkldokp .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#wrlnegwoir .gt_column_spanner_outer:last-child {
+#bsnrkldokp .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#wrlnegwoir .gt_column_spanner {
+#bsnrkldokp .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -329,7 +329,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   width: 100%;
 }
 
-#wrlnegwoir .gt_group_heading {
+#bsnrkldokp .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -351,7 +351,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   vertical-align: middle;
 }
 
-#wrlnegwoir .gt_empty_group_heading {
+#bsnrkldokp .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -366,19 +366,19 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   vertical-align: middle;
 }
 
-#wrlnegwoir .gt_striped {
+#bsnrkldokp .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#wrlnegwoir .gt_from_md &gt; :first-child {
+#bsnrkldokp .gt_from_md &gt; :first-child {
   margin-top: 0;
 }
 
-#wrlnegwoir .gt_from_md &gt; :last-child {
+#bsnrkldokp .gt_from_md &gt; :last-child {
   margin-bottom: 0;
 }
 
-#wrlnegwoir .gt_row {
+#bsnrkldokp .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -397,7 +397,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   overflow-x: hidden;
 }
 
-#wrlnegwoir .gt_stub {
+#bsnrkldokp .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -409,7 +409,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   padding-left: 12px;
 }
 
-#wrlnegwoir .gt_summary_row {
+#bsnrkldokp .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -419,7 +419,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   padding-right: 5px;
 }
 
-#wrlnegwoir .gt_first_summary_row {
+#bsnrkldokp .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -429,7 +429,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-top-color: #D3D3D3;
 }
 
-#wrlnegwoir .gt_grand_summary_row {
+#bsnrkldokp .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -439,7 +439,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   padding-right: 5px;
 }
 
-#wrlnegwoir .gt_first_grand_summary_row {
+#bsnrkldokp .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -449,7 +449,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-top-color: #D3D3D3;
 }
 
-#wrlnegwoir .gt_table_body {
+#bsnrkldokp .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -458,7 +458,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-bottom-color: #D3D3D3;
 }
 
-#wrlnegwoir .gt_footnotes {
+#bsnrkldokp .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -472,13 +472,13 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-right-color: #D3D3D3;
 }
 
-#wrlnegwoir .gt_footnote {
+#bsnrkldokp .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#wrlnegwoir .gt_sourcenotes {
+#bsnrkldokp .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -492,46 +492,46 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-right-color: #D3D3D3;
 }
 
-#wrlnegwoir .gt_sourcenote {
+#bsnrkldokp .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#wrlnegwoir .gt_left {
+#bsnrkldokp .gt_left {
   text-align: left;
 }
 
-#wrlnegwoir .gt_center {
+#bsnrkldokp .gt_center {
   text-align: center;
 }
 
-#wrlnegwoir .gt_right {
+#bsnrkldokp .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#wrlnegwoir .gt_font_normal {
+#bsnrkldokp .gt_font_normal {
   font-weight: normal;
 }
 
-#wrlnegwoir .gt_font_bold {
+#bsnrkldokp .gt_font_bold {
   font-weight: bold;
 }
 
-#wrlnegwoir .gt_font_italic {
+#bsnrkldokp .gt_font_italic {
   font-style: italic;
 }
 
-#wrlnegwoir .gt_super {
+#bsnrkldokp .gt_super {
   font-size: 65%;
 }
 
-#wrlnegwoir .gt_footnote_marks {
+#bsnrkldokp .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 &lt;/style&gt;
-&lt;div id=&#34;wrlnegwoir&#34; style=&#34;overflow-x:auto;overflow-y:auto;width:auto;height:auto;&#34;&gt;&lt;table class=&#34;gt_table&#34;&gt;
+&lt;div id=&#34;bsnrkldokp&#34; style=&#34;overflow-x:auto;overflow-y:auto;width:auto;height:auto;&#34;&gt;&lt;table class=&#34;gt_table&#34;&gt;
   &lt;thead class=&#34;gt_header&#34;&gt;
     &lt;tr&gt;
       &lt;th colspan=&#34;1&#34; class=&#34;gt_heading gt_title gt_font_normal&#34; style&gt;Cool table&lt;/th&gt;
@@ -588,10 +588,10 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Police Stop Bunching: A Curious Case of Rounding Off</title>
-      <link>/post/police-stop-bunching-a-curious-case-of-rounding-off/</link>
+      <link>https://b-hemanth.com/post/police-stop-bunching-a-curious-case-of-rounding-off/</link>
       <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/police-stop-bunching-a-curious-case-of-rounding-off/</guid>
+      <guid>https://b-hemanth.com/post/police-stop-bunching-a-curious-case-of-rounding-off/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/b-hemanth/policing_analysis&#34;&gt;Code and ReadMe&lt;/a&gt;.&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
 </description>
@@ -599,25 +599,25 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Harvard Course Enrollment: Big Winners and Losers</title>
-      <link>/post/harvard-course-enrollment-big-winners-and-losers/</link>
+      <link>https://b-hemanth.com/post/harvard-course-enrollment-big-winners-and-losers/</link>
       <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/harvard-course-enrollment-big-winners-and-losers/</guid>
+      <guid>https://b-hemanth.com/post/harvard-course-enrollment-big-winners-and-losers/</guid>
       <description>
 
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/b-hemanth/harvard_courses_enrolment_analysis&#34;&gt;Code and ReadMe&lt;/a&gt;.&lt;/p&gt;
 &lt;div id=&#34;biggest-departmental-changes-in-enrolments-at-harvard&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Biggest Departmental Changes in Enrolments at Harvard&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/post/course_enrol.png&#34; alt=&#34;courses&#34; width=&#34;800&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://b-hemanth.com/post/course_enrol.png&#34; alt=&#34;courses&#34; width=&#34;800&#34;/&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;biggest-drops-in-enrolment&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Biggest Drops in Enrolment&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/post/courses 1.png&#34; alt=&#34;courses&#34; width=&#34;700&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://b-hemanth.com/post/courses 1.png&#34; alt=&#34;courses&#34; width=&#34;700&#34;/&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;biggest-new-classes&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Biggest New Classes&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/post/c2.png&#34; alt=&#34;courses&#34; width=&#34;700&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://b-hemanth.com/post/c2.png&#34; alt=&#34;courses&#34; width=&#34;700&#34;/&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
