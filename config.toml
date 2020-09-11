@@ -13,7 +13,7 @@ baseURL = "https://b-hemanth.com/"
 
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
-copyright = "Written by (&copy;, year} Hemanth Bharatha Chakravarthy in [Blogdown](https://github.com/rstudio/blogdown)."
+copyright = "Written by (&copy; {year}) Hemanth Bharatha Chakravarthy in [Blogdown](https://github.com/rstudio/blogdown)"
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = "UA-136473985-1"
