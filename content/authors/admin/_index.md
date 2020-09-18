@@ -5,7 +5,7 @@ avatar_image: spooky.jpg
 bio: Harvard University | Research Assistant to the Chief Economic Advisor, Govt. of India
 btn:
 - label: Download Resume
-  url: https://drive.google.com/file/d/1khvAmxvFMAcpLicbHhQuDWOFGs0kP2AV/view?usp=sharing
+  url: files/cv.pdf
 display_education: true
 education:
   courses:
