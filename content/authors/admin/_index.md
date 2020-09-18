@@ -25,9 +25,9 @@ interests:
 name: Hemanth Bharatha Chakravarthy
 organizations:
 - name: Research Assistant to the Chief Economic Advisor, GoI
-  url: ""
+  url: "https://www.indiabudget.gov.in/economicsurvey/"
 - name: Trainee at the Reserve Bank of India
-  url: ""
+  url: "https://www.rbi.org.in/"
 role: 
 social:
 - icon: envelope
@@ -45,7 +45,4 @@ user_groups:
 - Visitors
 ---
 
-I am a *student*, *prospective economist*, *retiring* [*debater*](https://www.edexlive.com/news/2018/aug/02/meet-indias-youngest-debate-guns-who-matched-wits-with-the-best-in-the-world-3562.html), and *impatient optimist*. 
-
-My work so far has focused on economic research, evidence-based public policy (consulting, implementation, and evaluation), building reliable administrative data, and monetary policy.
-
+I am a *student*, *prospective economist*, and *retiring* [*debater*](https://www.edexlive.com/news/2018/aug/02/meet-indias-youngest-debate-guns-who-matched-wits-with-the-best-in-the-world-3562.html). I care about the science and practice of development: evaluating policy and spotlighting evidence in policy-making---policy in pursuit of outcomes, not just noble intent. I care about public finance: I believe that state capacity misspent is state capacity lost and that efficient, well-informed states can play a vital role in transforming lives. I think that a prerequisite to this is building reliable, high frequency administrative data. I am fascinated by human behavior: I think that insights from psychology help us far better understand economic problems. I care about poverty alleviation and upward mobility and some things that drive them: education, migration, banking, capital, and opportunity. I care about representation in policy-makers and in enumerating policy outcomes. My work follows my interests.
