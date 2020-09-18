@@ -6,5 +6,6 @@ image:
   focal_point: Smart
 summary: Performance-Based Pay for Public School Teachers
 tags:
+- pub
 title: Lessons on Teacher Pay (Working Paper)
 ---

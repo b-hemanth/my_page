@@ -6,5 +6,6 @@ image:
   focal_point: Smart
 summary: Evidence from the use of Twitter Bots by Modi's BJP in India
 tags:
+- pub
 title: Twitter Botocracy (Working Paper)
 ---

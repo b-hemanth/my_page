@@ -113,6 +113,11 @@
   </url>
   
   <url>
+    <loc>https://b-hemanth.com/tags/pub/</loc>
+    <lastmod>2019-10-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://b-hemanth.com/project/botocracy/</loc>
     <lastmod>2019-10-27T00:00:00+00:00</lastmod>
   </url>
@@ -192,10 +197,6 @@
   
   <url>
     <loc>https://b-hemanth.com/publication_types/</loc>
-  </url>
-  
-  <url>
-    <loc>https://b-hemanth.com/publication/</loc>
   </url>
   
 </urlset>
