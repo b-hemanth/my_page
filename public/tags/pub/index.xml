@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>pub on Hemanth Bharatha Chakravarthy</title>
-    <link>/tags/pub/</link>
+    <link>https://b-hemanth.com/tags/pub/</link>
     <description>Recent content in pub on Hemanth Bharatha Chakravarthy</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Hemanth Bharatha Chakravarthy {year}. [Written](https://github.com/b-hemanth/my_page) in [Blogdown](https://github.com/rstudio/blogdown).</copyright>
     <lastBuildDate>Sun, 27 Oct 2019 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/tags/pub/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://b-hemanth.com/tags/pub/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Lessons on Teacher Pay (Working Paper)</title>
-      <link>/project/lessons-on-teacher-pay/</link>
+      <link>https://b-hemanth.com/project/lessons-on-teacher-pay/</link>
       <pubDate>Sun, 27 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/project/lessons-on-teacher-pay/</guid>
+      <guid>https://b-hemanth.com/project/lessons-on-teacher-pay/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Twitter Botocracy (Working Paper)</title>
-      <link>/project/botocracy/</link>
+      <link>https://b-hemanth.com/project/botocracy/</link>
       <pubDate>Sun, 27 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/project/botocracy/</guid>
+      <guid>https://b-hemanth.com/project/botocracy/</guid>
       <description></description>
     </item>
     
