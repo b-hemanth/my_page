@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Hemanth Bharatha Chakravarthy</title>
-    <link>/categories/r/</link>
+    <link>https://b-hemanth.com/categories/r/</link>
     <description>Recent content in R on Hemanth Bharatha Chakravarthy</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Hemanth Bharatha Chakravarthy {year}. [Written](https://github.com/b-hemanth/my_page) in [Blogdown](https://github.com/rstudio/blogdown).</copyright>
     <lastBuildDate>Mon, 04 Feb 2019 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://b-hemanth.com/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Police Stop Bunching: A Curious Case of Rounding Off</title>
-      <link>/post/police-stop-bunching-a-curious-case-of-rounding-off/</link>
+      <link>https://b-hemanth.com/post/police-stop-bunching-a-curious-case-of-rounding-off/</link>
       <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/police-stop-bunching-a-curious-case-of-rounding-off/</guid>
+      <guid>https://b-hemanth.com/post/police-stop-bunching-a-curious-case-of-rounding-off/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/b-hemanth/policing_analysis&#34;&gt;Code and ReadMe&lt;/a&gt;: something curious I found while playing with policing data a la the Stanford Open Policing Project.&lt;/p&gt;
 &lt;p&gt;What is happening here, officer?&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-07-13-police-stop-bunching-a-curious-case-of-rounding-off_files/stops.png&#34; alt=&#34;You&amp;rsquo;ve heard of rounding away criminals, but what about rounding off?&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://b-hemanth.com/post/2020-07-13-police-stop-bunching-a-curious-case-of-rounding-off_files/stops.png&#34; alt=&#34;You&amp;rsquo;ve heard of rounding away criminals, but what about rounding off?&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Harvard Course Enrollment: Big Winners and Losers</title>
-      <link>/post/harvard-course-enrollment-big-winners-and-losers/</link>
+      <link>https://b-hemanth.com/post/harvard-course-enrollment-big-winners-and-losers/</link>
       <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/harvard-course-enrollment-big-winners-and-losers/</guid>
+      <guid>https://b-hemanth.com/post/harvard-course-enrollment-big-winners-and-losers/</guid>
       <description>
 
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/b-hemanth/harvard_courses_enrolment_analysis&#34;&gt;Code and ReadMe&lt;/a&gt;.&lt;/p&gt;
 &lt;div id=&#34;biggest-departmental-changes-in-enrolments-at-harvard&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Biggest Departmental Changes in Enrolments at Harvard&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/post/course_enrol.png&#34; alt=&#34;courses&#34; width=&#34;800&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://b-hemanth.com/post/course_enrol.png&#34; alt=&#34;courses&#34; width=&#34;800&#34;/&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;biggest-drops-in-enrolment&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Biggest Drops in Enrolment&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/post/courses 1.png&#34; alt=&#34;courses&#34; width=&#34;700&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://b-hemanth.com/post/courses 1.png&#34; alt=&#34;courses&#34; width=&#34;700&#34;/&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;biggest-new-classes&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Biggest New Classes&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/post/c2.png&#34; alt=&#34;courses&#34; width=&#34;700&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://b-hemanth.com/post/c2.png&#34; alt=&#34;courses&#34; width=&#34;700&#34;/&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>

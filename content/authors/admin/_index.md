@@ -45,4 +45,8 @@ user_groups:
 - Visitors
 ---
 
-I am a student and *retiring* [debater](https://www.edexlive.com/news/2018/aug/02/meet-indias-youngest-debate-guns-who-matched-wits-with-the-best-in-the-world-3562.html). I am captivated by the science and practice of development: spotlighting evidence in policy-making in pursuit of outcomes, not just noble intent. I care about better using limited state capacity to transform lives, having the reliable, frequent administrative data we need to plan and evaluate, and deriving insights from psychology to help us better understand economic problems. I am interested in poverty alleviation and upward mobility and some things that drive them: education, migration, cities, banking, capital, and opportunity. My work follows my interests.
+I am an undergrad, a frustrated optimist, and a *retiring* [debater](https://www.edexlive.com/news/2018/aug/02/meet-indias-youngest-debate-guns-who-matched-wits-with-the-best-in-the-world-3562.html). 
+
+I am captivated by the science and practice of development: spotlighting evidence in policy-making in pursuit of outcomes, not just noble intent. I care about better using limited state capacity to transform lives, having the reliable, frequent administrative data we need to plan and evaluate, and deriving insights from psychology to help us better understand economic problems. I am interested in poverty alleviation and upward mobility and some things that drive them: education, migration, cities, banking, capital, and opportunity. My work follows my interests.
+
+I grew up in the lazy but enchanting metropolis of Chennai, India. I like running, walking around and absorbing cities, and the musics of the subcontinent---film, *Hindustani*, *Qawwalis*, and *Carnatic*.
