@@ -25,9 +25,9 @@ interests:
 name: Hemanth Bharatha Chakravarthy
 organizations:
 - name: Research Assistant to the Chief Economic Advisor, GoI
-  url: "https://www.indiabudget.gov.in/economicsurvey/"
+  url: ""
 - name: Trainee at the Reserve Bank of India
-  url: "https://www.rbi.org.in/"
+  url: ""
 role: 
 social:
 - icon: envelope
