@@ -12,6 +12,4 @@ tags: []
 
 What is happening here, officer?
 
-<img src="/post/2020-07-13-police-stop-bunching-a-curious-case-of-rounding-off_files/stops.png" alt="Rounding off crime" width="60%"/>
-
-You've heard of rounding away criminals, but what about rounding off?
+![You've heard of rounding away criminals, but what about rounding off?](/post/2020-07-13-police-stop-bunching-a-curious-case-of-rounding-off_files/stops.png)
