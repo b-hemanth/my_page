@@ -10,4 +10,6 @@ tags: []
 
 [Code and ReadMe](https://github.com/b-hemanth/policing_analysis).
 
-<img src="/post/stops.png" alt="beautiful plot" width="800"/>
+What is happening here, officer?
+
+![A curious case of police stop bunching](/post/2020-07-13-police-stop-bunching-a-curious-case-of-rounding-off_files/stops.png)
