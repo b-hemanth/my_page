@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 90  # Order that this section will appear.
 
 title = "Working Papers and Pet Data Projects"
-subtitle = "TELLING STORIES WITH DATA"
+subtitle = "SOME SERIOUS WORK, SOME LESS SERIOUS"
 
 [content]
   # Page type to display. E.g. project.
@@ -32,10 +32,6 @@ subtitle = "TELLING STORIES WITH DATA"
   [[content.filter_button]]
     name = "Dashboard"
     tag = "Dashboard"
-  
-  [[content.filter_button]]
-    name = "Other"
-    tag = "Other"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -45,7 +41,7 @@ subtitle = "TELLING STORIES WITH DATA"
   #   1 = List
   #   3 = Card
   #   5 = Showcase
-  view = 5
+  view = 2
 
   # For Showcase view, flip alternate rows?
   flip_alt_rows = false

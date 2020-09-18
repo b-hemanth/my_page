@@ -8,7 +8,7 @@ active = true  # Activate this widget? true/false
 weight = 65  # Order that this section will appear.
 
 title = "Blog Posts"
-subtitle = ""
+subtitle = "TELLING STORIES WITH DATA"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
