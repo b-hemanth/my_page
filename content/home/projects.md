@@ -27,7 +27,7 @@ subtitle = "SOME SERIOUS WORK, SOME LESS SERIOUS"
   
   [[content.filter_button]]
     name = "Working Paper"
-    tag = "pub"
+    tag = "Working Paper"
   
   [[content.filter_button]]
     name = "Dashboard"
