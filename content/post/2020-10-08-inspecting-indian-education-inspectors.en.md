@@ -76,7 +76,7 @@ While inspectors can help mitigate the principal-agent problem in education deli
 
 Quantitative measurement does not mean that teachers' creativity and freedom should be shackled. Moreover, an explicit purpose of visits is to give teachers feedback on their pedagogy. So, job aids should be created for inspectors to be able to give better feedback for teachers. Multi-day visits that focus on visiting each teacher's class and giving them detailed feedback should be encouraged and rewarded in the performance appraisal system. Many states already require somewhat regular meetings between education officers and local headmasters and principals: these should also be tracked and enforced as in reform #4, and inspectors should be given job aids, pedagogy materials, and external support as viable to do more with these meetings.
 
-## Conclusion
+# Conclusion
 
 To defeat the principal-agent problem in education delivery, inspections could be exploited. However, to defeat the principal-agent problem in education inspections, we need to introduce new extrinsic incentives like pay and promotion based on actual performance, restrict the possibilities of corruption and collision by reducing notice time, randomizing inspectors, and tracking the trust levels of inspectors, and improve measurement by talking to parents, changing what and how we measure, and using measurement to do more. Some of these require robust technological tools. 
 

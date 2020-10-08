@@ -47,7 +47,7 @@ given day and less than half of them actually teach even if they attend class. R
 &lt;p&gt;While inspectors can help mitigate the principal-agent problem in education delivery, ironically, inspectors are also agents who induce the same principal-agent problem. So, appraising their performance, tracking their efforts as much as possible, and rewarding better inspectors, say, via pay and promotions, is important. This furthers rewarding good, honest work and reduces the relative seductiveness of corruption. Appraisal could also the zone that the inspector operates in and reward them for actual outcome improvements. Further, backchecks (where a smaller subsample of the total sample are re-tested to determine the accuracy of the first test) could be used to generate scores of trust and accuracy of inspectors.&lt;/p&gt;
 &lt;h2 id=&#34;6-work-with-teachers-not-against-them&#34;&gt;#6: Work With Teachers, Not Against Them&lt;/h2&gt;
 &lt;p&gt;Quantitative measurement does not mean that teachers&amp;rsquo; creativity and freedom should be shackled. Moreover, an explicit purpose of visits is to give teachers feedback on their pedagogy. So, job aids should be created for inspectors to be able to give better feedback for teachers. Multi-day visits that focus on visiting each teacher&amp;rsquo;s class and giving them detailed feedback should be encouraged and rewarded in the performance appraisal system. Many states already require somewhat regular meetings between education officers and local headmasters and principals: these should also be tracked and enforced as in reform #4, and inspectors should be given job aids, pedagogy materials, and external support as viable to do more with these meetings.&lt;/p&gt;
-&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;h1 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h1&gt;
 &lt;p&gt;To defeat the principal-agent problem in education delivery, inspections could be exploited. However, to defeat the principal-agent problem in education inspections, we need to introduce new extrinsic incentives like pay and promotion based on actual performance, restrict the possibilities of corruption and collision by reducing notice time, randomizing inspectors, and tracking the trust levels of inspectors, and improve measurement by talking to parents, changing what and how we measure, and using measurement to do more. Some of these require robust technological tools.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Ultimately, as we improve our data on schools and understand which schools work, we can then figure out why. That way, we evaluate policies, compare them with others, and constantly strive to do more with the same resources. The data is also an end by itself&amp;mdash;some computed indexes on school scores could be released publicly to inform parents for school choice. The stakes are large here.&lt;/strong&gt;&lt;/p&gt;
 </description>
@@ -183,9 +183,9 @@ x &amp;lt;- data.frame(replicate(5,sample(0:1,1000,rep=TRUE)))
 # Print three rows of our dummy df
 x[1:3,]&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##   X1 X2 X3 X4 X5
-## 1  0  1  1  1  0
-## 2  0  1  1  0  1
-## 3  1  1  1  1  0&lt;/code&gt;&lt;/pre&gt;
+## 1  1  0  1  0  0
+## 2  0  0  1  1  0
+## 3  0  1  0  0  1&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;strong&gt;Chunk Options&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;You might not want to show your code, the warnings, and messages but show the output–Rmd let’s you control that.&lt;/p&gt;
 &lt;p&gt;E.g.: There’s a hidden chunk below but you’ll only see the table it outputs&lt;/p&gt;
@@ -193,7 +193,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   font-family: -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, Oxygen, Ubuntu, Cantarell, &#39;Helvetica Neue&#39;, &#39;Fira Sans&#39;, &#39;Droid Sans&#39;, Arial, sans-serif;
 }
 
-#tizhkfgctr .gt_table {
+#vsgyfbwimm .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -216,7 +216,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-left-color: #D3D3D3;
 }
 
-#tizhkfgctr .gt_heading {
+#vsgyfbwimm .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -228,7 +228,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-right-color: #D3D3D3;
 }
 
-#tizhkfgctr .gt_title {
+#vsgyfbwimm .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -238,7 +238,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-bottom-width: 0;
 }
 
-#tizhkfgctr .gt_subtitle {
+#vsgyfbwimm .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -248,13 +248,13 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-top-width: 0;
 }
 
-#tizhkfgctr .gt_bottom_border {
+#vsgyfbwimm .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#tizhkfgctr .gt_col_headings {
+#vsgyfbwimm .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -269,7 +269,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-right-color: #D3D3D3;
 }
 
-#tizhkfgctr .gt_col_heading {
+#vsgyfbwimm .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -289,7 +289,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   overflow-x: hidden;
 }
 
-#tizhkfgctr .gt_column_spanner_outer {
+#vsgyfbwimm .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -301,15 +301,15 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   padding-right: 4px;
 }
 
-#tizhkfgctr .gt_column_spanner_outer:first-child {
+#vsgyfbwimm .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#tizhkfgctr .gt_column_spanner_outer:last-child {
+#vsgyfbwimm .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#tizhkfgctr .gt_column_spanner {
+#vsgyfbwimm .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -321,7 +321,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   width: 100%;
 }
 
-#tizhkfgctr .gt_group_heading {
+#vsgyfbwimm .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -343,7 +343,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   vertical-align: middle;
 }
 
-#tizhkfgctr .gt_empty_group_heading {
+#vsgyfbwimm .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -358,19 +358,19 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   vertical-align: middle;
 }
 
-#tizhkfgctr .gt_striped {
+#vsgyfbwimm .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#tizhkfgctr .gt_from_md &gt; :first-child {
+#vsgyfbwimm .gt_from_md &gt; :first-child {
   margin-top: 0;
 }
 
-#tizhkfgctr .gt_from_md &gt; :last-child {
+#vsgyfbwimm .gt_from_md &gt; :last-child {
   margin-bottom: 0;
 }
 
-#tizhkfgctr .gt_row {
+#vsgyfbwimm .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -389,7 +389,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   overflow-x: hidden;
 }
 
-#tizhkfgctr .gt_stub {
+#vsgyfbwimm .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -401,7 +401,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   padding-left: 12px;
 }
 
-#tizhkfgctr .gt_summary_row {
+#vsgyfbwimm .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -411,7 +411,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   padding-right: 5px;
 }
 
-#tizhkfgctr .gt_first_summary_row {
+#vsgyfbwimm .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -421,7 +421,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-top-color: #D3D3D3;
 }
 
-#tizhkfgctr .gt_grand_summary_row {
+#vsgyfbwimm .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -431,7 +431,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   padding-right: 5px;
 }
 
-#tizhkfgctr .gt_first_grand_summary_row {
+#vsgyfbwimm .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -441,7 +441,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-top-color: #D3D3D3;
 }
 
-#tizhkfgctr .gt_table_body {
+#vsgyfbwimm .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -450,7 +450,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-bottom-color: #D3D3D3;
 }
 
-#tizhkfgctr .gt_footnotes {
+#vsgyfbwimm .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -464,13 +464,13 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-right-color: #D3D3D3;
 }
 
-#tizhkfgctr .gt_footnote {
+#vsgyfbwimm .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#tizhkfgctr .gt_sourcenotes {
+#vsgyfbwimm .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -484,46 +484,46 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-right-color: #D3D3D3;
 }
 
-#tizhkfgctr .gt_sourcenote {
+#vsgyfbwimm .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#tizhkfgctr .gt_left {
+#vsgyfbwimm .gt_left {
   text-align: left;
 }
 
-#tizhkfgctr .gt_center {
+#vsgyfbwimm .gt_center {
   text-align: center;
 }
 
-#tizhkfgctr .gt_right {
+#vsgyfbwimm .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#tizhkfgctr .gt_font_normal {
+#vsgyfbwimm .gt_font_normal {
   font-weight: normal;
 }
 
-#tizhkfgctr .gt_font_bold {
+#vsgyfbwimm .gt_font_bold {
   font-weight: bold;
 }
 
-#tizhkfgctr .gt_font_italic {
+#vsgyfbwimm .gt_font_italic {
   font-style: italic;
 }
 
-#tizhkfgctr .gt_super {
+#vsgyfbwimm .gt_super {
   font-size: 65%;
 }
 
-#tizhkfgctr .gt_footnote_marks {
+#vsgyfbwimm .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 &lt;/style&gt;
-&lt;div id=&#34;tizhkfgctr&#34; style=&#34;overflow-x:auto;overflow-y:auto;width:auto;height:auto;&#34;&gt;&lt;table class=&#34;gt_table&#34;&gt;
+&lt;div id=&#34;vsgyfbwimm&#34; style=&#34;overflow-x:auto;overflow-y:auto;width:auto;height:auto;&#34;&gt;&lt;table class=&#34;gt_table&#34;&gt;
   &lt;thead class=&#34;gt_header&#34;&gt;
     &lt;tr&gt;
       &lt;th colspan=&#34;1&#34; class=&#34;gt_heading gt_title gt_font_normal&#34; style&gt;Cool table&lt;/th&gt;
