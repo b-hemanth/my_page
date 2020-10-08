@@ -8,5 +8,6 @@ summary: I comprehensively analyze favorable and unfavorable evidence on perform
 tags:
 - Working Paper
 - Development
+- Education
 title: 'Lessons on Teacher Pay: Performance-Based Pay for Public School Teachers (Working Paper)'
 ---
