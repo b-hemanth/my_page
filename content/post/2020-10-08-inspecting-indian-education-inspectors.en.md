@@ -19,25 +19,25 @@ image:
 projects: []
 ---
 
-## The School Inspection System
+# The School Inspection System
 
 The 2020 Budget [allots](https://www.businessinsider.in/budget/news/indias-education-budget-2020-allocation-news-and-updates/articleshow/73824561.cms) around 3% of our GDP to education; independent of whether this allocation suffices, in real terms, this is a hard number to visualize: a whopping Rs. 99,300 crores (13.56 billion USD)---of which schools get 59,845 crores. Meanwhile, in 2016, we [spent **80%**](https://timesofindia.indiatimes.com/city/gurgaon/80-of-rs-12400-crore-education-budget-spent-on-teacher-salaries/articleshow/56204221.cms) of our education budget on teachers' salaries. That means that most of our monies get spent on revenue expenditure---funding the schools that exist. That also means that a 1% increase in efficiency---that is, if for the same inputs, achieving 1% better outcomes---saves ~599 crores. And because money saved is money created, making sure that we get the maximal bang for the buck on spending has been a focus of public finance. When we contextualize this in education delivery, a potentially powerful tool to achieve more with less is school inspections. 
 
-Education being a [*concurrent subject*](http://legislative.gov.in/constitution-forty-second-amendment-act-1976) in India, while the center regulates education, the frontline delivery of service largely rests upon states. Ultimately, with many types of schools run by different sources, this results in significant diversity in the model of inspecting schools. Generally, however, inspections come into the jurisdiction of the District Education Officer and the Assistant Educational Officers (their names vary by state). The system usually have one mandated annual inspection, likely one mandated surprise visit, and encourages as many regular surprise visits as possible. The focus of visits is typically primarily evaluating the infrastructure and sanitation of the school although they usually also mandate some examination of students' academic levels and teacher instruction and pedagogy.
+Education being a [*concurrent subject*](http://legislative.gov.in/constitution-forty-second-amendment-act-1976) in India, while the center regulates education, the frontline delivery of service largely rests upon states. Ultimately, with many types of schools run by different sources, this results in significant diversity in the model of inspecting schools. Generally, however, inspections come into the jurisdiction of the District Education Officer and the Assistant Educational Officers (their names vary by state); the system usually has one mandated annual inspection, likely one mandated surprise visit, and encourages as many regular surprise visits as possible. The focus of visits is typically primarily on evaluating the infrastructure and sanitation of the school although they usually also mandate some examination of students' academic levels and teacher instruction and pedagogy.
 
 Largely speaking, to an outsider like me, **it appears like our school inspection system is broken.** How do we do good better?
 
-## A Principal-Agent Problem
+# A Principal-Agent Problem
 
-An important principle in political economy is to design policy by viewing the different actors as a strategic players maximizing their self-interest (whatever this may mean) in a game---this is an important approach as the difference between imagined policy *ex ante* and implemented policy *ex post* often comes from the *incentives* of those implementing policy diverging from the "ideal" incentives. This is a lesson for reformers to design policy with the sophisticated expectation that frontline actors are acting in self-interest (not to ignore that for many, self interest might rest entirely or partially upon doing good). 
+An important principle in political economy is to design policy by viewing the different actors as strategic players maximizing their self-interest in a game---this is an important approach as the difference between imagined policy *ex ante* and implemented policy *ex post* often comes from the *incentives* of those implementing policy diverging from the "ideal" incentives. This is a lesson for reformers to design policy with the sophisticated expectation that frontline actors are acting in self-interest (not to ignore that for many, self interest might rest entirely or partially upon doing good). 
 
-Further, the usual (and a very sensible) formulation of this incentive mismatch is in the form of a [principal-agent problem](https://www.investopedia.com/terms/p/principal-agent-problem.asp). The principal---the citizenry---entrusts the political executive and top bureaucrats---the first level agent---who then entrust the frontline official---the ultimate agent---with service delivery. The underlying issue with this delegation is that the principal cannot observe the work of the agent, they merely observe the outcomes of the actions. That is, the work that needs to be done is un-*observable*. A particular confound in the context of government and, particularly, our government with its poor administrative data and lack of evaluation of public services is that not even outcomes are observable, only monetary inputs are. So, while a restaurant owner can at least observe her manager's sales if not the manager's customer service, the citizenry doesn't have high quality information on the outcomes of, say, education efforts. However, the budgetary inputs are announced and observable. **This results in a paradoxical state where the outcome is the input---we laud policies that spend more because that is all that is observable to us. Ultimately, neither do we have control on the bureaucrat's effort nor do we know whether this bore fruits in terms of, say, foundational literacy and numeracy levels or reading levels.**
+Further, the usual (and a very sensible) formulation of this incentive mismatch is in the form of a [principal-agent problem](https://www.investopedia.com/terms/p/principal-agent-problem.asp). The principal---the citizenry---entrusts the political executive and top bureaucrats---the first level agent---who then entrust the frontline official---the ultimate agent---with service delivery. The underlying issue with this delegation is that the principal cannot observe the work of the agent, they merely observe the outcomes of the actions. That is, the work that needs to be done is un-*observable*. A particular confound in the context of government and, particularly, our government with its poor administrative data and lack of evaluation of public services is that not even outcomes are observable, only monetary inputs are. So, while a restaurant owner can at least observe her manager's sales if not the manager's customer service, the citizenry doesn't have high quality information on the outcomes of, say, education efforts. However, the budgetary inputs are announced and observable. **This results in a paradoxical state where the outcome is the input---we laud policies that spend more because that is all that is observable to us. Ultimately, neither do we have control on the bureaucrat's effort nor do we know whether this bore fruits in terms of, say, foundational literacy and numeracy levels, dropout rates, or reading levels.**
 
-In this context, the inspection of schools adds observability; it tells us how well government schools are using their limited resources and also how well private schools are run. It induces observability into the system. But, all this, only if the inspection works...
+In this context, **the inspection of schools induces observability into the system**; it actually tells us how well government schools are using their limited resources and also how well private schools are run. But, all this, only if the inspection works...
 
-## Six Problems and Six Reform Actions
+# Six Problems and Six Reform Actions
 
-### 1. Prevent Collision, Evade Corruption
+## #1: Prevent Collision, Evade Corruption
 
 I've first hand seen teachers transform into pedagogy gods when inspectors watch---new teaching aids appear, digital tools are used, and a previously empty blackboard is quickly filled up by interactive exercises. Imagine if teachers had seven days notice to the important annual inspection? That would hardly measure a "routine, working day", right? Well, don't imagine, this is the system in, for instance, [Kerala](https://education.kerala.gov.in/wp-content/uploads/2019/11/Chapter_15.pdf). 
 
@@ -47,7 +47,7 @@ Three things can be done to structurally restrict the ability to bribe your insp
 
 *Side note: there might be value in inspector discretion, but many systems like that in Delhi already have higher level bureaucrats assigning inspectors to the mandated inspection on the day of inspections.
 
-### 2. Overhaul Measurement
+## #2: Overhaul Measurement
 
 Measurement has three issues right now: first, it focuses on infrastructure over academics (I speculate, a part of the hangover of stage 1 of independent India's education effort---ensuring access before being able to think of quality); second, it is entirely qualitative and subjective to the frontline inspector enabling corruption; and third, the report once submitted and shared with the school is allowed to collect dust without use (for many states, the only information available sems to be last date of inspection and the inspector who performed it). 
 
@@ -55,11 +55,11 @@ It follows then that the measurement system must do three things: first, increas
 
 This set ensures that what is being measured is indeed what matters for students and ensures that inspectors enter inspections with rich records of past inspections. These inform what they should spend time examining and allow them to see and reward improvement. To further enhance this, inspectors could be given readymade job aids that include, say, scientifically approved reading level tests to use and be given a MIS with rich, searchable, high quality data on past reports.
 
-### 3. Involve Parents
+## #3: Involve Parents
 
 The state delegates its duty of care over minor citizens to parents precisely because (in the majority of instances) parents are actors who care about their children and are (at least relatively) well informed about their children's lives. Soliciting parental feedback and complaints is an easy way to build state capacity without doing much. Allow the end-user to supplement reports with their high quality information on their experiences with the real routine working day.
 
-### 4. Introduce Goal Setting and Enforce Committed Surprise Visits
+## #4: Introduce Goal Setting and Enforce Committed Surprise Visits
 
 [Kremer et al. (2005)](https://econweb.ucsd.edu/~kamurali/papers/Published%20Articles/jeea_teacher_absence_in_india.pdf) find that 25% of Indian public school teachers are absent on any
 given day and less than half of them actually teach even if they attend class. That is mind-boggling number and represents a serious problem. Remember, 80% of our budget goes to paying teachers. Presumably then, surprise visits are an important check on teacher absenteeism. Unfortunately, not in the real world. There are many anecdotal accounts on record of teachers and administrators that testify that surprise visits are a joke---they are reported at the wish of the inspector and very rarely does a visit that occurred on paper actually occur. 
@@ -68,11 +68,11 @@ If we are to exploit surprise visits, we must first make each officer set goals 
 
 *Side note: a parsimonious tech tool for many of these reforms would be a single management information system that has past records, is the data entry platform to submit reports, and performs assignment for surprise visits.*
 
-### 5. Appraise Inspectors
+## #5: Appraise Inspectors
 
 While inspectors can help mitigate the principal-agent problem in education delivery, ironically, inspectors are also agents who induce the same principal-agent problem. So, appraising their performance, tracking their efforts as much as possible, and rewarding better inspectors, say, via pay and promotions, is important. Appraisal could also track measurement in the zone that the inspector operates in and reward them for actual outcome improvements. Further, backchecks (where a smaller subsample of the total sample are re-tested to determine the accuracy of the first test) could be used to generate scores of trust and accuracy of inspectors.
 
-### 6. Work With Teachers, Not Against Them
+## #6: Work With Teachers, Not Against Them
 
 Quantitative measurement does not mean that teachers' creativity and freedom should be shackled. Moreover, an explicit purpose of visits is to give teachers feedback on their pedagogy. So, job aids should be created for inspectors to be able to give better feedback for teachers. Multi-day visits that focus on helpling teachers should be encouraged and rewarded in the performance appraisal system. Many states already require somewhat regular meetings between education officers and local headmasters and principals: these should also be tracked and enforced as in (reform #4) and inspectors should be given job aids, pedagogy materials, and external support as viable to do more with these meetings.
 
