@@ -18,8 +18,9 @@ education:
 email: "hemanthbharathachakravarthy@college.harvard.edu"
 interests:
 - Development
-- Public Finance
 - Behavioral Science
+- Public Finance
+- State Capacity
 - Monetary Policy
 - India
 name: Hemanth Bharatha Chakravarthy
