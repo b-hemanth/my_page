@@ -2,7 +2,7 @@
 title: 'Inspecting Indian Education Inspectors: Six Changes to Make'
 author: Hemanth Bharatha Chakravarthy
 date: '2020-10-08'
-slug: inspecting-indian-education-inspectors
+slug: inspecting-education-inspectors
 categories: []
 tags:
   - India
