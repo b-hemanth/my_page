@@ -19,9 +19,9 @@ image:
 projects: []
 ---
 
-# The RBI is lending to states for the first time ever
+# The RBI is buying states' debt for the first time ever
 
-**The RBI [just announced](https://www.bloombergquint.com/business/in-a-first-rbi-to-buy-state-government-bonds#:~:text=In%20A%20First%2C%20RBI%20To%20Buy%20State%20Government%20Bonds&text=In%20a%20first%20of%20its,interest%20costs%20amid%20high%20borrowings) (three hours ago today, the 9th of October) that it is conducting open market operations on state government bonds. That is, the RBI is going to be lending to states. This is the first time in history that this move is being made.**
+**The RBI [just announced](https://www.bloombergquint.com/business/in-a-first-rbi-to-buy-state-government-bonds#:~:text=In%20A%20First%2C%20RBI%20To%20Buy%20State%20Government%20Bonds&text=In%20a%20first%20of%20its,interest%20costs%20amid%20high%20borrowings) (three hours ago today, the 9th of October) that it is conducting open market operations on state government bonds. That is, the RBI is going to be buying loans of states. This is the first time in history that this move is being made.**
 
 (A bond is an instrument of debt. When you buy it, you give the government money which will be returned to the owner of the instrument at a later date with interest. That is, you buy debt.)
 
