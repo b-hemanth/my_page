@@ -24,7 +24,7 @@ projects: []
 
 Yesterday (on the 15th of October), as many predicted, the market crashed with the SENSEX falling by over 1,000 points, all sectoral indices were in the red, and equity investors [lost](https://economictimes.indiatimes.com/markets/stocks/news/sensex-drops-220-points-on-weak-global-cues-nifty-tests-11900/articleshow/78674278.cms) Rs 3.3 lakh crore (INR 3300 billion). With severe unemployment, destroyed demand, poor fiscal stimulus announcement after announcement, loan restructuring, and the previous aggressively long position of the market, both a general decline and this particular crash seem warranted. However, today, on the 16th, the SENSEX is up by around 250 points, seemingly recovering 25% of the wealth lost yesterday. This volatile bounce back triggered me to write on the growing, increasingly volatile gap between global stock markets and real economy and attempt to describe the difference between Dalal Street and Delhi's North Block.
 
-The main intention of this post is to share this graph:
+The main intention of this post is to share this graph (the two lines have a correlation of 0.506 and the two rates have a *t-value* of 5.45 with a *p-value* < 0.001):
 
 ![](/post/2020-10-16-dalal-street-vs-north-block.en_files/dalal_st.png)
 
