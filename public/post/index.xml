@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Hemanth Bharatha Chakravarthy</title>
-    <link>/post/</link>
+    <link>https://b-hemanth.com/post/</link>
     <description>Recent content in Posts on Hemanth Bharatha Chakravarthy</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Hemanth Bharatha Chakravarthy {year}. [Written](https://github.com/b-hemanth/my_page) in [Blogdown](https://github.com/rstudio/blogdown).</copyright>
     <lastBuildDate>Fri, 16 Oct 2020 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://b-hemanth.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dalal Street vs. North Block</title>
-      <link>/post/dalal-street-vs-north-block/</link>
+      <link>https://b-hemanth.com/post/dalal-street-vs-north-block/</link>
       <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/dalal-street-vs-north-block/</guid>
+      <guid>https://b-hemanth.com/post/dalal-street-vs-north-block/</guid>
       <description>&lt;h1 id=&#34;the-gap&#34;&gt;The Gap&lt;/h1&gt;
 &lt;p&gt;Yesterday (on the 15th of October), as many predicted, the market crashed with the SENSEX falling by over 1,000 points, all sectoral indices were in the red, and equity investors &lt;a href=&#34;https://economictimes.indiatimes.com/markets/stocks/news/sensex-drops-220-points-on-weak-global-cues-nifty-tests-11900/articleshow/78674278.cms&#34;&gt;lost&lt;/a&gt; Rs 3.3 lakh crore (INR 3300 billion). With severe unemployment, destroyed demand, poor fiscal stimulus announcement after announcement, loan restructuring, and the previous aggressively long position of the market, both a general decline and this particular crash seem warranted. However, today, on the 16th, the SENSEX is up by around 250 points, seemingly recovering 25% of the wealth lost yesterday. This volatile bounce back triggered me to write on the growing, increasingly volatile gap between global stock markets and real economy and attempt to describe the difference between Dalal Street and Delhi&amp;rsquo;s North Block.&lt;/p&gt;
-&lt;p&gt;The main intention of this post is to share this graph:
-&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;The main intention of this post is to share this graph:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://b-hemanth.com/post/2020-10-16-dalal-street-vs-north-block.en_files/dalal_st.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;some-thoughts&#34;&gt;Some Thoughts&lt;/h1&gt;
 &lt;p&gt;I do not think we understand this gap or its wideness perfectly yet, both at home and globally. But a few perspectives seem sensible.&lt;/p&gt;
 &lt;p&gt;First, I think there is a market perception of a definite recovery. For one, there is the idea that given that everything has already crashed, things can only move upwards. Further, it seems to me, there is an expectation (almost an implicit reliance) on the idea that fiscal stimulus and government intervention will and must happen (it has happened globally, to some extent). This seems to be keeping market appetites up as, if things will only go up hereon, long positions seem more warranted. There is some value to this line of throught: Deutsche Bank &lt;a href=&#34;https://economictimes.indiatimes.com/markets/stocks/news/dichotomy-between-markets-and-economy-can-you-still-benefit/articleshow/76505316.cms?utm_source=contentofinterest&amp;amp;utm_medium=text&amp;amp;utm_campaign=cppst&#34;&gt;estimates&lt;/a&gt; total fiscal and monetary stimulus at more than US$ 10 trillion in the G7 countries alone which will make it five times more than the stimulus the G7 rolled out after the 2008 Global Financial Crisis. While central banks have tried to ensure that the market doesn&amp;rsquo;t crash to a severe extent, it seems like their actions carry disproportionate weight in market enthusiasm. So much so that the RBI had to &lt;a href=&#34;https://www.b-hemanth.com/post/who-should-borrow/&#34;&gt;intervene&lt;/a&gt; to rationalize yields on state bonds recently. As the Economist &lt;a href=&#34;https://www-economist-com/leaders/2020/05/07/the-market-v-the-real-economy&#34;&gt;writes&lt;/a&gt; this month, &amp;ldquo;This rosy view from Wall Street should make you uneasy.&amp;rdquo;&lt;/p&gt;
@@ -32,10 +32,10 @@
     
     <item>
       <title>Who Should Borrow? The Fiscal Federalism Debate</title>
-      <link>/post/who-should-borrow/</link>
+      <link>https://b-hemanth.com/post/who-should-borrow/</link>
       <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/who-should-borrow/</guid>
+      <guid>https://b-hemanth.com/post/who-should-borrow/</guid>
       <description>&lt;h1 id=&#34;the-rbi-is-buying-states-debt-for-the-first-time-ever&#34;&gt;The RBI is buying states&amp;rsquo; debt for the first time ever&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;The RBI &lt;a href=&#34;https://www.bloombergquint.com/business/in-a-first-rbi-to-buy-state-government-bonds#:~:text=In%20A%20First%2C%20RBI%20To%20Buy%20State%20Government%20Bonds&amp;amp;text=In%20a%20first%20of%20its,interest%20costs%20amid%20high%20borrowings&#34;&gt;just announced&lt;/a&gt; (three hours ago today, the 9th of October) that it is conducting open market operations on state government bonds. That is, the RBI is going to be buying loans of states. This is the first time in history that this move is being made.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;(A bond is an instrument of debt. When you buy it, you give the government money which will be returned to the owner of the instrument at a later date with interest. That is, you buy debt.)&lt;/p&gt;
@@ -58,10 +58,10 @@
     
     <item>
       <title>Inspecting Indian Education Inspectors: Six Changes to Make</title>
-      <link>/post/inspecting-education-inspectors/</link>
+      <link>https://b-hemanth.com/post/inspecting-education-inspectors/</link>
       <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/inspecting-education-inspectors/</guid>
+      <guid>https://b-hemanth.com/post/inspecting-education-inspectors/</guid>
       <description>&lt;h1 id=&#34;under-maintenance-sorry&#34;&gt;Under Maintenance, Sorry!&lt;/h1&gt;
 &lt;h2 id=&#34;check-out-a-latest-post-herehttpswwwb-hemanthcompostwho-should-borrow&#34;&gt;Check out a latest post &lt;a href=&#34;https://www.b-hemanth.com/post/who-should-borrow/&#34;&gt;here&lt;/a&gt;.&lt;/h2&gt;
 </description>
@@ -69,10 +69,10 @@
     
     <item>
       <title>Indian Migrants During COVID-19</title>
-      <link>/post/covid19-indian-migrants/</link>
+      <link>https://b-hemanth.com/post/covid19-indian-migrants/</link>
       <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/covid19-indian-migrants/</guid>
+      <guid>https://b-hemanth.com/post/covid19-indian-migrants/</guid>
       <description>&lt;p&gt;A report I led for Cefala, Schofield, and Kaur at the Behavioral Development Lab, Chennai, studying the household economy, food security, access to state services, location, health and health information, and beliefs of migrant workers during COVID-19: &lt;a href=&#34;https://behavioraldevlab.org/policy_insights/ld_covid/ld_covid_report1.pdf&#34;&gt;here&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;Downloadable data and documentation: &lt;a href=&#34;https://behavioraldevlab.org/resources/data_ld_covid1.html?resourceId=4&amp;amp;status=all&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -80,10 +80,10 @@
     
     <item>
       <title>An Introduction to GitHub and R Markdown (Guest Lecture at Stella Maris College, Chennai)</title>
-      <link>/post/introduction-to-github-and-r-markdown/</link>
+      <link>https://b-hemanth.com/post/introduction-to-github-and-r-markdown/</link>
       <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/introduction-to-github-and-r-markdown/</guid>
+      <guid>https://b-hemanth.com/post/introduction-to-github-and-r-markdown/</guid>
       <description>
 
 
@@ -197,9 +197,9 @@ x &amp;lt;- data.frame(replicate(5,sample(0:1,1000,rep=TRUE)))
 # Print three rows of our dummy df
 x[1:3,]&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##   X1 X2 X3 X4 X5
-## 1  1  0  0  0  1
-## 2  1  1  0  1  1
-## 3  0  1  0  0  1&lt;/code&gt;&lt;/pre&gt;
+## 1  1  0  0  1  0
+## 2  0  0  1  0  0
+## 3  0  0  1  1  0&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;strong&gt;Chunk Options&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;You might not want to show your code, the warnings, and messages but show the output–Rmd let’s you control that.&lt;/p&gt;
 &lt;p&gt;E.g.: There’s a hidden chunk below but you’ll only see the table it outputs&lt;/p&gt;
@@ -207,7 +207,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   font-family: -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, Oxygen, Ubuntu, Cantarell, &#39;Helvetica Neue&#39;, &#39;Fira Sans&#39;, &#39;Droid Sans&#39;, Arial, sans-serif;
 }
 
-#dndubbkbuy .gt_table {
+#yrwzzscxxj .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -230,7 +230,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-left-color: #D3D3D3;
 }
 
-#dndubbkbuy .gt_heading {
+#yrwzzscxxj .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -242,7 +242,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-right-color: #D3D3D3;
 }
 
-#dndubbkbuy .gt_title {
+#yrwzzscxxj .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -252,7 +252,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-bottom-width: 0;
 }
 
-#dndubbkbuy .gt_subtitle {
+#yrwzzscxxj .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -262,13 +262,13 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-top-width: 0;
 }
 
-#dndubbkbuy .gt_bottom_border {
+#yrwzzscxxj .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#dndubbkbuy .gt_col_headings {
+#yrwzzscxxj .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -283,7 +283,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-right-color: #D3D3D3;
 }
 
-#dndubbkbuy .gt_col_heading {
+#yrwzzscxxj .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -303,7 +303,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   overflow-x: hidden;
 }
 
-#dndubbkbuy .gt_column_spanner_outer {
+#yrwzzscxxj .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -315,15 +315,15 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   padding-right: 4px;
 }
 
-#dndubbkbuy .gt_column_spanner_outer:first-child {
+#yrwzzscxxj .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#dndubbkbuy .gt_column_spanner_outer:last-child {
+#yrwzzscxxj .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#dndubbkbuy .gt_column_spanner {
+#yrwzzscxxj .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -335,7 +335,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   width: 100%;
 }
 
-#dndubbkbuy .gt_group_heading {
+#yrwzzscxxj .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -357,7 +357,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   vertical-align: middle;
 }
 
-#dndubbkbuy .gt_empty_group_heading {
+#yrwzzscxxj .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -372,19 +372,19 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   vertical-align: middle;
 }
 
-#dndubbkbuy .gt_striped {
+#yrwzzscxxj .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#dndubbkbuy .gt_from_md &gt; :first-child {
+#yrwzzscxxj .gt_from_md &gt; :first-child {
   margin-top: 0;
 }
 
-#dndubbkbuy .gt_from_md &gt; :last-child {
+#yrwzzscxxj .gt_from_md &gt; :last-child {
   margin-bottom: 0;
 }
 
-#dndubbkbuy .gt_row {
+#yrwzzscxxj .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -403,7 +403,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   overflow-x: hidden;
 }
 
-#dndubbkbuy .gt_stub {
+#yrwzzscxxj .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -415,7 +415,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   padding-left: 12px;
 }
 
-#dndubbkbuy .gt_summary_row {
+#yrwzzscxxj .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -425,7 +425,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   padding-right: 5px;
 }
 
-#dndubbkbuy .gt_first_summary_row {
+#yrwzzscxxj .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -435,7 +435,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-top-color: #D3D3D3;
 }
 
-#dndubbkbuy .gt_grand_summary_row {
+#yrwzzscxxj .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -445,7 +445,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   padding-right: 5px;
 }
 
-#dndubbkbuy .gt_first_grand_summary_row {
+#yrwzzscxxj .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -455,7 +455,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-top-color: #D3D3D3;
 }
 
-#dndubbkbuy .gt_table_body {
+#yrwzzscxxj .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -464,7 +464,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-bottom-color: #D3D3D3;
 }
 
-#dndubbkbuy .gt_footnotes {
+#yrwzzscxxj .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -478,13 +478,13 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-right-color: #D3D3D3;
 }
 
-#dndubbkbuy .gt_footnote {
+#yrwzzscxxj .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#dndubbkbuy .gt_sourcenotes {
+#yrwzzscxxj .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -498,46 +498,46 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-right-color: #D3D3D3;
 }
 
-#dndubbkbuy .gt_sourcenote {
+#yrwzzscxxj .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#dndubbkbuy .gt_left {
+#yrwzzscxxj .gt_left {
   text-align: left;
 }
 
-#dndubbkbuy .gt_center {
+#yrwzzscxxj .gt_center {
   text-align: center;
 }
 
-#dndubbkbuy .gt_right {
+#yrwzzscxxj .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#dndubbkbuy .gt_font_normal {
+#yrwzzscxxj .gt_font_normal {
   font-weight: normal;
 }
 
-#dndubbkbuy .gt_font_bold {
+#yrwzzscxxj .gt_font_bold {
   font-weight: bold;
 }
 
-#dndubbkbuy .gt_font_italic {
+#yrwzzscxxj .gt_font_italic {
   font-style: italic;
 }
 
-#dndubbkbuy .gt_super {
+#yrwzzscxxj .gt_super {
   font-size: 65%;
 }
 
-#dndubbkbuy .gt_footnote_marks {
+#yrwzzscxxj .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 &lt;/style&gt;
-&lt;div id=&#34;dndubbkbuy&#34; style=&#34;overflow-x:auto;overflow-y:auto;width:auto;height:auto;&#34;&gt;&lt;table class=&#34;gt_table&#34;&gt;
+&lt;div id=&#34;yrwzzscxxj&#34; style=&#34;overflow-x:auto;overflow-y:auto;width:auto;height:auto;&#34;&gt;&lt;table class=&#34;gt_table&#34;&gt;
   &lt;thead class=&#34;gt_header&#34;&gt;
     &lt;tr&gt;
       &lt;th colspan=&#34;1&#34; class=&#34;gt_heading gt_title gt_font_normal&#34; style&gt;Cool table&lt;/th&gt;
@@ -594,37 +594,37 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Police Stop Bunching: A Curious Case of Rounding Off</title>
-      <link>/post/police-stop-bunching-a-curious-case-of-rounding-off/</link>
+      <link>https://b-hemanth.com/post/police-stop-bunching-a-curious-case-of-rounding-off/</link>
       <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/police-stop-bunching-a-curious-case-of-rounding-off/</guid>
+      <guid>https://b-hemanth.com/post/police-stop-bunching-a-curious-case-of-rounding-off/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/b-hemanth/policing_analysis&#34;&gt;Code and ReadMe&lt;/a&gt;: something curious I found while playing with policing data a la the Stanford Open Policing Project.&lt;/p&gt;
 &lt;p&gt;What is happening here, officer?&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-07-13-police-stop-bunching-a-curious-case-of-rounding-off_files/stops.png&#34; alt=&#34;You&amp;rsquo;ve heard of rounding away criminals, but what about rounding off?&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://b-hemanth.com/post/2020-07-13-police-stop-bunching-a-curious-case-of-rounding-off_files/stops.png&#34; alt=&#34;You&amp;rsquo;ve heard of rounding away criminals, but what about rounding off?&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Harvard Course Enrollment: Big Winners and Losers</title>
-      <link>/post/harvard-course-enrollment-big-winners-and-losers/</link>
+      <link>https://b-hemanth.com/post/harvard-course-enrollment-big-winners-and-losers/</link>
       <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/harvard-course-enrollment-big-winners-and-losers/</guid>
+      <guid>https://b-hemanth.com/post/harvard-course-enrollment-big-winners-and-losers/</guid>
       <description>
 
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/b-hemanth/harvard_courses_enrolment_analysis&#34;&gt;Code and ReadMe&lt;/a&gt;.&lt;/p&gt;
 &lt;div id=&#34;biggest-departmental-changes-in-enrolments-at-harvard&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Biggest Departmental Changes in Enrolments at Harvard&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/post/course_enrol.png&#34; alt=&#34;courses&#34; width=&#34;800&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://b-hemanth.com/post/course_enrol.png&#34; alt=&#34;courses&#34; width=&#34;800&#34;/&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;biggest-drops-in-enrolment&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Biggest Drops in Enrolment&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/post/courses 1.png&#34; alt=&#34;courses&#34; width=&#34;700&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://b-hemanth.com/post/courses 1.png&#34; alt=&#34;courses&#34; width=&#34;700&#34;/&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;biggest-new-classes&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Biggest New Classes&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/post/c2.png&#34; alt=&#34;courses&#34; width=&#34;700&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://b-hemanth.com/post/c2.png&#34; alt=&#34;courses&#34; width=&#34;700&#34;/&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
