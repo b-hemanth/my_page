@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>R on Hemanth Bharatha Chakravarthy</title>
-    <link>https://b-hemanth.com/categories/r/</link>
-    <description>Recent content in R on Hemanth Bharatha Chakravarthy</description>
+    <title>Finance on Hemanth Bharatha Chakravarthy</title>
+    <link>https://b-hemanth.com/tags/finance/</link>
+    <description>Recent content in Finance on Hemanth Bharatha Chakravarthy</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Hemanth Bharatha Chakravarthy {year}. [Written](https://github.com/b-hemanth/my_page) in [Blogdown](https://github.com/rstudio/blogdown).</copyright>
     <lastBuildDate>Fri, 16 Oct 2020 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://b-hemanth.com/categories/r/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://b-hemanth.com/tags/finance/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -27,43 +27,6 @@
 &lt;p&gt;First, I think there is a market perception of a definite recovery. For one, there is the idea that given that everything has already crashed, things can only move upwards. Further, it seems to me, there is an expectation (almost an implicit reliance) on the idea that fiscal stimulus and government intervention will and must happen (it has happened globally, to some extent). This seems to be keeping market appetites up as, if things will only go up hereon, long positions seem more warranted. There is some value to this line of throught: Deutsche Bank &lt;a href=&#34;https://economictimes.indiatimes.com/markets/stocks/news/dichotomy-between-markets-and-economy-can-you-still-benefit/articleshow/76505316.cms?utm_source=contentofinterest&amp;amp;utm_medium=text&amp;amp;utm_campaign=cppst&#34;&gt;estimates&lt;/a&gt; total fiscal and monetary stimulus at more than US$ 10 trillion in the G7 countries alone which will make it five times more than the stimulus the G7 rolled out after the 2008 Global Financial Crisis. While central banks have tried to ensure that the market doesn&amp;rsquo;t crash to a severe extent, it seems like their actions carry disproportionate weight in market enthusiasm. So much so that the RBI had to &lt;a href=&#34;https://www.b-hemanth.com/post/who-should-borrow/&#34;&gt;intervene&lt;/a&gt; to rationalize yields on state bonds recently. As the Economist &lt;a href=&#34;https://www-economist-com/leaders/2020/05/07/the-market-v-the-real-economy&#34;&gt;writes&lt;/a&gt; this month, &amp;ldquo;This rosy view from Wall Street should make you uneasy.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;But second, as many experts point out, it seems like the markets are growing increasingly detached from real world outcomes. Business fundamentals seem to remain poor and lost demand is yet to revive, but the market doesn&amp;rsquo;t seem to care. As JP Morgan &lt;a href=&#34;https://privatebank.jpmorgan.com/gl/en/insights/investing/why-stocks-rally-while-the-real-economy-suffers#:~:text=The%20gap%20between%20the%20real,flows%20for%20businesses%20and%20households.&#34;&gt;notes&lt;/a&gt;, &amp;ldquo;The S&amp;amp;P 500 is only 15% below its all-time high, reached on February 19, 2020, and it trades with a forward price-to-earnings multiple that is the highest since the dot-com bubble in 2000.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;The Economist does a good job of &lt;a href=&#34;https://www-economist-com/leaders/2020/05/07/the-market-v-the-real-economy&#34;&gt;pointing out&lt;/a&gt; why this is all dangerous, pointing to the devastation a second crash could now cause if/when nations enter second waves of infections and if cost-cutting doesn&amp;rsquo;t save the GDP after all, incentivizing fraud as hiding your losses is more important when the market is recovering aggressively (whose eventual revelation would also shock the economy), and the anti-corporate political backlash that could ensue if big corporations continue to grow while smaller ones struggle. All of this mean that the &amp;ldquo;things can only get better&amp;rdquo; narrative is dangerous and might itself cause crashes in the coming days.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Police Stop Bunching: A Curious Case of Rounding Off</title>
-      <link>https://b-hemanth.com/post/police-stop-bunching-a-curious-case-of-rounding-off/</link>
-      <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://b-hemanth.com/post/police-stop-bunching-a-curious-case-of-rounding-off/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/b-hemanth/policing_analysis&#34;&gt;Code and ReadMe&lt;/a&gt;: something curious I found while playing with policing data a la the Stanford Open Policing Project.&lt;/p&gt;
-&lt;p&gt;What is happening here, officer?&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://b-hemanth.com/post/2020-07-13-police-stop-bunching-a-curious-case-of-rounding-off_files/stops.png&#34; alt=&#34;You&amp;rsquo;ve heard of rounding away criminals, but what about rounding off?&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Harvard Course Enrollment: Big Winners and Losers</title>
-      <link>https://b-hemanth.com/post/harvard-course-enrollment-big-winners-and-losers/</link>
-      <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://b-hemanth.com/post/harvard-course-enrollment-big-winners-and-losers/</guid>
-      <description>
-
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/b-hemanth/harvard_courses_enrolment_analysis&#34;&gt;Code and ReadMe&lt;/a&gt;.&lt;/p&gt;
-&lt;div id=&#34;biggest-departmental-changes-in-enrolments-at-harvard&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Biggest Departmental Changes in Enrolments at Harvard&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://b-hemanth.com/post/course_enrol.png&#34; alt=&#34;courses&#34; width=&#34;800&#34;/&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;biggest-drops-in-enrolment&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Biggest Drops in Enrolment&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://b-hemanth.com/post/courses 1.png&#34; alt=&#34;courses&#34; width=&#34;700&#34;/&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;biggest-new-classes&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Biggest New Classes&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://b-hemanth.com/post/c2.png&#34; alt=&#34;courses&#34; width=&#34;700&#34;/&gt;&lt;/p&gt;
-&lt;/div&gt;
 </description>
     </item>
     
