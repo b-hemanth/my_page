@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Hemanth Bharatha Chakravarthy</title>
-    <link>https://b-hemanth.com/categories/r/</link>
+    <link>/categories/r/</link>
     <description>Recent content in R on Hemanth Bharatha Chakravarthy</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Hemanth Bharatha Chakravarthy {year}. [Written](https://github.com/b-hemanth/my_page) in [Blogdown](https://github.com/rstudio/blogdown).</copyright>
     <lastBuildDate>Fri, 16 Oct 2020 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://b-hemanth.com/categories/r/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dalal Street vs. North Block</title>
-      <link>https://b-hemanth.com/post/dalal-street-vs-north-block/</link>
+      <link>/post/dalal-street-vs-north-block/</link>
       <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://b-hemanth.com/post/dalal-street-vs-north-block/</guid>
+      <guid>/post/dalal-street-vs-north-block/</guid>
       <description>&lt;h1 id=&#34;the-gap&#34;&gt;The Gap&lt;/h1&gt;
 &lt;p&gt;Yesterday (on the 15th of October), as many predicted, the market crashed with the SENSEX falling by over 1,000 points, all sectoral indices were in the red, and equity investors &lt;a href=&#34;https://economictimes.indiatimes.com/markets/stocks/news/sensex-drops-220-points-on-weak-global-cues-nifty-tests-11900/articleshow/78674278.cms&#34;&gt;lost&lt;/a&gt; Rs 3.3 lakh crore (INR 3300 billion). With severe unemployment, destroyed demand, poor fiscal stimulus announcement after announcement, loan restructuring, and the previous aggressively long position of the market, both a general decline and this particular crash seem warranted. However, today, on the 16th, the SENSEX is up by around 250 points, seemingly recovering 25% of the wealth lost yesterday. This volatile bounce back triggered me to write on the growing, increasingly volatile gap between global stock markets and real economy and attempt to describe the difference between Dalal Street and Delhi&amp;rsquo;s North Block.&lt;/p&gt;
 &lt;p&gt;The main intention of this post is to share this graph:
@@ -32,37 +32,37 @@
     
     <item>
       <title>Police Stop Bunching: A Curious Case of Rounding Off</title>
-      <link>https://b-hemanth.com/post/police-stop-bunching-a-curious-case-of-rounding-off/</link>
+      <link>/post/police-stop-bunching-a-curious-case-of-rounding-off/</link>
       <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://b-hemanth.com/post/police-stop-bunching-a-curious-case-of-rounding-off/</guid>
+      <guid>/post/police-stop-bunching-a-curious-case-of-rounding-off/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/b-hemanth/policing_analysis&#34;&gt;Code and ReadMe&lt;/a&gt;: something curious I found while playing with policing data a la the Stanford Open Policing Project.&lt;/p&gt;
 &lt;p&gt;What is happening here, officer?&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://b-hemanth.com/post/2020-07-13-police-stop-bunching-a-curious-case-of-rounding-off_files/stops.png&#34; alt=&#34;You&amp;rsquo;ve heard of rounding away criminals, but what about rounding off?&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-07-13-police-stop-bunching-a-curious-case-of-rounding-off_files/stops.png&#34; alt=&#34;You&amp;rsquo;ve heard of rounding away criminals, but what about rounding off?&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Harvard Course Enrollment: Big Winners and Losers</title>
-      <link>https://b-hemanth.com/post/harvard-course-enrollment-big-winners-and-losers/</link>
+      <link>/post/harvard-course-enrollment-big-winners-and-losers/</link>
       <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://b-hemanth.com/post/harvard-course-enrollment-big-winners-and-losers/</guid>
+      <guid>/post/harvard-course-enrollment-big-winners-and-losers/</guid>
       <description>
 
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/b-hemanth/harvard_courses_enrolment_analysis&#34;&gt;Code and ReadMe&lt;/a&gt;.&lt;/p&gt;
 &lt;div id=&#34;biggest-departmental-changes-in-enrolments-at-harvard&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Biggest Departmental Changes in Enrolments at Harvard&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://b-hemanth.com/post/course_enrol.png&#34; alt=&#34;courses&#34; width=&#34;800&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/course_enrol.png&#34; alt=&#34;courses&#34; width=&#34;800&#34;/&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;biggest-drops-in-enrolment&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Biggest Drops in Enrolment&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://b-hemanth.com/post/courses 1.png&#34; alt=&#34;courses&#34; width=&#34;700&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/courses 1.png&#34; alt=&#34;courses&#34; width=&#34;700&#34;/&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;biggest-new-classes&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Biggest New Classes&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://b-hemanth.com/post/c2.png&#34; alt=&#34;courses&#34; width=&#34;700&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/c2.png&#34; alt=&#34;courses&#34; width=&#34;700&#34;/&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>

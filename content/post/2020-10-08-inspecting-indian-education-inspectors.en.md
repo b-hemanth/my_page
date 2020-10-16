@@ -22,4 +22,4 @@ projects: []
 
 # Under Maintenance, Sorry!
 
-## Check out my latest posts [here](https://www.b-hemanth.com/post/who-should-borrow/).
+## Check out a latest post [here](https://www.b-hemanth.com/post/who-should-borrow/).

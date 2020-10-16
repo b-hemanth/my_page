@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>India on Hemanth Bharatha Chakravarthy</title>
-    <link>https://b-hemanth.com/tags/india/</link>
+    <link>/tags/india/</link>
     <description>Recent content in India on Hemanth Bharatha Chakravarthy</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Hemanth Bharatha Chakravarthy {year}. [Written](https://github.com/b-hemanth/my_page) in [Blogdown](https://github.com/rstudio/blogdown).</copyright>
     <lastBuildDate>Fri, 16 Oct 2020 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://b-hemanth.com/tags/india/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="/tags/india/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dalal Street vs. North Block</title>
-      <link>https://b-hemanth.com/post/dalal-street-vs-north-block/</link>
+      <link>/post/dalal-street-vs-north-block/</link>
       <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://b-hemanth.com/post/dalal-street-vs-north-block/</guid>
+      <guid>/post/dalal-street-vs-north-block/</guid>
       <description>&lt;h1 id=&#34;the-gap&#34;&gt;The Gap&lt;/h1&gt;
 &lt;p&gt;Yesterday (on the 15th of October), as many predicted, the market crashed with the SENSEX falling by over 1,000 points, all sectoral indices were in the red, and equity investors &lt;a href=&#34;https://economictimes.indiatimes.com/markets/stocks/news/sensex-drops-220-points-on-weak-global-cues-nifty-tests-11900/articleshow/78674278.cms&#34;&gt;lost&lt;/a&gt; Rs 3.3 lakh crore (INR 3300 billion). With severe unemployment, destroyed demand, poor fiscal stimulus announcement after announcement, loan restructuring, and the previous aggressively long position of the market, both a general decline and this particular crash seem warranted. However, today, on the 16th, the SENSEX is up by around 250 points, seemingly recovering 25% of the wealth lost yesterday. This volatile bounce back triggered me to write on the growing, increasingly volatile gap between global stock markets and real economy and attempt to describe the difference between Dalal Street and Delhi&amp;rsquo;s North Block.&lt;/p&gt;
 &lt;p&gt;The main intention of this post is to share this graph:
@@ -32,10 +32,10 @@
     
     <item>
       <title>Who Should Borrow? The Fiscal Federalism Debate</title>
-      <link>https://b-hemanth.com/post/who-should-borrow/</link>
+      <link>/post/who-should-borrow/</link>
       <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://b-hemanth.com/post/who-should-borrow/</guid>
+      <guid>/post/who-should-borrow/</guid>
       <description>&lt;h1 id=&#34;the-rbi-is-buying-states-debt-for-the-first-time-ever&#34;&gt;The RBI is buying states&amp;rsquo; debt for the first time ever&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;The RBI &lt;a href=&#34;https://www.bloombergquint.com/business/in-a-first-rbi-to-buy-state-government-bonds#:~:text=In%20A%20First%2C%20RBI%20To%20Buy%20State%20Government%20Bonds&amp;amp;text=In%20a%20first%20of%20its,interest%20costs%20amid%20high%20borrowings&#34;&gt;just announced&lt;/a&gt; (three hours ago today, the 9th of October) that it is conducting open market operations on state government bonds. That is, the RBI is going to be buying loans of states. This is the first time in history that this move is being made.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;(A bond is an instrument of debt. When you buy it, you give the government money which will be returned to the owner of the instrument at a later date with interest. That is, you buy debt.)&lt;/p&gt;
@@ -58,21 +58,21 @@
     
     <item>
       <title>Inspecting Indian Education Inspectors: Six Changes to Make</title>
-      <link>https://b-hemanth.com/post/inspecting-education-inspectors/</link>
+      <link>/post/inspecting-education-inspectors/</link>
       <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://b-hemanth.com/post/inspecting-education-inspectors/</guid>
+      <guid>/post/inspecting-education-inspectors/</guid>
       <description>&lt;h1 id=&#34;under-maintenance-sorry&#34;&gt;Under Maintenance, Sorry!&lt;/h1&gt;
-&lt;h2 id=&#34;check-out-my-latest-posts-herehttpswwwb-hemanthcompostwho-should-borrow&#34;&gt;Check out my latest posts &lt;a href=&#34;https://www.b-hemanth.com/post/who-should-borrow/&#34;&gt;here&lt;/a&gt;.&lt;/h2&gt;
+&lt;h2 id=&#34;check-out-a-latest-post-herehttpswwwb-hemanthcompostwho-should-borrow&#34;&gt;Check out a latest post &lt;a href=&#34;https://www.b-hemanth.com/post/who-should-borrow/&#34;&gt;here&lt;/a&gt;.&lt;/h2&gt;
 </description>
     </item>
     
     <item>
       <title>Indian Migrants During COVID-19</title>
-      <link>https://b-hemanth.com/post/covid19-indian-migrants/</link>
+      <link>/post/covid19-indian-migrants/</link>
       <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://b-hemanth.com/post/covid19-indian-migrants/</guid>
+      <guid>/post/covid19-indian-migrants/</guid>
       <description>&lt;p&gt;A report I led for Cefala, Schofield, and Kaur at the Behavioral Development Lab, Chennai, studying the household economy, food security, access to state services, location, health and health information, and beliefs of migrant workers during COVID-19: &lt;a href=&#34;https://behavioraldevlab.org/policy_insights/ld_covid/ld_covid_report1.pdf&#34;&gt;here&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;Downloadable data and documentation: &lt;a href=&#34;https://behavioraldevlab.org/resources/data_ld_covid1.html?resourceId=4&amp;amp;status=all&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
