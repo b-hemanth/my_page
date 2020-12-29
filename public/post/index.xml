@@ -7,10 +7,21 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Hemanth Bharatha Chakravarthy {year}. [Written](https://github.com/b-hemanth/my_page) in [Blogdown](https://github.com/rstudio/blogdown).</copyright>
-    <lastBuildDate>Fri, 16 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Dec 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://b-hemanth.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Work-Post] RBI Report on Trends and Progress in Banking in India 2019-20</title>
+      <link>https://b-hemanth.com/post/rbi-rtp-contribution/</link>
+      <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-hemanth.com/post/rbi-rtp-contribution/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m privileged to share that I&amp;rsquo;ve contributed to the 2019-20 RBI Report on Trends and Progress in Banking in India. Do check out Chapter 2 (and Box II.1 therein), co-authored with Dr. Snehal Herwadkar, Director of Banking Research and the incredible editor of the report, and (the amazing) Bhanu Pratap on global savings since COVID-19: &lt;a href=&#34;https://rbidocs.rbi.org.in/rdocs/Publications/PDFs/4GLOBALBANKINGDEVELOPMENTS55F68B71F7A342F78129D0839EB4F9EE.PDF&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Or better, read the entire report &lt;a href=&#34;https://rbidocs.rbi.org.in/rdocs/Publications/PDFs/0RTP2020_F3D078985540A4179B62B7734C7B445C9.PDF&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Dalal Street vs. North Block</title>
@@ -197,9 +208,9 @@ x &amp;lt;- data.frame(replicate(5,sample(0:1,1000,rep=TRUE)))
 # Print three rows of our dummy df
 x[1:3,]&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##   X1 X2 X3 X4 X5
-## 1  1  0  0  1  1
-## 2  0  0  0  0  0
-## 3  0  1  1  0  1&lt;/code&gt;&lt;/pre&gt;
+## 1  0  0  0  0  1
+## 2  0  1  0  0  1
+## 3  1  0  0  1  0&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;strong&gt;Chunk Options&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;You might not want to show your code, the warnings, and messages but show the output–Rmd let’s you control that.&lt;/p&gt;
 &lt;p&gt;E.g.: There’s a hidden chunk below but you’ll only see the table it outputs&lt;/p&gt;
@@ -207,7 +218,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   font-family: -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, Oxygen, Ubuntu, Cantarell, &#39;Helvetica Neue&#39;, &#39;Fira Sans&#39;, &#39;Droid Sans&#39;, Arial, sans-serif;
 }
 
-#oxrakumkyc .gt_table {
+#wqwlejecic .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -230,7 +241,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-left-color: #D3D3D3;
 }
 
-#oxrakumkyc .gt_heading {
+#wqwlejecic .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -242,7 +253,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-right-color: #D3D3D3;
 }
 
-#oxrakumkyc .gt_title {
+#wqwlejecic .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -252,7 +263,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-bottom-width: 0;
 }
 
-#oxrakumkyc .gt_subtitle {
+#wqwlejecic .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -262,13 +273,13 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-top-width: 0;
 }
 
-#oxrakumkyc .gt_bottom_border {
+#wqwlejecic .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#oxrakumkyc .gt_col_headings {
+#wqwlejecic .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -283,7 +294,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-right-color: #D3D3D3;
 }
 
-#oxrakumkyc .gt_col_heading {
+#wqwlejecic .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -303,7 +314,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   overflow-x: hidden;
 }
 
-#oxrakumkyc .gt_column_spanner_outer {
+#wqwlejecic .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -315,15 +326,15 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   padding-right: 4px;
 }
 
-#oxrakumkyc .gt_column_spanner_outer:first-child {
+#wqwlejecic .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#oxrakumkyc .gt_column_spanner_outer:last-child {
+#wqwlejecic .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#oxrakumkyc .gt_column_spanner {
+#wqwlejecic .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -335,7 +346,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   width: 100%;
 }
 
-#oxrakumkyc .gt_group_heading {
+#wqwlejecic .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -357,7 +368,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   vertical-align: middle;
 }
 
-#oxrakumkyc .gt_empty_group_heading {
+#wqwlejecic .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -372,19 +383,19 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   vertical-align: middle;
 }
 
-#oxrakumkyc .gt_striped {
+#wqwlejecic .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#oxrakumkyc .gt_from_md &gt; :first-child {
+#wqwlejecic .gt_from_md &gt; :first-child {
   margin-top: 0;
 }
 
-#oxrakumkyc .gt_from_md &gt; :last-child {
+#wqwlejecic .gt_from_md &gt; :last-child {
   margin-bottom: 0;
 }
 
-#oxrakumkyc .gt_row {
+#wqwlejecic .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -403,7 +414,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   overflow-x: hidden;
 }
 
-#oxrakumkyc .gt_stub {
+#wqwlejecic .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -415,7 +426,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   padding-left: 12px;
 }
 
-#oxrakumkyc .gt_summary_row {
+#wqwlejecic .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -425,7 +436,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   padding-right: 5px;
 }
 
-#oxrakumkyc .gt_first_summary_row {
+#wqwlejecic .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -435,7 +446,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-top-color: #D3D3D3;
 }
 
-#oxrakumkyc .gt_grand_summary_row {
+#wqwlejecic .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -445,7 +456,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   padding-right: 5px;
 }
 
-#oxrakumkyc .gt_first_grand_summary_row {
+#wqwlejecic .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -455,7 +466,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-top-color: #D3D3D3;
 }
 
-#oxrakumkyc .gt_table_body {
+#wqwlejecic .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -464,7 +475,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-bottom-color: #D3D3D3;
 }
 
-#oxrakumkyc .gt_footnotes {
+#wqwlejecic .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -478,13 +489,13 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-right-color: #D3D3D3;
 }
 
-#oxrakumkyc .gt_footnote {
+#wqwlejecic .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#oxrakumkyc .gt_sourcenotes {
+#wqwlejecic .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -498,46 +509,46 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-right-color: #D3D3D3;
 }
 
-#oxrakumkyc .gt_sourcenote {
+#wqwlejecic .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#oxrakumkyc .gt_left {
+#wqwlejecic .gt_left {
   text-align: left;
 }
 
-#oxrakumkyc .gt_center {
+#wqwlejecic .gt_center {
   text-align: center;
 }
 
-#oxrakumkyc .gt_right {
+#wqwlejecic .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#oxrakumkyc .gt_font_normal {
+#wqwlejecic .gt_font_normal {
   font-weight: normal;
 }
 
-#oxrakumkyc .gt_font_bold {
+#wqwlejecic .gt_font_bold {
   font-weight: bold;
 }
 
-#oxrakumkyc .gt_font_italic {
+#wqwlejecic .gt_font_italic {
   font-style: italic;
 }
 
-#oxrakumkyc .gt_super {
+#wqwlejecic .gt_super {
   font-size: 65%;
 }
 
-#oxrakumkyc .gt_footnote_marks {
+#wqwlejecic .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 &lt;/style&gt;
-&lt;div id=&#34;oxrakumkyc&#34; style=&#34;overflow-x:auto;overflow-y:auto;width:auto;height:auto;&#34;&gt;&lt;table class=&#34;gt_table&#34;&gt;
+&lt;div id=&#34;wqwlejecic&#34; style=&#34;overflow-x:auto;overflow-y:auto;width:auto;height:auto;&#34;&gt;&lt;table class=&#34;gt_table&#34;&gt;
   &lt;thead class=&#34;gt_header&#34;&gt;
     &lt;tr&gt;
       &lt;th colspan=&#34;1&#34; class=&#34;gt_heading gt_title gt_font_normal&#34; style&gt;Cool table&lt;/th&gt;

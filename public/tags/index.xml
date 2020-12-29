@@ -7,7 +7,7 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Hemanth Bharatha Chakravarthy {year}. [Written](https://github.com/b-hemanth/my_page) in [Blogdown](https://github.com/rstudio/blogdown).</copyright>
-    <lastBuildDate>Fri, 16 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Dec 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://b-hemanth.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Finance</title>
       <link>https://b-hemanth.com/tags/finance/</link>
-      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://b-hemanth.com/tags/finance/</guid>
       <description></description>
@@ -24,9 +24,18 @@
     <item>
       <title>India</title>
       <link>https://b-hemanth.com/tags/india/</link>
-      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://b-hemanth.com/tags/india/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Working Paper</title>
+      <link>https://b-hemanth.com/tags/working-paper/</link>
+      <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://b-hemanth.com/tags/working-paper/</guid>
       <description></description>
     </item>
     
@@ -54,15 +63,6 @@
       <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://b-hemanth.com/tags/education/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Working Paper</title>
-      <link>https://b-hemanth.com/tags/working-paper/</link>
-      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://b-hemanth.com/tags/working-paper/</guid>
       <description></description>
     </item>
     
