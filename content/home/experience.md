@@ -18,13 +18,20 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Consultant"
+  company = "The Bill and Melinda Gates Foundation, India"
+  company_url = "https://www.gatesfoundation.org/Where-We-Work/India-Office"
+  location = "Delhi"
+  date_start = "2020-12-12"
+  description = """Work with Dr. Santhosh Mathew, Country Lead of Public Policy and Finance, on building state capacity in pursuit of impact goals for UP, Bihar, India, and the world."""
+  
+[[experience]]
   title = "Research Assistant to the Chief Economic Advisor"
   company = "Government of India"
   company_url = ""
   location = "Delhi"
   date_start = "2020-09-07"
-  date_end = "2020-08-30"
-  description = """Work on the [Economic Survey of India](https://www.indiabudget.gov.in/economicsurvey/). Research Assistant to Dr. KV Subramanian, CEA @ Indian School of Business."""
+  description = """Work on the [Economic Survey of India ](https://www.indiabudget.gov.in/economicsurvey/) 2020-21."""
 
 [[experience]]
   title = "Trainee"
@@ -32,8 +39,8 @@ date_format = "Jan 2006"
   company_url = ""
   location = "Mumbai"
   date_start = "2020-09-01"
-  date_end = "2020-10-15"
-  description = """Spend 15 days meeting all 18 Directors at DEPR, 1 month placed in a division of my choice; co-author research with bank economists; only undergraduate at the RBI."""
+  date_end = "2020-12-10"
+  description = """Co-author research with bank economists; only undergraduate at the RBI."""
 
 [[experience]]
   title = "Research Assistant to Professor Heather Schofield"
@@ -42,7 +49,7 @@ date_format = "Jan 2006"
   location = "Philadelphia"
   date_start = "2020-05-01"
   date_end = "2020-08-30"
-  description = """Tracked the COVID-19 pandemic and wrote economic policy reports; worked on randomized controlled trials in labor and behavioral economics."""
+  description = """Tracked migrants during COVID-19 and worked on a behavioral-labor RCT."""
 
 [[experience]]
   title = "Policy Brief Author"
@@ -51,7 +58,7 @@ date_format = "Jan 2006"
   location = "California"
   date_start = "2020-04-01"
   date_end = "2020-07-30"
-  description = """Wrote communication, administrative data, and dashboard related policy briefs for Indian ministries."""
+  description = """Wrote helpline-, data-, and dashboard-related policy briefs for Indian government."""
 
 [[experience]]
   title = "Research Assistant to Professor Michela Carlana"
@@ -69,7 +76,7 @@ date_format = "Jan 2006"
   location = "Chennai"
   date_start = "2019-05-01"
   date_end = "2019-08-30"
-  description = """Liaised between experts, bureaucrats, and politicians at J-PAL South Asia to evaluate and build policy, served as a consultant to the Tamil Nadu Welfare Ministry and worked with their top brass, and helped build and evaluated the state 24-hour Women's Helpline. """
+  description = """Led consulting on building and analyzed the data of the TN state women's helpline; worked on administrative data."""
 
   
 +++
