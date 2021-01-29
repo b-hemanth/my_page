@@ -44,4 +44,4 @@ hero_media = "hemanth.jpg"
 +++
 ## Hello. I am **Hemanth Bharatha Chakravarthy**. Welcome to my site!
 
-Scroll to find selected research work, pet data projects, blog posts, and more.
+Scroll to find selected research, pet data projects, blog posts, and more.
