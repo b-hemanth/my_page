@@ -31,7 +31,7 @@
 &lt;p&gt;To elaborate, the Chinese federalist reforms broadly had three themes. First was the decentralization of fiscal regulation, expenditure, and public good provision. Herein, Chinese local governments supervise about three quarters of the state industrial firms in terms of output; they also have a major responsibility for state fixed investments, initially in industry but increasingly in infrastructure. Moreover, local governments have primary authority over regulating local economy, performing tasks like licensing, defining the role of non-state firms, coordinating urban development plans, and even resolving business disputes. Finally, local governments provide an array of local public goods such as schools, health care, culture, police, and infrastructure/facilities. Circularly, such infrastructure plays an important role in attracting foreign investment into their localities. The second theme was around performance appraisal: the promotion of officials who contribute to local economy. The third was China’s new fiscal contracting system which led to large gains in marginal revenue retention for provinces. Five-year contracts were drawn between local government and center on revenue sharing: fixed amounts with annual increments are owed to the centre and the region keeps everything beyond that. Thus, China’s decentralization resembles much of what SGFF theorists would describe as an ideal setup of fiscal federalism.&lt;/p&gt;
 &lt;p&gt;Typically, research cites three reforms as products of local innovation and competition. First was the institution of the Household Responsibility Scheme of land division and redistribution, moving China from communes to private agriculture. The second was the creation of special economic zones in the Guangdong and Fujian Provinces. The third is the differential profit retention schemes introduced for state enterprises in Sichuan and Hubei which ultimately replaced profit remittances with taxes, beginning the conversion of PSUs to market corporations and beginning the march towards their eventual privatization. Besides these, some also highlight the success of locally managed Township and Village Enterprises, particularly relative to central state enterprises.&lt;/p&gt;
 &lt;p&gt;III&lt;/p&gt;
-&lt;p&gt;Broadly, there are a few theories of China’s growth and the role of decentralization in it, often using parallel datasets (say, at different levels of aggregation) and parallel methods to substantiate their assertions. However, across theories, a few things are agreed upon. First, that China viewed decentralized actors as strategic self-interested players, abandoning the premise of benevolence in civil service. It created a positive-sum relationship between government and agents. (Jin, Qian, and Weingast, 1999) The direct implication of this is that performance-based promotions motivated career incentives of bureaucrats to do better. Establishing that performance was being rewarded, Li and Zhou examined the top officials in twenty-eight provinces in 1979-1995 and found promotions were significantly more likely&amp;mdash;and demotions less likely&amp;mdash;in provinces with higher growth. Similarly, Maskin et al. found provincial officials were more often promoted to the Party’s Central Committee if their province’s relative growth rate increased. &lt;a href=&#34;https://www.aeaweb.org/articles?id=10.1257/jel.49.4.1076&#34;&gt;Xu (2011)&lt;/a&gt; argues that this tournament style competition in China was an important cause for its growth. Further, there is some agreement that by incorporating regional experimentation into the central government’s decision-making process, reforms were less likely to be blocked, and the political and technical risks of reforms were greatly reduced.&lt;/p&gt;
+&lt;p&gt;Broadly, there are a few theories of China’s growth and the role of decentralization in it, often using parallel datasets (say, at different levels of aggregation) and parallel methods to substantiate their assertions. However, across theories, a few things are agreed upon. First, that China viewed decentralized actors as strategic self-interested players, abandoning the premise of benevolence in civil service. It created a positive-sum relationship between government and agents. (Jin, Qian, and Weingast, 1999) The direct implication of this is that performance-based promotions motivated career incentives of bureaucrats to do better. Establishing that performance was being rewarded, Li and Zhou examined the top officials in twenty-eight provinces in 1979-1995 and found promotions were significantly more likely&amp;mdash;and demotions less likely&amp;mdash;in provinces with higher growth. Similarly, &lt;a href=&#34;https://www.jstor.org/stable/2566987?seq=1#metadata_info_tab_contents&#34;&gt;Maskin et al. (2000)&lt;/a&gt; found provincial officials were more often promoted to the Party’s Central Committee if their province’s relative growth rate increased. &lt;a href=&#34;https://www.aeaweb.org/articles?id=10.1257/jel.49.4.1076&#34;&gt;Xu (2011)&lt;/a&gt; argues that this tournament style competition in China was an important cause for its growth. Further, there is some agreement that by incorporating regional experimentation into the central government’s decision-making process, reforms were less likely to be blocked, and the political and technical risks of reforms were greatly reduced.&lt;/p&gt;
 &lt;p&gt;Broadly, there are a few theories of China’s growth and the role of decentralization in it. Lacking democracy, the rule of law, and other traditional constitutional constraints on the national government, theorists have long associated China&amp;rsquo;s transition to markets with the devolution of authority from the central to local governments. They argue that decentralization-induced incentives caused the growth of rural enterprise employment, changes in the share of non-state-agricultural employment, and non-state-industrial output; they also caused improvements in GDP growth, growth of non-agricultural employment, and growth of non-state-non-agricultural employment (see Montinola, Qian, and Weingast, 1995; Chang and Wang, 1998; Xu and Zhuang, 1998; Jin, Qian, and Weingast, 1999; Qian, 2002; Xu, 2011). This is in contrast to Andrei Shleifer’s 1997 study of Russia after the collapse of the Soviet Union: despite decentralization, he finds local government revenues were extracted by the aggregating regional government, thereby stealing incentives, and inducing grabbing behavior in Poland and other former Soviet Union territories. So, despite the higher disinvestment of PSUs in Russia vis a vis China during their respective reform years, Shleifer observes lower economic outcomes in Russia, associating it with a lack of decentralized incentives. So, SGFF theories are reverberated in the Chinese evidence, and going even further, Jin et al. (1999) argue that, counterintuitively, this quasi market allocation of resources also improved the horizontal distribution of expenditure across regions.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://b-hemanth.com/post/2-china.png&#34; alt=&#34;Table 2 from Jin, Qian, and Weingast (1999)&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://b-hemanth.com/post/1-china.png&#34; alt=&#34;Table 7 from Jin, Qian, and Weingast (1999)&#34;&gt;&lt;/p&gt;
@@ -294,9 +294,9 @@ x &amp;lt;- data.frame(replicate(5,sample(0:1,1000,rep=TRUE)))
 # Print three rows of our dummy df
 x[1:3,]&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##   X1 X2 X3 X4 X5
-## 1  1  1  1  1  0
-## 2  0  0  0  1  0
-## 3  1  1  0  1  0&lt;/code&gt;&lt;/pre&gt;
+## 1  1  1  0  1  0
+## 2  1  1  1  0  0
+## 3  0  1  1  1  1&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;strong&gt;Chunk Options&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;You might not want to show your code, the warnings, and messages but show the output–Rmd let’s you control that.&lt;/p&gt;
 &lt;p&gt;E.g.: There’s a hidden chunk below but you’ll only see the table it outputs&lt;/p&gt;
@@ -304,7 +304,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   font-family: -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, Oxygen, Ubuntu, Cantarell, &#39;Helvetica Neue&#39;, &#39;Fira Sans&#39;, &#39;Droid Sans&#39;, Arial, sans-serif;
 }
 
-#kxwdynqika .gt_table {
+#zeutvyirsm .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -327,7 +327,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-left-color: #D3D3D3;
 }
 
-#kxwdynqika .gt_heading {
+#zeutvyirsm .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -339,7 +339,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-right-color: #D3D3D3;
 }
 
-#kxwdynqika .gt_title {
+#zeutvyirsm .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -349,7 +349,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-bottom-width: 0;
 }
 
-#kxwdynqika .gt_subtitle {
+#zeutvyirsm .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -359,13 +359,13 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-top-width: 0;
 }
 
-#kxwdynqika .gt_bottom_border {
+#zeutvyirsm .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#kxwdynqika .gt_col_headings {
+#zeutvyirsm .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -380,7 +380,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-right-color: #D3D3D3;
 }
 
-#kxwdynqika .gt_col_heading {
+#zeutvyirsm .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -400,7 +400,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   overflow-x: hidden;
 }
 
-#kxwdynqika .gt_column_spanner_outer {
+#zeutvyirsm .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -412,15 +412,15 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   padding-right: 4px;
 }
 
-#kxwdynqika .gt_column_spanner_outer:first-child {
+#zeutvyirsm .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#kxwdynqika .gt_column_spanner_outer:last-child {
+#zeutvyirsm .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#kxwdynqika .gt_column_spanner {
+#zeutvyirsm .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -432,7 +432,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   width: 100%;
 }
 
-#kxwdynqika .gt_group_heading {
+#zeutvyirsm .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -454,7 +454,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   vertical-align: middle;
 }
 
-#kxwdynqika .gt_empty_group_heading {
+#zeutvyirsm .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -469,19 +469,19 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   vertical-align: middle;
 }
 
-#kxwdynqika .gt_striped {
+#zeutvyirsm .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#kxwdynqika .gt_from_md &gt; :first-child {
+#zeutvyirsm .gt_from_md &gt; :first-child {
   margin-top: 0;
 }
 
-#kxwdynqika .gt_from_md &gt; :last-child {
+#zeutvyirsm .gt_from_md &gt; :last-child {
   margin-bottom: 0;
 }
 
-#kxwdynqika .gt_row {
+#zeutvyirsm .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -500,7 +500,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   overflow-x: hidden;
 }
 
-#kxwdynqika .gt_stub {
+#zeutvyirsm .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -512,7 +512,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   padding-left: 12px;
 }
 
-#kxwdynqika .gt_summary_row {
+#zeutvyirsm .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -522,7 +522,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   padding-right: 5px;
 }
 
-#kxwdynqika .gt_first_summary_row {
+#zeutvyirsm .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -532,7 +532,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-top-color: #D3D3D3;
 }
 
-#kxwdynqika .gt_grand_summary_row {
+#zeutvyirsm .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -542,7 +542,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   padding-right: 5px;
 }
 
-#kxwdynqika .gt_first_grand_summary_row {
+#zeutvyirsm .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -552,7 +552,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-top-color: #D3D3D3;
 }
 
-#kxwdynqika .gt_table_body {
+#zeutvyirsm .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -561,7 +561,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-bottom-color: #D3D3D3;
 }
 
-#kxwdynqika .gt_footnotes {
+#zeutvyirsm .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -575,13 +575,13 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-right-color: #D3D3D3;
 }
 
-#kxwdynqika .gt_footnote {
+#zeutvyirsm .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#kxwdynqika .gt_sourcenotes {
+#zeutvyirsm .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -595,46 +595,46 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-right-color: #D3D3D3;
 }
 
-#kxwdynqika .gt_sourcenote {
+#zeutvyirsm .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#kxwdynqika .gt_left {
+#zeutvyirsm .gt_left {
   text-align: left;
 }
 
-#kxwdynqika .gt_center {
+#zeutvyirsm .gt_center {
   text-align: center;
 }
 
-#kxwdynqika .gt_right {
+#zeutvyirsm .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#kxwdynqika .gt_font_normal {
+#zeutvyirsm .gt_font_normal {
   font-weight: normal;
 }
 
-#kxwdynqika .gt_font_bold {
+#zeutvyirsm .gt_font_bold {
   font-weight: bold;
 }
 
-#kxwdynqika .gt_font_italic {
+#zeutvyirsm .gt_font_italic {
   font-style: italic;
 }
 
-#kxwdynqika .gt_super {
+#zeutvyirsm .gt_super {
   font-size: 65%;
 }
 
-#kxwdynqika .gt_footnote_marks {
+#zeutvyirsm .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 &lt;/style&gt;
-&lt;div id=&#34;kxwdynqika&#34; style=&#34;overflow-x:auto;overflow-y:auto;width:auto;height:auto;&#34;&gt;&lt;table class=&#34;gt_table&#34;&gt;
+&lt;div id=&#34;zeutvyirsm&#34; style=&#34;overflow-x:auto;overflow-y:auto;width:auto;height:auto;&#34;&gt;&lt;table class=&#34;gt_table&#34;&gt;
   &lt;thead class=&#34;gt_header&#34;&gt;
     &lt;tr&gt;
       &lt;th colspan=&#34;1&#34; class=&#34;gt_heading gt_title gt_font_normal&#34; style&gt;Cool table&lt;/th&gt;
