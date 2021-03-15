@@ -18,7 +18,7 @@
       <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://b-hemanth.com/post/uncovering-the-china-story/</guid>
-      <description>&lt;p&gt;&lt;em&gt;From 1980 to 2015, China reduced its official poverty rate by 95 percent. The following are notes from some prominent literature that discuss how this happened and the prominence (or lack thereof) of decentralization in that journey.&lt;/em&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;em&gt;From 1980 to 2015, in what is undoubtedly one of the single greatest moments in human history, China reduced its official poverty rate by 95 percent. The following are notes from some prominent literature that discuss how this happened and the prominence (or lack thereof) of decentralization in that journey.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;I&lt;/p&gt;
 &lt;p&gt;In economic theory, those in favor of decentralization argue that &lt;em&gt;actual&lt;/em&gt; decentralization allows competition and allows local actors to benefit from the products of their own work, creating incentives and personal stakes to work in public interest (see Cooter, 2003; Kotsogiannis and Schwager, 2006; Shah, 1997; Shleifer and Vishny, 1993). Such economists also identify the positive externalities of information spillovers from regional experimentation which can be richly pedagogical for both the center and other states. Moreover, they argue, decentralization weakens corruption because competition among subnational governments constrains bureaucratic behavior.&lt;/p&gt;
 &lt;p&gt;Those in opposition to decentralization argue for central planning given the large amount of information that they believe is required for planning. They highlight the distributional effects&amp;mdash;decentralization could amplify regional inequality. Local leaders are also likely to be risk averse vis a vis the centre on experimentation due to a lack of political hedging for the former&amp;mdash;local leaders have all their eggs in just that one basket (see Cai and Treisman, 2008; Weingast, 2008).&lt;/p&gt;
@@ -299,9 +299,9 @@ x &amp;lt;- data.frame(replicate(5,sample(0:1,1000,rep=TRUE)))
 # Print three rows of our dummy df
 x[1:3,]&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##   X1 X2 X3 X4 X5
-## 1  0  1  1  0  1
-## 2  1  1  1  0  0
-## 3  1  0  0  1  1&lt;/code&gt;&lt;/pre&gt;
+## 1  0  0  1  0  1
+## 2  0  1  1  0  0
+## 3  1  1  1  1  0&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;strong&gt;Chunk Options&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;You might not want to show your code, the warnings, and messages but show the output–Rmd let’s you control that.&lt;/p&gt;
 &lt;p&gt;E.g.: There’s a hidden chunk below but you’ll only see the table it outputs&lt;/p&gt;
@@ -309,7 +309,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   font-family: -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, Oxygen, Ubuntu, Cantarell, &#39;Helvetica Neue&#39;, &#39;Fira Sans&#39;, &#39;Droid Sans&#39;, Arial, sans-serif;
 }
 
-#vcqimzmxmm .gt_table {
+#zlzlfsxyww .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -332,7 +332,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-left-color: #D3D3D3;
 }
 
-#vcqimzmxmm .gt_heading {
+#zlzlfsxyww .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -344,7 +344,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-right-color: #D3D3D3;
 }
 
-#vcqimzmxmm .gt_title {
+#zlzlfsxyww .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -354,7 +354,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-bottom-width: 0;
 }
 
-#vcqimzmxmm .gt_subtitle {
+#zlzlfsxyww .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -364,13 +364,13 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-top-width: 0;
 }
 
-#vcqimzmxmm .gt_bottom_border {
+#zlzlfsxyww .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#vcqimzmxmm .gt_col_headings {
+#zlzlfsxyww .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -385,7 +385,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-right-color: #D3D3D3;
 }
 
-#vcqimzmxmm .gt_col_heading {
+#zlzlfsxyww .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -405,7 +405,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   overflow-x: hidden;
 }
 
-#vcqimzmxmm .gt_column_spanner_outer {
+#zlzlfsxyww .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -417,15 +417,15 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   padding-right: 4px;
 }
 
-#vcqimzmxmm .gt_column_spanner_outer:first-child {
+#zlzlfsxyww .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#vcqimzmxmm .gt_column_spanner_outer:last-child {
+#zlzlfsxyww .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#vcqimzmxmm .gt_column_spanner {
+#zlzlfsxyww .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -437,7 +437,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   width: 100%;
 }
 
-#vcqimzmxmm .gt_group_heading {
+#zlzlfsxyww .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -459,7 +459,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   vertical-align: middle;
 }
 
-#vcqimzmxmm .gt_empty_group_heading {
+#zlzlfsxyww .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -474,19 +474,19 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   vertical-align: middle;
 }
 
-#vcqimzmxmm .gt_striped {
+#zlzlfsxyww .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#vcqimzmxmm .gt_from_md &gt; :first-child {
+#zlzlfsxyww .gt_from_md &gt; :first-child {
   margin-top: 0;
 }
 
-#vcqimzmxmm .gt_from_md &gt; :last-child {
+#zlzlfsxyww .gt_from_md &gt; :last-child {
   margin-bottom: 0;
 }
 
-#vcqimzmxmm .gt_row {
+#zlzlfsxyww .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -505,7 +505,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   overflow-x: hidden;
 }
 
-#vcqimzmxmm .gt_stub {
+#zlzlfsxyww .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -517,7 +517,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   padding-left: 12px;
 }
 
-#vcqimzmxmm .gt_summary_row {
+#zlzlfsxyww .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -527,7 +527,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   padding-right: 5px;
 }
 
-#vcqimzmxmm .gt_first_summary_row {
+#zlzlfsxyww .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -537,7 +537,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-top-color: #D3D3D3;
 }
 
-#vcqimzmxmm .gt_grand_summary_row {
+#zlzlfsxyww .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -547,7 +547,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   padding-right: 5px;
 }
 
-#vcqimzmxmm .gt_first_grand_summary_row {
+#zlzlfsxyww .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -557,7 +557,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-top-color: #D3D3D3;
 }
 
-#vcqimzmxmm .gt_table_body {
+#zlzlfsxyww .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -566,7 +566,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-bottom-color: #D3D3D3;
 }
 
-#vcqimzmxmm .gt_footnotes {
+#zlzlfsxyww .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -580,13 +580,13 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-right-color: #D3D3D3;
 }
 
-#vcqimzmxmm .gt_footnote {
+#zlzlfsxyww .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#vcqimzmxmm .gt_sourcenotes {
+#zlzlfsxyww .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -600,46 +600,46 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-right-color: #D3D3D3;
 }
 
-#vcqimzmxmm .gt_sourcenote {
+#zlzlfsxyww .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#vcqimzmxmm .gt_left {
+#zlzlfsxyww .gt_left {
   text-align: left;
 }
 
-#vcqimzmxmm .gt_center {
+#zlzlfsxyww .gt_center {
   text-align: center;
 }
 
-#vcqimzmxmm .gt_right {
+#zlzlfsxyww .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#vcqimzmxmm .gt_font_normal {
+#zlzlfsxyww .gt_font_normal {
   font-weight: normal;
 }
 
-#vcqimzmxmm .gt_font_bold {
+#zlzlfsxyww .gt_font_bold {
   font-weight: bold;
 }
 
-#vcqimzmxmm .gt_font_italic {
+#zlzlfsxyww .gt_font_italic {
   font-style: italic;
 }
 
-#vcqimzmxmm .gt_super {
+#zlzlfsxyww .gt_super {
   font-size: 65%;
 }
 
-#vcqimzmxmm .gt_footnote_marks {
+#zlzlfsxyww .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 &lt;/style&gt;
-&lt;div id=&#34;vcqimzmxmm&#34; style=&#34;overflow-x:auto;overflow-y:auto;width:auto;height:auto;&#34;&gt;&lt;table class=&#34;gt_table&#34;&gt;
+&lt;div id=&#34;zlzlfsxyww&#34; style=&#34;overflow-x:auto;overflow-y:auto;width:auto;height:auto;&#34;&gt;&lt;table class=&#34;gt_table&#34;&gt;
   &lt;thead class=&#34;gt_header&#34;&gt;
     &lt;tr&gt;
       &lt;th colspan=&#34;1&#34; class=&#34;gt_heading gt_title gt_font_normal&#34; style&gt;Cool table&lt;/th&gt;
