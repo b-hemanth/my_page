@@ -18,7 +18,8 @@
       <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://b-hemanth.com/post/uncovering-the-china-story/</guid>
-      <description>&lt;p&gt;I&lt;/p&gt;
+      <description>&lt;p&gt;&lt;em&gt;From 1980 to 2015, China reduced its official poverty rate by 95 percent. The following are notes from some prominent literature that discuss how this happened and the power (or lack thereof) of decentralization.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I&lt;/p&gt;
 &lt;p&gt;In economic theory, those in favor of decentralization argue that &lt;em&gt;actual&lt;/em&gt; decentralization allows competition and allows local actors to benefit from the products of their own work, creating incentives and personal stakes to work in public interest (see Cooter, 2003; Kotsogiannis and Schwager, 2006; Shah, 1997; Shleifer and Vishny, 1993). Such economists also identify the positive externalities of information spillovers from regional experimentation which can be richly pedagogical for both the center and other states. Moreover, they argue, decentralization weakens corruption because competition among subnational governments constrains bureaucratic behavior.&lt;/p&gt;
 &lt;p&gt;Those in opposition to decentralization argue for central planning given the large amount of information that they believe is required for planning. They highlight the distributional effects&amp;mdash;decentralization could amplify regional inequality. Local leaders are also likely to be risk averse vis a vis the centre on experimentation due to a lack of political hedging for the former&amp;mdash;local leaders have all their eggs in just that one basket (see Cai and Treisman, 2008; Weingast, 2008).&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://econpapers.repec.org/paper/wopstanec/99013.htm&#34;&gt;Jin, Qian, and Weingast (1999)&lt;/a&gt; and &lt;a href=&#34;https://www.sciencedirect.com/science/article/abs/pii/S0094119008001265&#34;&gt;Weingast (2008)&lt;/a&gt; stress on adopting their “second generation theory” of decentralization and their ideal model of it. They establish two prerequisites for decentralization to become &lt;em&gt;actual&lt;/em&gt;: first, interregional competition or, in other words, the lack of regional protectionism, and second, the retention of marginal revenues&amp;mdash;linking local budgets with local revenues. Essentially, anything your jurisdiction makes over $x is yours. This, they posit, is meaningfully distinct from the first generation model of fiscal federalism. In the first generation, &lt;a href=&#34;https://www.jstor.org/stable/1809376&#34;&gt;Hayek (1945)&lt;/a&gt; emphasized the advantages of decentralized decision-making in terms of best utilizing local information. Whereas, &lt;a href=&#34;https://www.jstor.org/stable/1826343&#34;&gt;Tiebout (1956)&lt;/a&gt; argued that competition among local governments on expenditure allocation allows residents to sort themselves and match their preferences with a particular menu of local public goods&amp;mdash;a sort of spatial equilibrium model where the preferred state of the world is for residents to move to better off regions rather than to fight regional inequality. &lt;a href=&#34;https://www.amazon.com/Theory-Public-Finance-Study-Economy/dp/0070441154&#34;&gt;Musgrave (1959)&lt;/a&gt; and &lt;a href=&#34;https://www.researchgate.net/publication/5110773_On_the_Theory_and_Practice_of_Fiscal_Decentralization&#34;&gt;Oates (1972)&lt;/a&gt; believed that decentralized allocations were the appropriate assignment of taxes and expenditures to the various levels of government to improve welfare.&lt;/p&gt;
@@ -293,9 +294,9 @@ x &amp;lt;- data.frame(replicate(5,sample(0:1,1000,rep=TRUE)))
 # Print three rows of our dummy df
 x[1:3,]&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##   X1 X2 X3 X4 X5
-## 1  0  0  0  0  1
-## 2  1  1  0  0  1
-## 3  1  1  1  1  0&lt;/code&gt;&lt;/pre&gt;
+## 1  1  1  1  1  0
+## 2  0  0  0  1  0
+## 3  1  1  0  1  0&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;strong&gt;Chunk Options&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;You might not want to show your code, the warnings, and messages but show the output–Rmd let’s you control that.&lt;/p&gt;
 &lt;p&gt;E.g.: There’s a hidden chunk below but you’ll only see the table it outputs&lt;/p&gt;
@@ -303,7 +304,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   font-family: -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, Oxygen, Ubuntu, Cantarell, &#39;Helvetica Neue&#39;, &#39;Fira Sans&#39;, &#39;Droid Sans&#39;, Arial, sans-serif;
 }
 
-#mvcynhmxiq .gt_table {
+#kxwdynqika .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -326,7 +327,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-left-color: #D3D3D3;
 }
 
-#mvcynhmxiq .gt_heading {
+#kxwdynqika .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -338,7 +339,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-right-color: #D3D3D3;
 }
 
-#mvcynhmxiq .gt_title {
+#kxwdynqika .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -348,7 +349,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-bottom-width: 0;
 }
 
-#mvcynhmxiq .gt_subtitle {
+#kxwdynqika .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -358,13 +359,13 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-top-width: 0;
 }
 
-#mvcynhmxiq .gt_bottom_border {
+#kxwdynqika .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#mvcynhmxiq .gt_col_headings {
+#kxwdynqika .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -379,7 +380,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-right-color: #D3D3D3;
 }
 
-#mvcynhmxiq .gt_col_heading {
+#kxwdynqika .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -399,7 +400,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   overflow-x: hidden;
 }
 
-#mvcynhmxiq .gt_column_spanner_outer {
+#kxwdynqika .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -411,15 +412,15 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   padding-right: 4px;
 }
 
-#mvcynhmxiq .gt_column_spanner_outer:first-child {
+#kxwdynqika .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#mvcynhmxiq .gt_column_spanner_outer:last-child {
+#kxwdynqika .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#mvcynhmxiq .gt_column_spanner {
+#kxwdynqika .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -431,7 +432,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   width: 100%;
 }
 
-#mvcynhmxiq .gt_group_heading {
+#kxwdynqika .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -453,7 +454,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   vertical-align: middle;
 }
 
-#mvcynhmxiq .gt_empty_group_heading {
+#kxwdynqika .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -468,19 +469,19 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   vertical-align: middle;
 }
 
-#mvcynhmxiq .gt_striped {
+#kxwdynqika .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#mvcynhmxiq .gt_from_md &gt; :first-child {
+#kxwdynqika .gt_from_md &gt; :first-child {
   margin-top: 0;
 }
 
-#mvcynhmxiq .gt_from_md &gt; :last-child {
+#kxwdynqika .gt_from_md &gt; :last-child {
   margin-bottom: 0;
 }
 
-#mvcynhmxiq .gt_row {
+#kxwdynqika .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -499,7 +500,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   overflow-x: hidden;
 }
 
-#mvcynhmxiq .gt_stub {
+#kxwdynqika .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -511,7 +512,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   padding-left: 12px;
 }
 
-#mvcynhmxiq .gt_summary_row {
+#kxwdynqika .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -521,7 +522,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   padding-right: 5px;
 }
 
-#mvcynhmxiq .gt_first_summary_row {
+#kxwdynqika .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -531,7 +532,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-top-color: #D3D3D3;
 }
 
-#mvcynhmxiq .gt_grand_summary_row {
+#kxwdynqika .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -541,7 +542,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   padding-right: 5px;
 }
 
-#mvcynhmxiq .gt_first_grand_summary_row {
+#kxwdynqika .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -551,7 +552,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-top-color: #D3D3D3;
 }
 
-#mvcynhmxiq .gt_table_body {
+#kxwdynqika .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -560,7 +561,7 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-bottom-color: #D3D3D3;
 }
 
-#mvcynhmxiq .gt_footnotes {
+#kxwdynqika .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -574,13 +575,13 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-right-color: #D3D3D3;
 }
 
-#mvcynhmxiq .gt_footnote {
+#kxwdynqika .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#mvcynhmxiq .gt_sourcenotes {
+#kxwdynqika .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -594,46 +595,46 @@ x[1:3,]&lt;/code&gt;&lt;/pre&gt;
   border-right-color: #D3D3D3;
 }
 
-#mvcynhmxiq .gt_sourcenote {
+#kxwdynqika .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#mvcynhmxiq .gt_left {
+#kxwdynqika .gt_left {
   text-align: left;
 }
 
-#mvcynhmxiq .gt_center {
+#kxwdynqika .gt_center {
   text-align: center;
 }
 
-#mvcynhmxiq .gt_right {
+#kxwdynqika .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#mvcynhmxiq .gt_font_normal {
+#kxwdynqika .gt_font_normal {
   font-weight: normal;
 }
 
-#mvcynhmxiq .gt_font_bold {
+#kxwdynqika .gt_font_bold {
   font-weight: bold;
 }
 
-#mvcynhmxiq .gt_font_italic {
+#kxwdynqika .gt_font_italic {
   font-style: italic;
 }
 
-#mvcynhmxiq .gt_super {
+#kxwdynqika .gt_super {
   font-size: 65%;
 }
 
-#mvcynhmxiq .gt_footnote_marks {
+#kxwdynqika .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 &lt;/style&gt;
-&lt;div id=&#34;mvcynhmxiq&#34; style=&#34;overflow-x:auto;overflow-y:auto;width:auto;height:auto;&#34;&gt;&lt;table class=&#34;gt_table&#34;&gt;
+&lt;div id=&#34;kxwdynqika&#34; style=&#34;overflow-x:auto;overflow-y:auto;width:auto;height:auto;&#34;&gt;&lt;table class=&#34;gt_table&#34;&gt;
   &lt;thead class=&#34;gt_header&#34;&gt;
     &lt;tr&gt;
       &lt;th colspan=&#34;1&#34; class=&#34;gt_heading gt_title gt_font_normal&#34; style&gt;Cool table&lt;/th&gt;

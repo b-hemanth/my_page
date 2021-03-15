@@ -19,6 +19,8 @@ image:
   preview_only: no
 projects: []
 ---
+_From 1980 to 2015, China reduced its official poverty rate by 95 percent. The following are notes from some prominent literature that discuss how this happened and the power (or lack thereof) of decentralization._
+
 I
 
 In economic theory, those in favor of decentralization argue that _actual_ decentralization allows competition and allows local actors to benefit from the products of their own work, creating incentives and personal stakes to work in public interest (see Cooter, 2003; Kotsogiannis and Schwager, 2006; Shah, 1997; Shleifer and Vishny, 1993). Such economists also identify the positive externalities of information spillovers from regional experimentation which can be richly pedagogical for both the center and other states. Moreover, they argue, decentralization weakens corruption because competition among subnational governments constrains bureaucratic behavior.
