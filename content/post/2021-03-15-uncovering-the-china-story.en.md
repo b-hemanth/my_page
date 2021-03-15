@@ -1,5 +1,5 @@
 ---
-title: 'Uncovering the China Story(ies): A Review of Federalist Literature'
+title: 'Uncovering the China Story(ies): Notes on Federalist Literature'
 author: Hemanth Bharatha Chakravarthy
 date: '2021-03-15'
 slug: uncovering-the-china-story
