@@ -33,11 +33,7 @@ Despite the federalist banter, decentralization has a mixed record on corruption
 
 II
 
-\begin{figure}[h]
-\caption{Table 2 from [Xu (2011)](https://www.aeaweb.org/articles?id=10.1257/jel.49.4.1076)}
-\centering
-\includegraphics[width=0.5\textwidth]{1-china}
-\end{figure} 
+![Table 2 from Xu (2011)](3.png)
  
 The story of growth in China after the ‘80s is much debated and a partially open question. There is much competition over the imagination of both what reforms happened and which of these were responsible for the China’s rapid growth and poverty alleviation. Jin, Qian, and Weingast (1999) spot three reforms that indicate successful decentralization from roughly 1982 to 1992: local governments got the primary fiscal planning and decision-making role for their jurisdiction, newfound mobility inducing interregional competition, and local incentives stemming from the local retention of marginal revenues. 
 
@@ -52,17 +48,9 @@ Broadly, there are a few theories of China’s growth and the role of decentrali
 
 Broadly, there are a few theories of China’s growth and the role of decentralization in it. Lacking democracy, the rule of law, and other traditional constitutional constraints on the national government, theorists have long associated China's transition to markets with the devolution of authority from the central to local governments. They argue that decentralization-induced incentives caused the growth of rural enterprise employment, changes in the share of non-state-agricultural employment, and non-state-industrial output; they also caused improvements in GDP growth, growth of non-agricultural employment, and growth of non-state-non-agricultural employment (see Montinola, Qian, and Weingast, 1995; Chang and Wang, 1998; Xu and Zhuang, 1998; Jin, Qian, and Weingast, 1999; Qian, 2002; Xu, 2011). This is in contrast to Andrei Shleifer’s 1997 study of Russia after the collapse of the Soviet Union: despite decentralization, he finds local government revenues were extracted by the aggregating regional government, thereby stealing incentives, and inducing grabbing behavior in Poland and other former Soviet Union territories. So, despite the higher disinvestment of PSUs in Russia vis a vis China during their respective reform years, Shleifer observes lower economic outcomes in Russia, associating it with a lack of decentralized incentives. So, SGFF theories are reverberated in the Chinese evidence, and going even further, Jin et al. (1999) argue that, counterintuitively, this quasi market allocation of resources also improved the horizontal distribution of expenditure across regions. 
  
-\begin{figure}[h]
-\caption{Table 2 from Jin, Qian, and Weingast (1999)}
-\centering
-\includegraphics[width=0.7\textwidth]{2-china}
-\end{figure} 
+![Table 2 from Jin, Qian, and Weingast (1999)](2-china.png)
 
-\begin{figure}[h]
-\caption{Table 7 from Jin, Qian, and Weingast (1999)}
-\centering
-\includegraphics[width=0.7\textwidth]{1-china}
-\end{figure} 
+![Table 7 from Jin, Qian, and Weingast (1999)](1-china.png)
 
 [Qian (2002)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=317460) also negates some counterarguments to explain Chinese growth as primarily caused by decentralization. Qian argues that the role of FDI was not as significant, and that if it were, West Germany’s relative poverty vis a vis East Germany is hard to explain. Further, he concedes that agriculture liberalization did help, but cannot explain the entire puzzle without including local investments in research and development and on infrastructure.
 
