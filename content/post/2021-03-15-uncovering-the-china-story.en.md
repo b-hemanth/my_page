@@ -19,7 +19,7 @@ image:
   preview_only: no
 projects: []
 ---
-_From 1980 to 2015, in what was undoubtedly one of the single greatest moments in human history, China reduced its official poverty rate by 95 percent. The following are notes from some prominent literature that discuss how this happened and the prominence (or lack thereof) of decentralization in that journey._
+_From 1980 to 2015, in what was undoubtedly one of the single greatest moments in human history, China reduced its official poverty rate by 95 percent. The following are notes from some prominent literature that discuss how this happened and the significance (or lack thereof) of decentralization in that journey._
 
 I
 
