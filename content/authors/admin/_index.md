@@ -47,8 +47,8 @@ user_groups:
 - Visitors
 ---
 
-I am an undergrad (on leave) and an optimist interested in development. 
+I am an undergrad (on leave) and an optimist interested in international development. 
 
-I am interested in fixing the (Indian) state, and so in administrative data, public finance, and administration; I care about poverty alleviation and upward mobility---and some things that drive it like education, public health, and social inequality---and about deriving insights from psychology among other disciplines to better understand economic problems.
+I am interested in fixing the (Indian) state and so in public finance and administration; I care about poverty alleviation and upward mobility---and some things that drive it like education, public health, and social inequality---and about deriving insights from psychology among other disciplines to better understand economic problems.
 
 I grew up in the lazy but enchanting metropolis of Chennai, India. In my free time, I like forcing friends into unsolicited expositions about politics, running, loitering around old cities, chitchatting in tea shops, appreciating Tamil cinema and literature, and listening to the musics of the subcontinent---film, *Qawwali*s, *Hindustani*, and *Carnatic*. In another life, I was a [debater](https://www.edexlive.com/news/2018/aug/02/meet-indias-youngest-debate-guns-who-matched-wits-with-the-best-in-the-world-3562.html) and coach.
