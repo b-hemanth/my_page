@@ -51,7 +51,7 @@ time_format = "3:04 PM"
 
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "hemanthbharathachakravarthy@college.harvard.edu"
-phone = "+91 nine three six zero seven eight two three nine zero"
+phone = ""
 address = "Eliot House, Harvard University, 101 Dunster St, Cambridge MA 02138"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
