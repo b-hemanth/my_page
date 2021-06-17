@@ -8,7 +8,7 @@ tags:
   - India
   - Education
   - Development
-subtitle: 'A Reform Model'
+subtitle: 'A Reform Model*'
 summary: ''
 authors: []
 lastmod: '2020-10-08T14:22:26+05:30'
@@ -78,3 +78,5 @@ Quantitative measurement does not mean that teachers' creativity and freedom sho
 To defeat the principal-agent problem in education delivery, inspections could be exploited. However, to defeat the principal-agent problem in education inspections, we need to introduce new extrinsic incentives like pay and promotion based on actual performance, restrict the possibilities of corruption and collision by reducing notice time, randomizing inspectors, and tracking the trust levels of inspectors, and improve measurement by talking to parents, changing what and how we measure, and using measurement to do more. Some of these require robust technological tools. 
 
 **Ultimately, as we improve our data on schools and understand which schools work, we can then figure out why. That way, we evaluate policies, compare them with others, and constantly strive to do more with the same resources. The data is also an end by itself---some computed indexes on school scores could be released publicly to inform parents for school choice. The stakes are large here.**
+
+*_This post is inspired by the thinking of Dr. Santhosh Mathew, Country Lead of Public Policy and Finance at Gates Foundation India, whose state capacity approach I have been working on under him._
