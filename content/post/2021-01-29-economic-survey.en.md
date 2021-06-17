@@ -20,4 +20,9 @@ image:
 projects: []
 ---
 
-I am privileged to share that I was a part of the incredible writing team of The Economic Survey of India 2020-21 under [Dr. KV Subramanian](https://twitter.com/SubramanianKri), the Chief Economic Advisor to the Government of India. Read the Economic Survey [here](https://www.indiabudget.gov.in/economicsurvey/).
+I am privileged to share that I was a part of the incredible writing team of The Economic Survey of India 2020-21 as the Research Assistant to [Dr. KV Subramanian](https://twitter.com/SubramanianKri), the Chief Economic Advisor to the Government of India. Read the Economic Survey [here](https://www.indiabudget.gov.in/economicsurvey/).
+
+
+Acknowledgements page of Volume I of the Economic Survey below:
+
+![Acknowledgements section, volume I, ES2020-21](/post/2021-01-29-economic-survey.en_files/0007.jpg)
