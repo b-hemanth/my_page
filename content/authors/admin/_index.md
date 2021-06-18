@@ -20,8 +20,8 @@ interests:
 - Development
 - Public Finance
 - Public Administration
-- State Capacity
-- Indian Politics, Caste, Ideology 
+- Behavioral Science
+- Indian Politics
 
 name: Hemanth Bharatha Chakravarthy
 organizations:
