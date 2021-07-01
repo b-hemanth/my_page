@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1625147342961.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "1D118296",
+    "lastKnownWriteTime" : 1625147634,
+    "last_content_update" : 1625147634752,
+    "path" : "~/my_site/my_page/content/home/hero.md",
+    "project_path" : "content/home/hero.md",
+    "properties" : {
+        "cursorPosition" : "4,14",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "markdown"
+}
