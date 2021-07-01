@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>India on Hemanth Bharatha Chakravarthy</title>
-    <link>https://b-hemanth.com/tags/india/</link>
+    <link>/tags/india/</link>
     <description>Recent content in India on Hemanth Bharatha Chakravarthy</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Hemanth Bharatha Chakravarthy {year}. [Written](https://github.com/b-hemanth/my_page) in [Blogdown](https://github.com/rstudio/blogdown).</copyright>
     <lastBuildDate>Fri, 29 Jan 2021 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://b-hemanth.com/tags/india/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="/tags/india/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>[Work-Post] The Economic Survey of India 20-21</title>
-      <link>https://b-hemanth.com/post/economic-survey/</link>
+      <link>/post/economic-survey/</link>
       <pubDate>Fri, 29 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://b-hemanth.com/post/economic-survey/</guid>
+      <guid>/post/economic-survey/</guid>
       <description>&lt;p&gt;I am privileged to share that I was a part of the incredible writing team of The Economic Survey of India 2020-21 as the Research Assistant to &lt;a href=&#34;https://twitter.com/SubramanianKri&#34;&gt;Dr. KV Subramanian&lt;/a&gt;, the Chief Economic Advisor to the Government of India. Read the Economic Survey &lt;a href=&#34;https://www.indiabudget.gov.in/economicsurvey/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Acknowledgements page of Volume I of the Economic Survey below:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://b-hemanth.com/post/2021-01-29-economic-survey.en_files/0007.jpg&#34; alt=&#34;Acknowledgements section, volume I, ES2020-21&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2021-01-29-economic-survey.en_files/0007.jpg&#34; alt=&#34;Acknowledgements section, volume I, ES2020-21&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>[Work-Post] RBI Report on Trends and Progress in Banking in India 2019-20</title>
-      <link>https://b-hemanth.com/post/rbi-rtp-contribution/</link>
+      <link>/post/rbi-rtp-contribution/</link>
       <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://b-hemanth.com/post/rbi-rtp-contribution/</guid>
+      <guid>/post/rbi-rtp-contribution/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m privileged to share that I&amp;rsquo;ve contributed to the 2019-20 RBI Report on Trends and Progress in Banking in India. Do check out Chapter 2 (and Box II.1 therein), co-authored with Dr. Snehal Herwadkar, Director of Banking Research and the incredible editor of the report, and (the amazing) Bhanu Pratap on global savings since COVID-19: &lt;a href=&#34;https://rbidocs.rbi.org.in/rdocs/Publications/PDFs/4GLOBALBANKINGDEVELOPMENTS55F68B71F7A342F78129D0839EB4F9EE.PDF&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Or better, read the entire report &lt;a href=&#34;https://rbidocs.rbi.org.in/rdocs/Publications/PDFs/0RTP2020_F3D078985540A4179B62B7734C7B445C9.PDF&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -37,14 +37,14 @@
     
     <item>
       <title>Dalal Street vs. North Block</title>
-      <link>https://b-hemanth.com/post/dalal-street-vs-north-block/</link>
+      <link>/post/dalal-street-vs-north-block/</link>
       <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://b-hemanth.com/post/dalal-street-vs-north-block/</guid>
+      <guid>/post/dalal-street-vs-north-block/</guid>
       <description>&lt;h1 id=&#34;the-gap&#34;&gt;The Gap&lt;/h1&gt;
 &lt;p&gt;Yesterday (on the 15th of October), as many predicted, the market crashed with the SENSEX falling by over 1,000 points, all sectoral indices were in the red, and equity investors &lt;a href=&#34;https://economictimes.indiatimes.com/markets/stocks/news/sensex-drops-220-points-on-weak-global-cues-nifty-tests-11900/articleshow/78674278.cms&#34;&gt;lost&lt;/a&gt; Rs 3.3 lakh crore (INR 3300 billion). With severe unemployment, destroyed demand, poor fiscal stimulus announcement after announcement, loan restructuring, and the previous aggressively long position of the market, both a general decline and this particular crash seem warranted. However, today, on the 16th, the SENSEX is up by around 250 points, seemingly recovering 25% of the wealth lost yesterday. This volatile bounce back triggered me to write on the growing, increasingly volatile gap between global stock markets and real economy and attempt to describe the difference between Dalal Street and Delhi&amp;rsquo;s North Block.&lt;/p&gt;
 &lt;p&gt;The main intention of this post is to share this graph (the two lines have a correlation of 0.506 and the two rates have a &lt;em&gt;t-value&lt;/em&gt; of 5.45 with a &lt;em&gt;p-value&lt;/em&gt; &amp;lt; 0.001):&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://b-hemanth.com/post/2020-10-16-dalal-street-vs-north-block.en_files/dalal_st.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-10-16-dalal-street-vs-north-block.en_files/dalal_st.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;some-thoughts&#34;&gt;Some Thoughts&lt;/h1&gt;
 &lt;p&gt;I do not think we understand this gap or its wideness perfectly yet, both at home and globally. But a few perspectives seem sensible.&lt;/p&gt;
 &lt;p&gt;First, I think there is a market perception of a definite recovery. For one, there is the idea that given that everything has already crashed, things can only move upwards. Further, it seems to me, there is an expectation (almost an implicit reliance) on the idea that fiscal stimulus and government intervention will and must happen (it has happened globally, to some extent). This seems to be keeping market appetites up as, if things will only go up hereon, long positions seem more warranted. There is some value to this line of throught: Deutsche Bank &lt;a href=&#34;https://economictimes.indiatimes.com/markets/stocks/news/dichotomy-between-markets-and-economy-can-you-still-benefit/articleshow/76505316.cms?utm_source=contentofinterest&amp;amp;utm_medium=text&amp;amp;utm_campaign=cppst&#34;&gt;estimates&lt;/a&gt; total fiscal and monetary stimulus at more than US$ 10 trillion in the G7 countries alone which will make it five times more than the stimulus the G7 rolled out after the 2008 Global Financial Crisis. While central banks have tried to ensure that the market doesn&amp;rsquo;t crash to a severe extent, it seems like their actions carry disproportionate weight in market enthusiasm. So much so that the RBI had to &lt;a href=&#34;https://www.b-hemanth.com/post/who-should-borrow/&#34;&gt;intervene&lt;/a&gt; to rationalize yields on state bonds recently. As the Economist &lt;a href=&#34;https://www.economist.com/leaders/2020/05/07/the-market-v-the-real-economy&#34;&gt;writes&lt;/a&gt; this month, &amp;ldquo;This rosy view from Wall Street should make you uneasy.&amp;rdquo;&lt;/p&gt;
@@ -55,10 +55,10 @@
     
     <item>
       <title>Who Should Borrow? The Fiscal Federalism Debate</title>
-      <link>https://b-hemanth.com/post/who-should-borrow/</link>
+      <link>/post/who-should-borrow/</link>
       <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://b-hemanth.com/post/who-should-borrow/</guid>
+      <guid>/post/who-should-borrow/</guid>
       <description>&lt;h1 id=&#34;the-rbi-is-buying-states-debt-for-the-first-time-ever&#34;&gt;The RBI is buying states&amp;rsquo; debt for the first time ever&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;The RBI &lt;a href=&#34;https://www.bloombergquint.com/business/in-a-first-rbi-to-buy-state-government-bonds#:~:text=In%20A%20First%2C%20RBI%20To%20Buy%20State%20Government%20Bonds&amp;amp;text=In%20a%20first%20of%20its,interest%20costs%20amid%20high%20borrowings&#34;&gt;just announced&lt;/a&gt; (three hours ago today, the 9th of October) that it is conducting open market operations on state government bonds. That is, the RBI is going to be buying loans of states. This is the first time in history that this move is being made.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;(A bond is an instrument of debt. When you buy it, you give the government money which will be returned to the owner of the instrument at a later date with interest. That is, you buy debt.)&lt;/p&gt;
@@ -81,10 +81,10 @@
     
     <item>
       <title>Inspecting Indian Education Inspectors: Six Changes to Make</title>
-      <link>https://b-hemanth.com/post/inspecting-education-inspectors/</link>
+      <link>/post/inspecting-education-inspectors/</link>
       <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://b-hemanth.com/post/inspecting-education-inspectors/</guid>
+      <guid>/post/inspecting-education-inspectors/</guid>
       <description>&lt;p&gt;The 2020 Budget &lt;a href=&#34;https://www.businessinsider.in/budget/news/indias-education-budget-2020-allocation-news-and-updates/articleshow/73824561.cms&#34;&gt;allots&lt;/a&gt; around 3% of our GDP to education; independent of whether this allocation suffices, in real terms, this is a hard number to visualize: a whopping Rs. 99,300 crores (13.56 billion USD)&amp;mdash;of which schools get 59,845 crores. Meanwhile, in 2016, we &lt;a href=&#34;https://timesofindia.indiatimes.com/city/gurgaon/80-of-rs-12400-crore-education-budget-spent-on-teacher-salaries/articleshow/56204221.cms&#34;&gt;spent &lt;strong&gt;80%&lt;/strong&gt;&lt;/a&gt; of our education budget on teachers&amp;rsquo; salaries. That means that most of our monies get spent on revenue expenditure&amp;mdash;funding the schools that exist. That also means that a 1% increase in efficiency&amp;mdash;that is, if for the same inputs, achieving 1% better outcomes&amp;mdash;saves ~599 crores. And because money saved is money created, making sure that we get the maximal bang for the buck on spending has been a focus of public finance. When we contextualize this in education delivery, a potentially powerful tool to achieve more with less is school inspections.&lt;/p&gt;
 &lt;p&gt;Education being a &lt;a href=&#34;http://legislative.gov.in/constitution-forty-second-amendment-act-1976&#34;&gt;&lt;em&gt;concurrent subject&lt;/em&gt;&lt;/a&gt; in India, while the center regulates education, the frontline delivery of service largely rests upon states. Ultimately, with many types of schools run by different sources, this results in significant diversity in the model of inspecting schools. Generally, however, inspections come into the jurisdiction of the District Education Officer and the Assistant Educational Officers (their names vary by state); the system usually has one mandated annual inspection, likely one mandated surprise visit, and encourages as many regular surprise visits as possible. The focus of visits is typically primarily on evaluating the infrastructure and sanitation of the school although they usually also mandate some examination of students&amp;rsquo; academic levels and teacher instruction and pedagogy.&lt;/p&gt;
 &lt;p&gt;Largely speaking, to an outsider like me, &lt;strong&gt;it appears like our school inspection system is broken.&lt;/strong&gt; How do we do good better?&lt;/p&gt;
@@ -121,10 +121,10 @@ given day and less than half of them actually teach even if they attend class. R
     
     <item>
       <title>Indian Migrants During COVID-19</title>
-      <link>https://b-hemanth.com/post/covid19-indian-migrants/</link>
+      <link>/post/covid19-indian-migrants/</link>
       <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://b-hemanth.com/post/covid19-indian-migrants/</guid>
+      <guid>/post/covid19-indian-migrants/</guid>
       <description>&lt;p&gt;A report I led for Cefala, Schofield, and Kaur at the Behavioral Development Lab, Chennai, studying the household economy, food security, access to state services, location, health and health information, and beliefs of migrant workers during COVID-19: &lt;a href=&#34;https://behavioraldevlab.org/policy_insights/ld_covid/ld_covid_report1.pdf&#34;&gt;here&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;Downloadable data and documentation: &lt;a href=&#34;https://behavioraldevlab.org/resources/data_ld_covid1.html?resourceId=4&amp;amp;status=all&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
