@@ -8,7 +8,7 @@ btn:
   url: files/cv.pdf
 display_education: true
 education:
-  courses: 
+  # courses: 
   # - course: A.B. in Economics, Secondary in Government
   #   institution: Harvard University 
   #   year: 2022
@@ -25,7 +25,9 @@ interests:
 
 name: Hemanth Bharatha Chakravarthy
 organizations:
-- name: Harvard University | Consultant at the Bill and Melinda Gates Foundation India
+- name: A.B. Candidate, Harvard University '23
+  url: ""
+- name: Consultant at the Bill and Melinda Gates Foundation India
   url: ""
 
 role: 
@@ -45,6 +47,6 @@ user_groups:
 - Visitors
 ---
 
-I am an undergraduate student (on leave) in Applied Maths and Economics at Harvard. I am also a consultant in public policy and finance at the Bill & Melinda Gates Foundation in India. I care about economic development and social protection and some things that will get us there like service delivery, state capacity, and political economy. 
+I am an undergraduate student (on leave) in Applied Maths and Economics at Harvard. I am also a consultant in public policy and finance at the Bill & Melinda Gates Foundation in India. I care about economic development and social protection and some things that drive them like service delivery, state capacity, and political economy. 
 
 I grew up in the lazy but enchanting metropolis of Chennai. In my free time, I like forcing friends into unsolicited expositions about politics, running, visiting old street markets and tea shops, and appreciating Tamil cinema and literature. In another life, I was a [debater](https://www.edexlive.com/news/2018/aug/02/meet-indias-youngest-debate-guns-who-matched-wits-with-the-best-in-the-world-3562.html) and coach.
