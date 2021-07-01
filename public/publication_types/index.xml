@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publication_types on Hemanth Bharatha Chakravarthy</title>
-    <link>https://b-hemanth.com/publication_types/</link>
+    <link>/publication_types/</link>
     <description>Recent content in Publication_types on Hemanth Bharatha Chakravarthy</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Hemanth Bharatha Chakravarthy {year}. [Written](https://github.com/b-hemanth/my_page) in [Blogdown](https://github.com/rstudio/blogdown).</copyright>
     
-	    <atom:link href="https://b-hemanth.com/publication_types/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="/publication_types/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

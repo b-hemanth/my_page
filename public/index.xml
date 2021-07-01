@@ -2,49 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hemanth Bharatha Chakravarthy</title>
-    <link>https://b-hemanth.com/</link>
+    <link>/</link>
     <description>Recent content on Hemanth Bharatha Chakravarthy</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Hemanth Bharatha Chakravarthy {year}. [Written](https://github.com/b-hemanth/my_page) in [Blogdown](https://github.com/rstudio/blogdown).</copyright>
     <lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://b-hemanth.com/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Projects</title>
-      <link>https://b-hemanth.com/project/</link>
+      <link>/project/</link>
       <pubDate>Sun, 27 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://b-hemanth.com/project/</guid>
+      <guid>/project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Slides</title>
-      <link>https://b-hemanth.com/slides/</link>
+      <link>/slides/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://b-hemanth.com/slides/</guid>
+      <guid>/slides/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Privacy Policy</title>
+      <link>/privacy/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      
+      <guid>/privacy/</guid>
+      <description>&lt;p&gt;This site uses Google Analytics: &amp;ldquo;When you visit sites that use Google Analytics, Google may link information about your activity from that site with activity from other sites that use [their] ad services.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;I only track aggregate site data. I do not track individual users nor do I use any site use data for any pecuniary ends.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Posts</title>
-      <link>https://b-hemanth.com/post/</link>
+      <link>/post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://b-hemanth.com/post/</guid>
+      <guid>/post/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>https://b-hemanth.com/talk/</link>
+      <link>/talk/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://b-hemanth.com/talk/</guid>
+      <guid>/talk/</guid>
       <description></description>
     </item>
     
