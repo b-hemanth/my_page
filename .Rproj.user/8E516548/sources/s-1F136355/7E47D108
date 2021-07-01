@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1625147926012.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2936447439",
+    "id" : "7E47D108",
+    "lastKnownWriteTime" : 1609253987,
+    "last_content_update" : 1609253987,
+    "path" : "~/my_site/my_page/content/home/featured.md",
+    "project_path" : "content/home/featured.md",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "markdown"
+}
