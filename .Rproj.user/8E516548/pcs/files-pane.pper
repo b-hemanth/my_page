@@ -1,0 +1,9 @@
+{
+    "path" : "~/my_site/my_page/content/authors/admin",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}
