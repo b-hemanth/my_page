@@ -8,24 +8,24 @@ btn:
   url: files/cv.pdf
 display_education: true
 education:
-  courses:
-  - course: A.B. in Economics, Secondary in Government
-    institution: Harvard University 
-    year: 2022
-  - course: High School Diploma in Commerce with Mathematics
-    institution: PSBB Senior Secondary School, Chennai
-    year: 2018
+  courses: 
+  # - course: A.B. in Economics, Secondary in Government
+  #   institution: Harvard University 
+  #   year: 2022
+  # - course: High School Diploma in Commerce with Mathematics
+  #   institution: PSBB Senior Secondary School, Chennai
+  #   year: 2018
 email: "hbharathachakravarthy@gmail.com"
-interests:
-- Development
-- Public Finance
-- Public Administration
-- Behavioral Science
-- Indian Politics
+interests: 
+# - Development
+# - Public Finance
+# - Public Administration
+# - Behavioral Science
+# - Indian Politics
 
 name: Hemanth Bharatha Chakravarthy
 organizations:
-- name: Consultant at the Bill and Melinda Gates Foundation India
+- name: Harvard University | Consultant at the Bill and Melinda Gates Foundation India
   url: ""
 
 role: 
