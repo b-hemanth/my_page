@@ -1,18 +1,18 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1625144750571.000,
+    "created" : 1625147275070.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
     "hash" : "0",
-    "id" : "6031A5B6",
-    "lastKnownWriteTime" : 1625146649,
-    "last_content_update" : 1625146649579,
+    "id" : "DB3FCC",
+    "lastKnownWriteTime" : 1625147294,
+    "last_content_update" : 1625147294355,
     "path" : "~/my_site/my_page/content/authors/admin/_index.md",
     "project_path" : "content/authors/admin/_index.md",
     "properties" : {
-        "cursorPosition" : "27,22",
+        "cursorPosition" : "29,54",
         "scrollLine" : "22"
     },
     "read_only" : false,
