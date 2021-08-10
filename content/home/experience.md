@@ -22,7 +22,7 @@ date_format = "Jan 2006"
   company = "The Bill and Melinda Gates Foundation, India"
   company_url = "https://www.gatesfoundation.org/Where-We-Work/India-Office"
   location = "Delhi"
-  date_start = "2020-12-12"
+  date_start = "2021-01-01"
   description = """Work with Dr. Santhosh Mathew, Country Lead of Public Policy and Finance, on building state capacity in pursuit of impact goals for UP, Bihar, India, and the world."""
   
 [[experience]]
@@ -31,6 +31,7 @@ date_format = "Jan 2006"
   company_url = ""
   location = "Delhi"
   date_start = "2020-09-07"
+  date_end = "2021-01-30"
   description = """Work on the [Economic Survey of India ](https://www.indiabudget.gov.in/economicsurvey/) 2020-21."""
 
 [[experience]]
@@ -38,8 +39,8 @@ date_format = "Jan 2006"
   company = "Reserve Bank of India"
   company_url = ""
   location = "Mumbai"
-  date_start = "2020-09-01"
-  date_end = "2020-12-10"
+  date_start = "2020-08-01"
+  date_end = "2020-10-10"
   description = """Co-author research with bank economists; only undergraduate at the RBI."""
 
 [[experience]]
@@ -48,7 +49,7 @@ date_format = "Jan 2006"
   company_url = ""
   location = "Philadelphia"
   date_start = "2020-05-01"
-  date_end = "2020-08-30"
+  date_end = "2020-07-30"
   description = """Tracked migrants during COVID-19 and worked on a behavioral-labor RCT."""
 
 [[experience]]

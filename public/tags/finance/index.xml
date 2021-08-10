@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Finance on Hemanth Bharatha Chakravarthy</title>
-    <link>/tags/finance/</link>
+    <link>https://b-hemanth.com/tags/finance/</link>
     <description>Recent content in Finance on Hemanth Bharatha Chakravarthy</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Hemanth Bharatha Chakravarthy {year}. [Written](https://github.com/b-hemanth/my_page) in [Blogdown](https://github.com/rstudio/blogdown).</copyright>
     <lastBuildDate>Tue, 29 Dec 2020 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/tags/finance/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://b-hemanth.com/tags/finance/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>[Work-Post] RBI Report on Trends and Progress in Banking in India 2019-20</title>
-      <link>/post/rbi-rtp-contribution/</link>
+      <link>https://b-hemanth.com/post/rbi-rtp-contribution/</link>
       <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/rbi-rtp-contribution/</guid>
+      <guid>https://b-hemanth.com/post/rbi-rtp-contribution/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m privileged to share that I&amp;rsquo;ve contributed to the 2019-20 RBI Report on Trends and Progress in Banking in India. Do check out Chapter 2 (and Box II.1 therein), co-authored with Dr. Snehal Herwadkar, Director of Banking Research and the incredible editor of the report, and (the amazing) Bhanu Pratap on global savings since COVID-19: &lt;a href=&#34;https://rbidocs.rbi.org.in/rdocs/Publications/PDFs/4GLOBALBANKINGDEVELOPMENTS55F68B71F7A342F78129D0839EB4F9EE.PDF&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Or better, read the entire report &lt;a href=&#34;https://rbidocs.rbi.org.in/rdocs/Publications/PDFs/0RTP2020_F3D078985540A4179B62B7734C7B445C9.PDF&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -25,14 +25,14 @@
     
     <item>
       <title>Dalal Street vs. North Block</title>
-      <link>/post/dalal-street-vs-north-block/</link>
+      <link>https://b-hemanth.com/post/dalal-street-vs-north-block/</link>
       <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/dalal-street-vs-north-block/</guid>
+      <guid>https://b-hemanth.com/post/dalal-street-vs-north-block/</guid>
       <description>&lt;h1 id=&#34;the-gap&#34;&gt;The Gap&lt;/h1&gt;
 &lt;p&gt;Yesterday (on the 15th of October), as many predicted, the market crashed with the SENSEX falling by over 1,000 points, all sectoral indices were in the red, and equity investors &lt;a href=&#34;https://economictimes.indiatimes.com/markets/stocks/news/sensex-drops-220-points-on-weak-global-cues-nifty-tests-11900/articleshow/78674278.cms&#34;&gt;lost&lt;/a&gt; Rs 3.3 lakh crore (INR 3300 billion). With severe unemployment, destroyed demand, poor fiscal stimulus announcement after announcement, loan restructuring, and the previous aggressively long position of the market, both a general decline and this particular crash seem warranted. However, today, on the 16th, the SENSEX is up by around 250 points, seemingly recovering 25% of the wealth lost yesterday. This volatile bounce back triggered me to write on the growing, increasingly volatile gap between global stock markets and real economy and attempt to describe the difference between Dalal Street and Delhi&amp;rsquo;s North Block.&lt;/p&gt;
 &lt;p&gt;The main intention of this post is to share this graph (the two lines have a correlation of 0.506 and the two rates have a &lt;em&gt;t-value&lt;/em&gt; of 5.45 with a &lt;em&gt;p-value&lt;/em&gt; &amp;lt; 0.001):&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-10-16-dalal-street-vs-north-block.en_files/dalal_st.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://b-hemanth.com/post/2020-10-16-dalal-street-vs-north-block.en_files/dalal_st.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;some-thoughts&#34;&gt;Some Thoughts&lt;/h1&gt;
 &lt;p&gt;I do not think we understand this gap or its wideness perfectly yet, both at home and globally. But a few perspectives seem sensible.&lt;/p&gt;
 &lt;p&gt;First, I think there is a market perception of a definite recovery. For one, there is the idea that given that everything has already crashed, things can only move upwards. Further, it seems to me, there is an expectation (almost an implicit reliance) on the idea that fiscal stimulus and government intervention will and must happen (it has happened globally, to some extent). This seems to be keeping market appetites up as, if things will only go up hereon, long positions seem more warranted. There is some value to this line of throught: Deutsche Bank &lt;a href=&#34;https://economictimes.indiatimes.com/markets/stocks/news/dichotomy-between-markets-and-economy-can-you-still-benefit/articleshow/76505316.cms?utm_source=contentofinterest&amp;amp;utm_medium=text&amp;amp;utm_campaign=cppst&#34;&gt;estimates&lt;/a&gt; total fiscal and monetary stimulus at more than US$ 10 trillion in the G7 countries alone which will make it five times more than the stimulus the G7 rolled out after the 2008 Global Financial Crisis. While central banks have tried to ensure that the market doesn&amp;rsquo;t crash to a severe extent, it seems like their actions carry disproportionate weight in market enthusiasm. So much so that the RBI had to &lt;a href=&#34;https://www.b-hemanth.com/post/who-should-borrow/&#34;&gt;intervene&lt;/a&gt; to rationalize yields on state bonds recently. As the Economist &lt;a href=&#34;https://www.economist.com/leaders/2020/05/07/the-market-v-the-real-economy&#34;&gt;writes&lt;/a&gt; this month, &amp;ldquo;This rosy view from Wall Street should make you uneasy.&amp;rdquo;&lt;/p&gt;
