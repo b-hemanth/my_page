@@ -1,0 +1,261 @@
+body {
+  font-family: "Computer Modern Sans", sans-serif;
+}
+
+@media screen and (min-width: 801px) {
+	/*Hidden stuff*/
+	h1#mobiletop {font-size: 0; border: 0; width: 0%;}
+	h1#mobiletop2 {font-size: 0; border: 0; width: 0%;}
+	img#mobilephoto {border: 0; width: 0%;}
+	.mobileleft {width: 0; font-size: 0; border: 0; padding: 0; border: 0; width: 0%;}
+	.mobileleft-essays {width: 0; font-size: 0; border: 0; padding: 0; border: 0; width: 0%;}
+	ul#mobilenav {list-style: none; font-size: 0; padding-left: 0;}
+	ul#mobileessayssubnav {list-style: none; font-size: 0; padding-left: 0;}
+	img#mobilesocial {width: 0; border: none;}
+	hr.mobilehr {border-top: none; border: none;}
+
+
+	/*Normal stuff*/
+	img#desktopphoto {
+		border: 0pt;
+		width: 75%;
+	}
+
+	h1#desktoptop {
+	}
+
+	.desktopleft {
+		float: left;
+		width: 200pt;
+		max-width: 20%;
+
+	    margin-top: 0.5%;
+	    margin-left: 5%;
+
+		font-size: 13pt;
+
+	    position: fixed;
+	    clear: both;
+	}
+
+	.right {
+		float: right;
+		display: inline-block;
+
+		font-size: 13pt;
+
+		margin-right: 20%;
+		margin-left: 25%;
+
+		position: absolute;
+		clear: both;
+		max-width: 800px;
+	}
+
+	.right-research {
+		font-size: 12pt;
+		float: left;
+	}
+
+	.right-cv {
+		font-size: 12pt;
+		float: left;
+		margin-right: 16%;
+		max-width: 750px;
+	}
+
+	ul#desktopnav {
+		list-style: none;
+		padding-left: 15pt;
+		font-size: 15pt;
+	}
+	ul#desktopnav li a {
+		text-decoration: none;
+		color: blues
+	}
+	ul#desktopnav li a.active {
+		font-weight: bold;
+		color: black;
+	}
+
+    ul#desktopessayssubnav {
+        list-style: circle;
+        font-size: 10pt;
+        padding-left: 15pt;
+    }
+    ul#desktopessayssubnav li a {
+        text-decoration: none;
+        color: blues;
+    }
+    ul#desktopessayssubnav li a.active {
+        font-weight: bold;
+        color: black;
+    }
+
+
+	ul#desktopcontact {
+		list-style: none;
+		padding-left: 15pt;
+		font-size: 13pt;
+	}
+
+	ul#cv {
+		list-style: none;
+	}
+
+	ul#cvab {
+		list-style: none;
+	}
+
+	img#desktopsocial {
+		width: 5%;
+	}
+
+	img#dataimg {
+		width: 60%;
+	}
+
+}
+
+
+
+
+@media screen and (max-width: 800px) { 
+	/*Hidden stuff*/
+	h1#desktoptop {font-size: 0;}
+	img#desktopphoto {border: 0pt; width: 0%;}
+	.desktopleft {font-size: 0pt;}
+	ul#desktopnav {list-style: none; font-size: 0;}
+	ul#desktopessayssubnav {list-style: none; font-size: 0; padding-left: 0; border: none; width: 0%; height: 0%;}
+	img#desktopsocial {width: 0; border: none;}
+
+
+	/*Normal stuff*/
+	img#mobilephoto {
+		padding-left: 10pt;
+		float: left;
+
+		max-height: 300px;
+    	max-width: 40%;
+    	height: auto;
+    	width: auto;
+	}
+
+	h1#mobiletop {
+		padding-left: 10pt;
+		border: 0pt;
+		margin-top: 0;
+	}
+
+	h1#mobiletop2 {
+		padding-left: 0pt;
+		border: 0pt;
+		margin-top: 0;
+	}
+
+	.mobileleft {
+		float: left;
+		max-width: 50%;
+		font-size: 13pt;
+	}
+
+	.mobileleft-essays {
+		float: left;
+		min-width: 100%;
+		font-size: 13pt;
+	}
+
+	hr.mobilehr {
+		border: 0;
+		border-top: 1px solid #eeeeee;
+		margin-top: 20px;
+	}
+
+	.right {
+		float: left;
+		display: inline-block;
+
+		font-size: 12pt;
+
+		padding-left: 10pt;
+		padding-right: 15pt;
+		padding-bottom: 30pt;
+	}
+
+	.right-research {
+		font-size: 12pt;
+		float: left;
+	}
+
+	.right-cv {
+		font-size: 12pt;
+		float: left;
+	}
+
+	ul#mobilenav {
+		list-style: none;
+		font-size: 12pt;
+		padding-left: 18pt; /* HMM compare to 15 below for mobilecontact shrug*/
+		margin-top: 0;
+	}
+
+	ul#mobilenav li a {
+		text-decoration: none;
+		color: blues;
+	}
+	ul#mobilenav li a.active {
+		font-weight: bold;
+		color: black;
+	}
+
+    ul#mobileessayssubnav {
+        list-style: circle;
+        font-size: 10pt;
+        padding-left: 15pt;
+    }
+    ul#mobileessayssubnav li a {
+        text-decoration: none;
+        color: blues;
+    }
+    ul#mobileessayssubnav li a.active {
+        font-weight: bold;
+        color: black;
+    }
+
+	ul#mobilecontact {
+		list-style: none;
+		padding-left: 15pt;
+		padding-top: 10pt;
+		font-size: 11pt; /*13pt;*/
+	}
+
+	ul#cv {
+		list-style: none;
+	}
+
+	ul#cvab {
+		list-style: none;
+		padding: 0 0 0 0;
+		border: 0 0 0 0;
+	}
+
+	img#mobilesocial {
+		width: 0%;
+		border: none;
+	}
+
+	img#dataimg {
+		width: 100%;
+	}
+
+}
+
+.naked {
+	color: black;
+	text-decoration: none;
+}
+
+
+
+/* OUTLINE DIVS IN RED BOXES FOR EASY VISUALIZATION:
+div { outline: 1px solid gray !important; } */

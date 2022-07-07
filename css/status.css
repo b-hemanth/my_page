@@ -1,0 +1,126 @@
+.confidence-description {
+	vertical-align: middle;
+	display: inline-block;
+	margin-top: 2px;
+	font-size: 13pt;
+}
+
+.idea {
+	height: 13px; 
+	width: 13px;
+	
+	border-radius: 13px;
+	border: 2px solid;
+
+	-webkit-transition: 0.2s background-color, 0.2s border-color;
+	-moz-transition: 0.2s background-color, 0.2s border-color;
+	transition: 0.2s background-color, 0.2s border-color;
+	
+	display: inline-block;
+	vertical-align: middle;
+}
+
+h1.idea {
+	float: left;
+	height: 32px; width: 32px;
+	border-width: 4px;
+	margin-right: 16px;
+}
+
+.level-I {
+	/* "very high" */
+	background: rgba(0, 128, 0, 0.3);
+	border-color: rgba(0, 128, 0, 0.85);
+}
+.level-I:hover {
+	background: rgba(0, 128, 0, 0.5);
+	border-color: rgb(0, 128, 0);
+}
+.essays-meta-I {
+	outline: 1px solid rgba(0, 128, 0);
+	padding-left: 5px;
+}
+
+
+.level-II {
+	/* "high" */
+	background: rgba(0, 32, 128, 0.3);
+	border-color: rgba(0, 32, 128, 0.85);
+}
+.level-II:hover {
+	background: rgba(0, 32, 128, 0.5);
+	border-color: rgb(0, 32, 128);
+}
+.essays-meta-II {
+	outline: 1px solid rgba(0, 32, 128);
+	padding-left: 5px;
+}
+
+
+.level-III {
+	/* "medium" */
+	background: rgba(150, 130, 0, 0.3);
+	border-color: rgba(150, 130, 0, 0.85);
+}
+.level-III:hover {
+	background: rgba(150, 130, 0, 0.5);
+	border-color: rgb(150, 130, 0);
+}
+.essays-meta-III {
+	outline: 1px solid rgba(150, 130, 0);
+	padding-left: 5px;
+}
+
+
+.level-IV {
+	/* "low" */
+	background: rgba(150, 75, 0, 0.3);
+	border-color: rgba(150, 75, 0, 0.85);
+}
+.level-IV:hover {
+	background: rgba(150, 75, 0, 0.5);
+	border-color: rgb(150, 75, 0);
+}
+.essays-meta-IV {
+	outline: 1px solid rgb(150, 75, 0);
+	padding-left: 5px;
+}
+
+
+.level-V {
+	/* "I don't hold this view" */
+	background: rgba(136, 0, 0, 0.3);
+	border-color: rgba(136, 0, 0, 0.85);
+}
+.level-V:hover {
+	background: rgba(136, 0, 0, 0.5);
+	border-color: rgb(136, 0, 0);
+}
+.essays-meta-V {
+	outline: 1px solid rgb(136, 0, 0);;
+	padding-left: 5px;
+}
+
+
+.level-0 {
+	/* "Thinking out loud" */
+	background: rgba(0, 0, 0, 0.3);
+	border-color: rgba(0, 0, 0, 0.85);
+}
+.level-0:hover {
+	background: rgba(0, 0, 0, 0.5);
+	border-color: rgb(0, 0, 0);
+}
+.essays-meta-0 {
+	outline: 1px solid rgb(0, 0, 0);;
+	padding-left: 5px;
+}
+
+
+sup#about-confidence-levels {
+	font-size: 6pt;
+}
+sup#about-confidence-levels a {
+	text-decoration: none;
+	color: black;
+}
