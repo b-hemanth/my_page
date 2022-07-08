@@ -2,3 +2,5 @@
 *.Rproj
 *.Rproj.user
 *.ipynb_checkpoints
+.Rproj.user
+.DS_Store

@@ -6,15 +6,15 @@
 	text-decoration: none;
 }
 .essay-title:link {
-	color: black;
+	color: #8B008B;
 	text-decoration: none;
 }
 .essay-title:visited {
-	color: black;
+	color: #620162;
 	text-decoration: none;
 }
 .essay-title:hover {
-	color: black;
+	color: blue;
 	text-decoration: none;
 }
 .essay-title:active {
