@@ -224,9 +224,9 @@ body {
 
 	ul#mobilecontact {
 		list-style: none;
-		padding-left: 15pt;
+		padding-left: 13pt;
 		padding-top: 10pt;
-		font-size: 11pt; 
+		font-size: 9pt; 
 	}
 
 	ul#cv {
@@ -240,7 +240,7 @@ body {
 	}
 
 	img#mobilesocial {
-		width: 3%;
+		width: 5%;
 		border: none;
 	}
 
