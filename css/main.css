@@ -36,7 +36,8 @@ body {
 
 	    position: fixed;
 	    clear: both;
-	    white-space: nowrap;
+	    
+		white-space: nowrap;
 	    overflow: hidden;
 	    text-overflow: ellipsis;
 		margin-right: 20px;
@@ -101,6 +102,10 @@ body {
 		list-style: none;
 		padding-left: 15pt;
 		font-size: 11.5pt;
+		white-space: nowrap;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+		margin-right: 20px;
 	}
 
 	ul#cv {
@@ -149,9 +154,6 @@ body {
 		padding-left: 10pt;
 		border: 0pt;
 		margin-top: 0;
-		white-space: nowrap;
-	    overflow: hidden;
-	    text-overflow: ellipsis;
 	}
 
 	h1#mobiletop2 {
@@ -234,6 +236,9 @@ body {
 		padding-left: 13pt;
 		padding-top: 10pt;
 		font-size: 9pt; 
+		white-space: nowrap;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
 	}
 
 	ul#cv {
